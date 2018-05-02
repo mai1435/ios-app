@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[HomeSegmentsViewController segmentChanged:]:HomeSegmentsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.driverViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.passengerViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AppDelegate application:didFinishLaunchingWithOptions:]:AppDelegate.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "([[NSUserDefaults standardUserDefaults] boolForKey:@&quot;TermsAccepted&quot;])">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem textFieldShouldBeginEditing:]:ProfileDataViewControllerTabItem.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.areTextFieldsEditable">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RequestedTripsViewController tableView:cellForRowAtIndexPath:]:RequestedTripsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RequestedTripsViewController viewWillAppear:]:RequestedTripsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedRoutesAsDriver">
+            </PersistentString>
+            <PersistentString
+               value = "self.showLiftsFor">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultipleSelectionTableViewController tableView:cellForRowAtIndexPath:]:MultipleSelectionTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedProfile.tableTravelModesValues">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController textFieldShouldBeginEditing:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__55-[RouteDetailsStatusViewController btn_cancel_pending:]_block_invoke.389:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "lift">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverDetailsViewController tableView:cellForRowAtIndexPath:]:DriverDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "feedback.date">
+            </PersistentString>
+            <PersistentString
+               value = "[NSString stringWithFormat:@&quot;%lu&quot;,datetimeLong]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewController viewDidLoad]:ProfileDataViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedProfileData">
+            </PersistentString>
+            <PersistentString
+               value = "self.image_photo.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteViewController displayDataDynamicGUIInRow:from:withImages:]:RouteViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "total_time_steps.count">
+            </PersistentString>
+            <PersistentString
+               value = "time_stepInsideArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteViewController displayDataDynamicGUIInRow:atRow:]:RouteViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "dateTimeComponents hour">
+            </PersistentString>
+            <PersistentString
+               value = "[rating intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__39-[CreateRideViewController fill_Rides:]_block_invoke.251:CreateRideViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController tableView:cellForRowAtIndexPath:]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.image_driver.image">
+            </PersistentString>
+            <PersistentString
+               value = "self.label_experience.text">
+            </PersistentString>
+            <PersistentString
+               value = "stepsMArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RequestedTripsViewController numberOfSectionsInTableView:]:RequestedTripsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "lifts.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsViewController tableView:cellForRowAtIndexPath:]:RouteDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewController imagePickerController:didFinishPickingMediaWithInfo:]:ProfileDataViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.image_photo.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "annotation_origin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController_FINAL btn_facebook_pressed:]:LoginViewController_FINAL.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[FBSDKAccessToken currentAccessToken]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem btn_Edit_pressed:]:ProfileDataViewControllerTabItem.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.editTextField">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsViewController btn_sendRequest:]:RouteDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController.viewControllers ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController locationManager:didUpdateLocations:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations.count">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_startAddress_previous_text ">
+            </PersistentString>
+            <PersistentString
+               value = "point.coordinate.longitude">
+            </PersistentString>
+            <PersistentString
+               value = "placemark">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController viewDidLoad]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedDriverProfile">
+            </PersistentString>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+            <PersistentString
+               value = "sharedDriverProfile.pets">
+            </PersistentString>
+            <PersistentString
+               value = "sharedDriverProfile.model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem customPhonePad:]:ProfileDataViewControllerTabItem.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "txtfield_current">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController ratingBanner_touched:]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "driver">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerRegister textFieldShouldBeginEditing:]:ProfileDataViewControllerRegister.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "txtfield_current">
+            </PersistentString>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController tableView:didSelectRowAtIndexPath:]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__50-[LoginViewController_FINAL btn_facebook_pressed:]_block_invoke:LoginViewController_FINAL.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentUserLoggedIn">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[AddressesTableViewController tableView:didSelectRowAtIndexPath:]:AddressesTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewController.txtfield_startAddress.text">
+            </PersistentString>
+            <PersistentString
+               value = "[item.placemark title]">
+            </PersistentString>
+            <PersistentString
+               value = "[viewController.lastAnnotationAdded title]">
+            </PersistentString>
+            <PersistentString
+               value = "viewController.annotationViews">
+            </PersistentString>
+            <PersistentString
+               value = "results.mapItems[0].name">
+            </PersistentString>
+            <PersistentString
+               value = "viewController.mapView.annotations">
+            </PersistentString>
+            <PersistentString
+               value = "item.placemark.title">
+            </PersistentString>
+            <PersistentString
+               value = "viewController.mapView.annotations.count">
+            </PersistentString>
+            <PersistentString
+               value = "viewController.annotationViews.count">
+            </PersistentString>
+            <PersistentString
+               value = "viewController.txtfield_setDestinationAddress.text">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsViewController viewDidLoad]:RouteDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.btn_sendRequest.isHidden">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController viewWillDisappear:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_car_plate.text">
+            </PersistentString>
+            <PersistentString
+               value = "homeViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_model.text ">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_colour.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__122-[DriverProfileViewController selectDialogMultipleChoicesAndImages:withChoices:choicesShowAt:withImages:withTitleColours:]_block_invoke:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "txtfield">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RidesViewController btn_addTrip_pressed:]:RidesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "nav.viewControllers ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CreateRideViewController viewWillDisappear:]:CreateRideViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "ride">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MenuTabBarController tabBarController:didSelectViewController:]:MenuTabBarController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.tabBarItemPrevious">
+            </PersistentString>
+            <PersistentString
+               value = "tabBarController.selectedIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SinInViewController URLSession:task:didCompleteWithError:]:SinInViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "case_call_API">
+            </PersistentString>
+            <PersistentString
+               value = "receivedData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__32-[HomeViewController showRoute:]_block_invoke:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.overlays">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem updateUser]:ProfileDataViewControllerTabItem.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_email">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[OfferTripNavigationControllerViewController prepareForSegue:sender:]:OfferTripNavigationControllerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.identifier">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem viewDidLoad]:ProfileDataViewControllerTabItem.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_travel_modes.text">
+            </PersistentString>
+            <PersistentString
+               value = "profileDataViewController.profileData">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_max_no_transfers.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_max_distance.text">
+            </PersistentString>
+            <PersistentString
+               value = "profileDataViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController textFieldShouldClear:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations">
+            </PersistentString>
+            <PersistentString
+               value = "self.annotationViews.count ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController updateCar]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_colour.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_smoking.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RidesViewController tableView:cellForRowAtIndexPath:]:RidesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "cell.label_date_time.text ">
+            </PersistentString>
+            <PersistentString
+               value = "cell.switch_status.tag">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteViewController btn_invert_addresses_pressed:]:RouteViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.label_destination.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.label_origin.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController textFieldShouldReturn:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController btn_setAddress:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations">
+            </PersistentString>
+            <PersistentString
+               value = "annotation_origin.annotation.coordinate">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController mapView:didUpdateUserLocation:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapView.annotations.count">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_startAddress_previous_text">
+            </PersistentString>
+            <PersistentString
+               value = "userLocation.location.coordinate.latitude">
+            </PersistentString>
+            <PersistentString
+               value = "userLocation.location.coordinate.longitude">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomePassengerViewController URLSession:dataTask:didReceiveData:]:HomePassengerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "trips.count">
+            </PersistentString>
+            <PersistentString
+               value = "steps">
+            </PersistentString>
+            <PersistentString
+               value = "steps.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LoginViewController_FINAL viewDidLoad]:LoginViewController_FINAL.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.currentUserLoggedIn">
+            </PersistentString>
+            <PersistentString
+               value = "self.fbSDKLogin">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RidesViewController btn_more_detailsClicked:]:RidesViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sender.tag]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController URLSession:dataTask:didReceiveData:]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "lift">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController checkWhehetMandarotyInfoFilled]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedDriverProfile.seats">
+            </PersistentString>
+            <PersistentString
+               value = "sharedDriverProfile.colour">
+            </PersistentString>
+            <PersistentString
+               value = "sharedDriverProfile.plate">
+            </PersistentString>
+            <PersistentString
+               value = "sharedDriverProfile.model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController textFieldShouldEndEditing:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedDriverProfile.model">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController mapView:viewForAnnotation:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.addressStatus">
+            </PersistentString>
+            <PersistentString
+               value = "self.mapItem.placemark">
+            </PersistentString>
+            <PersistentString
+               value = "[self.annotationViews indexOfObject:pinID]">
+            </PersistentString>
+            <PersistentString
+               value = "annotation">
+            </PersistentString>
+            <PersistentString
+               value = "self.mapItem">
+            </PersistentString>
+            <PersistentString
+               value = "self.special_case">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultipleSelectionTableViewController switchChanged:]:MultipleSelectionTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "strDisplayed">
+            </PersistentString>
+            <PersistentString
+               value = "tableTravelModes[current_section]">
+            </PersistentString>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+            <PersistentString
+               value = "switcher.superview">
+            </PersistentString>
+            <PersistentString
+               value = "profileVCTabItem.txtfield_travel_modes.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem updateTravelPrefs]:ProfileDataViewControllerTabItem.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "( (![self.txtfield_travel_modes.text isEqualToString:none] ) || ( ![self.txtfield_travel_modes.text isEqualToString:@&quot;&quot;] ) )">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_max_no_transfers.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_travel_modes.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_luggage.text">
+            </PersistentString>
+            <PersistentString
+               value = " ![self.txtfield_optimise_travel.text isEqualToString:@&quot;&quot;] ">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfield_optimise_travel.text">
+            </PersistentString>
+            <PersistentString
+               value = "( (![self.txtfield_travel_modes.text isEqualToString:none] ) &amp;&amp; ( ![self.txtfield_travel_modes.text isEqualToString:@&quot;&quot;] ) )">
+            </PersistentString>
+            <PersistentString
+               value = "self from_Yes_No_to_TrueFalse:sharedProfile.gps_tracking">
+            </PersistentString>
+            <PersistentString
+               value = "( ![self.txtfield_optimise_travel.text isEqualToString:none] )">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultipleSelectionTableViewController viewDidLoad]:MultipleSelectionTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+            <PersistentString
+               value = "self clearSharedObject">
+            </PersistentString>
+            <PersistentString
+               value = "self.txtfieldEnteredTitle">
+            </PersistentString>
+            <PersistentString
+               value = "self.clearSharedObject">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomePassengerViewController btn_setAddress:]:HomePassengerViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationItem">
+            </PersistentString>
+            <PersistentString
+               value = "homeSegments.navigationItem.rightBarButtonItem">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationItem.rightBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController btn_Register_pressed:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.image_photo.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SinInViewController textFieldShouldReturn:]:SinInViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.tag">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[SinInViewController URLSession:dataTask:didReceiveData:]:SinInViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[ns[0] valueForKey:@&quot;rating&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "ns[0]">
+            </PersistentString>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+            <PersistentString
+               value = "commonData.tableTravelModes.count">
+            </PersistentString>
+            <PersistentString
+               value = "[NSJSONSerialization JSONObjectWithData:data options:0 error:&amp;jsonError]">
+            </PersistentString>
+            <PersistentString
+               value = "preferred_transport.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewController setStyleForImageCirle:]:ProfileDataViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.image_photo.frame.size.width">
+            </PersistentString>
+            <PersistentString
+               value = "self.image_photo.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController fillTextFieldsWithSharedObject]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedObject">
+            </PersistentString>
+            <PersistentString
+               value = "if (sharedDriverProfile.car_image)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsViewController createParametersForRequest]:RouteDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "stepsArray.count">
+            </PersistentString>
+            <PersistentString
+               value = "transport[i]">
+            </PersistentString>
+            <PersistentString
+               value = "sharedRoutes.rertieveTripsInJSON">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MyTripsViewController segment_changed:]:MyTripsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.segmentControl.selectedSegmentIndex">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController selectDialogMultipleChoicesAndImages:withChoices:choicesShowAt:withImages:withTitleColours:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "image.size.width">
+            </PersistentString>
+            <PersistentString
+               value = "image.size.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController tableView:numberOfRowsInSection:]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "stepsMArray.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultipleSelectionTableViewController viewWillDisappear:]:MultipleSelectionTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerRegister prepareForSegue:sender:]:ProfileDataViewControllerRegister.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "segue.destinationViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverDetailsViewController viewDidLoad]:DriverDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[car.colour intValue]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerRegister URLSession:dataTask:didReceiveData:]:ProfileDataViewControllerRegister.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedProfile.useFacebook">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewController textFieldShouldEndEditing:]:ProfileDataViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[MyTools customPhonePad:]:MyTools.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController textFieldShouldBeginEditing:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_seats.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MultipleSelectionTableViewController displayTransportModesInTextField]:MultipleSelectionTableViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textToDisplay.length">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController mapView:didAddAnnotationViews:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.mapItems">
+            </PersistentString>
+            <PersistentString
+               value = "[self.mapView.annotations[1] title]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[MyTripsViewController URLSession:dataTask:didReceiveData:]:MyTripsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "[distance integerValue]">
+            </PersistentString>
+            <PersistentString
+               value = "[getSteps[0] valueForKey:@&quot;price&quot;];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController viewDidLoad]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "comingFromViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.stackView_status.bounds.origin.y">
+            </PersistentString>
+            <PersistentString
+               value = "self.stackView_status.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.stackView_All.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.stackView_table.frame">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RequestedTripsViewController tableView:didSelectRowAtIndexPath:]:RequestedTripsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.section">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "__52-[RouteDetailsViewController fill_objectForRequest:]_block_invoke.343:RouteDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "myTripsNavigationController viewControllers];">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsViewController URLSession:dataTask:didReceiveData:]:RouteDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationController.navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "[self.navigationController viewControllers]">
+            </PersistentString>
+            <PersistentString
+               value = "[self.navigationController navigationController]">
+            </PersistentString>
+            <PersistentString
+               value = "[viewContollers objectAtIndex:0]">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController.navigationController ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[RouteDetailsStatusViewController retrieveFeedback]:RouteDetailsStatusViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "sharedProfile">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[HomeViewController btn_current_location:]:HomeViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_startAddress_previous_text ">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[ProfileDataViewControllerTabItem TableDataArrayToString:takenIntoAccount:]:ProfileDataViewControllerTabItem.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[DriverProfileViewController URLSession:dataTask:didReceiveData:]:DriverProfileViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.txtfield_model.text">
+            </PersistentString>
+            <PersistentString
+               value = "self.image_photo.image">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,439 @@
+/* ,departs at */
+" ,departs at" = ",αναχώρηση από";
+
+/* didn't answer yet */
+" didn't answer yet" = " δεν απάντησε ακόμα";
+
+/* < Back */
+"< Back" = "< Πίσω";
+
+/* <Back */
+"<Back" = "-";
+
+/* <BackXX */
+"<BackXX" = "-";
+
+/* Accident */
+"Accident" = "Ατύχημα";
+
+/* Active Trip */
+"Active Trip" = "Ενεργό ταξίδι";
+
+/* Air conditioning */
+"Air conditioning" = "Κλιματισμός";
+
+/* Already have account tapped! */
+"Already have account tapped!" = "Already have account tapped!";
+
+/* Authentication error */
+"Authentication error" = "Πρόβλημα αυθεντικοποίησης";
+
+/* BLIND */
+"BLIND" = "ΤΥΦΛΟΣ";
+
+/* BUS */
+"BUS" = "ΛΕΩΦΟΡΕΙΟ";
+
+/* Back */
+"Back" = "Πίσω";
+
+/* Button just pressed! */
+"Button just pressed!" = "Button just pressed!";
+
+/* CAR POOLING */
+"CAR POOLING" = "CARPOOLING";
+
+/* CAR_POOLING */
+"CAR_POOLING" = "CARPOOLING";
+
+/* CHEAPEST */
+"CHEAPEST" = "ΦΘΗΝΟΤΕΡΟ";
+
+/* COMFORT */
+"COMFORT" = "ΑΝΕΤΟ";
+
+/* CONTINUE */
+"CONTINUE" = "ΣΥΝΕΧΕΙΑ";
+
+/* Cancel */
+"Cancel" = "Ακύρωση";
+
+/* Cancel request */
+"Cancel request" = "Ακύρωση αιτήματος";
+
+/* Cancelled Trip */
+"Cancelled Trip" = "Ακυρωμένο ταξίδι";
+
+/* Cannot connect to server!Please,try again later. */
+"Cannot connect to server!Please,try again later." = "Η σύνδεση στο διακομιστή δεν ήταν επιτυχής!Παρακαλώ, προσπαθήστε αργότερα.";
+
+/* Car data created successfully! */
+"Car data created successfully!" = "Τα δεδομένα για το αυτοκίνητο αποθηκεύτηκαν επιυυχώς!";
+
+/* Car data updated successfully! */
+"Car data updated successfully!" = "Τα δεδομένα για το αυτοκίνητο ανανεώθηκαν επιτυχώς!";
+
+/* Carpooler Age */
+"Carpooler Age" = "Ηλικά οδηγού μετάβασης";
+
+/* Carpooler Gender */
+"Carpooler Gender" = "Φύλο οδηγού μετάβασης";
+
+/* Child seat */
+"Child seat" = "Παιδικό καρεκλάκι";
+
+/* Clear */
+"Clear" = "Καθάρισμα";
+
+/* Complete Registration */
+"Complete Registration" = "Επιτυχής εγγραφή!";
+
+/* Completed */
+"Completed" = "Ολοκληρώθηκε!";
+
+/* Credentials */
+"Credentials" = "Διαπιστευτήρια";
+
+/* Credentials required! */
+"Credentials required!" = "Απαιτούνται διαπιστευτήρια!";
+
+/* Current location is not supported! */
+"Current location is not supported!" = "Η τρέχουσα τοποθεσία δεν υποστηρίζεται";
+
+/* DEAF */
+"DEAF" = "ΚΟΥΦΟΣ";
+
+/* Data updated successfully! */
+"Data updated successfully!" = "Τα δεδομένα ανανεώθηκαν επιτυχώς!";
+
+/* Decline Terms&Conditions */
+"Decline Terms&Conditions" = "Μη αποδοχή των όρων και των προϋποθέσεων";
+
+/* Delete trip? */
+"Delete trip?" = "Ακύρωση ταξιδιού;";
+
+/* Departure: */
+"Departure:" = "Αναχώρηση:";
+
+/* Device has no camera! */
+"Device has no camera!" = "Η συσκευή δεν υποστηρίζε κάμερα!";
+
+/* Do you want to cancel the lift? */
+"Do you want to cancel the lift?" = "Θέτε να ακυρώσετε το ταξίδι";
+
+/* Do you want to logout? */
+"Do you want to logout?" = "Αποσύνδεση;";
+
+/* Done */
+"Done" = "ΟΚ";
+
+/* EDIT DRIVER PROFILE */
+"EDIT DRIVER PROFILE" = "ΕΠΕΞΕΡΓΑΣΙΑ ΠΡΟΦΙΛ ΟΔΗΓΟΥ";
+
+/* ELDERLY */
+"ELDERLY" = "ΗΛΙΚΙΩΜΕΝΟΣ";
+
+/* Edit */
+"Edit" = "Επεξεργασία";
+
+/* Email */
+"Email" = "Ηλεκτρονική διεύθυνση";
+
+/* Email is not unique! */
+"Email is not unique!" = "Αυτός λογαριασμός ηλεκτρονικής αλληλογραφίας υπάρχει ήδη.";
+
+/* Email not valid! */
+"Email not valid!" = "Ο λογαριασμός ηλεκτρονικής αλληλογραφίας δεν είναι σωστός!";
+
+/* Error */
+"Error" = "Λάθος";
+
+/* FASTEST */
+"FASTEST" = "ΤΑΧΥΤΕΡΟ";
+
+/* FEET */
+"FEET" = "ΠΕΡΠΑΤΗΜΑ";
+
+/* FEMALE */
+"FEMALE" = "ΘΗΛΥ";
+
+/* Food */
+"Food" = "Φαγητό";
+
+/* GPS Tracking */
+"GPS Tracking" = "Καταγραφή σημείων με GPS";
+
+/* Gender */
+"Gender" = "Φύλο";
+
+/* High */
+"High" = "Υψηλό";
+
+/* If you have any passengers associated with this active trip, they will notified. */
+"If you have any passengers associated with this active trip, they will be notified." = "Εάν υπάρχουν επιβάτες συνδεμένοι με κάποιο ενεργό ταξίδι, θα ενημερωθούν.";
+
+/* Insert destination address */
+"Insert destination address" = "Εισαγωγή διεύθυνσης προορισμού";
+
+/* Logout */
+"Logout" = "Αποσύνδεση";
+
+/* Logout? */
+"Logout?" = "Αποσύνδεση;";
+
+/* Low */
+"Low" = "Χαμηλό";
+
+/* Luggage */
+"Luggage" = "Αποσκευή";
+
+/* Luggage allowed */
+"Luggage allowed" = "Αποσκευή";
+
+/* MALE */
+"MALE" = "ΑΡΡΕΝ";
+
+/* METRO */
+"METRO" = "ΜΕΤΡΟ";
+
+/* No comment provided by engineer. */
+"Map Error" = "Λάθος στο χάρτη";
+
+/* Maximum 6 seats allowed! */
+"Maximum 6 seats allowed!" = "Επιτρέπονται μέχρι 6 θέσεις!";
+
+/* Maximum 6 seats supported */
+"Maximum 6 seats supported" = "Επιτρέπονται μέχρι 6 θέσεις!";
+
+/* Medium */
+"Medium" = "Μεσαίο";
+
+/* Men at work */
+"Men at work" = "Έργα σε εξέλιξη";
+
+/* Music */
+"Music" = "Μουσική";
+
+/* N/A */
+"N/A" = "N/A";
+
+/* Next */
+"Next" = "Επόμενο";
+
+/* No */
+"No" = "Όχι";
+
+/* No comment provided by engineer. */
+"No Results" = "Κανένα αποτέλεσμα";
+
+/* No internet connection! */
+"No internet connection!" = "Δεν υπάρχει σύνδεση ίντερνετ!";
+
+/* No routes available. */
+"No routes available." = "Δεν υπάρχουν δρομολόγια";
+
+/* None */
+"None" = "Κανένα";
+
+/* OK */
+"OK" = "OK";
+
+/* Pending Trip */
+"Pending Trip" = "Ταξίδι σε εκκρεμότητα";
+
+/* Pets */
+"Pets" = "Κατοικίδια";
+
+/* Phone number is not valid! */
+"Phone number is not valid!" = "Ο αριθμόςτηλεφώνου δεν είναι έγκυρος!";
+
+/* Plate */
+"Plate " = "Πινακίδα";
+
+/* Please provide proper credentials! */
+"Please provide proper credentials!" = "Παρακαλώ εισάγεται τα κατάλληλα διαπιστευτήρια!";
+
+/* Please,select luggage type! */
+"Please select luggage type!" = "Παρακαλώ εισάγεται τύπο βαλίτσας!";
+
+/* Please, close application */
+"Please, close application!" = "Παρακαλώ κλείστε τη βαλίτσα";
+
+/* RAIL */
+"RAIL" = "ΤΡΑΙΝΟ";
+
+/* Register */
+"Register" = "Εγγραφή";
+
+/* Rejected Trip */
+"Rejected trip" = "Το ταξίδι απορρίφθηκε";
+
+/* Rides */
+"Rides" = "Δρομολόγια με το αυτοκίνητο";
+
+/* SAFEST */
+"SAFEST" = "ΑΣΦΑΛΕΣ";
+
+/* SEARCH SOLUTIONS */
+"SEARCH SOLUTIONS" = "ΕΥΡΕΣΗ ΑΠΟΤΕΛΕΣΜΑΤΩΝ";
+
+/* SET DESTINATION POINT */
+"SET DESTINATION POINT" = "ΣΗΜΕΙΟ ΠΡΟΟΡΙΣΜΟΥ";
+
+/* SET STARTING POINT */
+"SET STARTING POINT" = "ΣΗΜΕΙΟ ΑΝΑΧΩΡΗΣΗΣ";
+
+/* SHORTEST */
+"SHORTEST" = "ΣΥΝΤΟΜΙΑ";
+
+/* STATUS: */
+"STATUS: " = "ΚΑΤΑΣΤΑΣΗ:";
+
+/* Save */
+"Save" = "Αποθήκευση";
+
+/* Select colour */
+"Select colour" = "Επιλογή χρώματος";
+
+/* Select photo */
+"Select photo" = "Επιλογή φωτογραφίας";
+
+/* Sign in with Facebook */
+"Sign in with Facebook" = "Σύνδεση με Facebook";
+
+/* Sign in with Google */
+"Sign in with Google" = "Σύνδεση με  Google";
+
+/* Simulator mode */
+"Simulator mode" = "Προσομοίωση";
+
+/* Smoking */
+"Smoking" = "Κάπνισμα";
+
+/* TRAM */
+"TRAM" = "ΤΡΑΜ";
+
+/* Take photo */
+"Take photo" = "Φωτογραφία";
+
+/* The trip is completed */
+"The trip is completed" = "Το ταξίδι ολοκληρώθηκε";
+
+/* Traffic Conditions */
+"Traffic Conditions" = "Όροι κυκλοφορίας";
+
+/* Traffic jam */
+"Traffic jam" = "Κυκλοφοριακή συμφόρηση";
+
+/* Trip activated */
+"Trip activated" = "Ενεργοποίηση ταξιδιού";
+
+/* Trip disabled */
+"Trip disabled" = "Απενεργοποίηση ταξιδιού";
+
+/* Update */
+"Update" = "Ανανέωση";
+
+/* User created successfully! */
+"User created successfully!" = "Ο χρήστης δημιουργήθηκε με επιτυχία!";
+
+/* View gesture taped! */
+"View gesture taped!" = "View gesture taped!";
+
+/* WHEELCHAIR */
+"WHEELCHAIR" = "ΑΝΑΠΗΡΙΚΟ ΚΑΡΟΤΣΙΔΙΟ";
+
+/* Walk towards */
+"Walk towards " = "Περπατήστε προς ";
+
+/* Yes */
+"Yes" = "Ναι";
+
+/* You can edit your driver information. */
+"You can edit your driver information." = "Μπορείτε να επεξεργαστείτε τις πληροφορίες οδηγού";
+
+/* You have to fill in car info! */
+"You have to fill in car info!" = "Πρέπει να συμπληρώστε τις πληροφορίες για το αυτοκίνητο!";
+
+/* You have to fill in login and other info! */
+"You have to fill in login and other info!" = "Πρέπει να συμπληρώστε τις πληροφορίες σύνδεσης και άλλων πληροφοριών! ";
+
+/* You have to write ride name. */
+"You have to write ride name." = "Πρέπει να γράψετε το όνομα της διαδρομής";
+
+/* btn_signIn Facebook pressed! */
+"btn_signIn Facebook pressed!" = "Hai premuto il tasto Accedi con Facebook!";
+
+/* btn_signIn_googleplus pressed! */
+"btn_signIn_googleplus pressed!" = "Hai premuto il tasto Accedi con Google+! ";
+
+/* btn_signUp pressed! */
+"btn_signUp pressed!" = "Hai premuto il tasto Accedi! ";
+
+/* feedback */
+"feedback" = "αξιολογήσεις";
+
+/* ft */
+"ft" = "ft";
+
+/* highlighted! */
+"highlighted!" = "υπογραμμισμένο!";
+
+/* m */
+"m" = "μ.";
+
+/* min
+   min. */
+"min." = "λεπτά";
+
+/* € */
+"€" = "€";
+
+/* SMALL */
+"SMALL" = "ΜΙΚΡΗ";
+
+/* MEDIUM */
+"MEDIUM" = "ΜΕΣΑΙΑ";
+
+/* LARGE */
+"LARGE" = "ΜΕΓΑΛΗ";
+
+/* NO */
+"NO" = "ΤΙΠΟΤΑ";
+
+"ACCEPTED_LIFT_TITLE" = "Αποδοχή ταξιδιού";
+
+"ACCEPTED_LIFT_BODY" = "Ο οδηγός αποδέχτηκε το ταξίδι σου.";
+
+"REFUSED_LIFT_TITLE" = "Απορρίφθηκε το ταξίδι";
+
+"REFUSED_LIFT_BODY" = "Ο οδηγός αποδέχτηκε το ταξίδι σου.";
+
+"CANCELLED_LIFT_TITLE" = "Ακύρωση ταξιδιού";
+
+"CANCELLED_LIFT_BODY" = "Ο οδηγός ακύρωσε το ταξίδι σου.";
+
+"REQUEST_LIFT_TO_DRIVER_TITLE" = "Αίτημα για ταξίδι";
+
+"REQUEST_LIFT_TO_DRIVER_BODY" = "Ο επιβάτης αποδέχτηκε το ταξίδι σου.";
+
+"RIDE_CELL_DETAIL" = "Όταν θα αποδεχτείς το ταξίδι, η εικόαν του επιβάτη θα εμφανιστεί σε αυτήν την περιοχή";
+
+//"When you will accept a lift request for this trip, the passenger avatar will be displayed in this area." = "Quando accetterai una richiesta di passaggio, l'avatar del passeggero comparirà qui.";
+
+"DELETE TRIP" = "ΑΚΥΡΩΣΗ ΤΑΞΙΔΙΟΥ";
+
+"Contact us" = "Επικοινωνία";
+
+/* Departs */
+"Departs " = "Αναχώρηση ";
+
+/* Arrives */
+"Arrives " = "Άφιξη ";
+
+"Password must be at least 6 characters!" = "Ο κωδικός πρέπει να είναι 6 ψηφία τουλάχιστον!";
+"Password did not match!" = "Ο κωδικός δεν ταιριάζει!";
+
+"Car details required!" = "Απαιτούνται πληροφορίες για το αυτοκινήτο!";
+
+"It looks like you are not registered as a driver.Please fill in car details from Profile." = "Φαίνεται ότι δεν έχετε εγγραφεί ως οδηγός.Παρακαλώ συμπληρώστε τις πληροφορίες στο προφιλ.";

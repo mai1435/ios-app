@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  SocialCar
+
+  Created by Kostas Kalogirou (CERTH) on 30/11/16.
+  Copyright © 2016 Kostas Kalogirou (CERTH). All rights reserved.
+*/
+
+"btn_signIn Facebook pressed!" = "Button Facebook clicked!";
+
+"btn_signIn_googleplus pressed!" = "Button Google+ clicked!";
+
+"btn_signUp pressed!" = "Button signUp pressed!";
+
+"highlighted!" = "Highlighted!";
+
+"selected!" = "Selected!";
+
+"Button just pressed!" ="Button pressed!";
+
+"View gesture taped!" ="View gesture taped!";
+
+"ACCEPTED_LIFT_TITLE" = "Request Accepted";
+"ACCEPTED_LIFT_BODY" = "The driver accepted the lift you request.";
+"REFUSED_LIFT_TITLE" = "Request Refused";
+"REFUSED_LIFT_BODY" = "The driver refused the lift you request.";
+"CANCELLED_LIFT_TITLE" = "Lift Cancelled";
+"CANCELLED_LIFT_BODY" = "The driver cancelled the ride offered.";
+"REQUEST_LIFT_TO_DRIVER_TITLE" = "Lift Request";
+"REQUEST_LIFT_TO_DRIVER_BODY" = "A passenger requested you a ride.";
+"RIDE_CELL_DETAIL" = "When you will accept a lift request for this trip, the passenger avatar will be displayed in this area.";

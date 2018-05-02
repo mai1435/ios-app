@@ -1,0 +1,1702 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02D87EF8BE56A16A080CB696 /* Pods_SocialCarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A9C2A5D1157527E22FD7D5 /* Pods_SocialCarTests.framework */; };
+		1D3460677806C36DB3F0C145 /* Pods_SocialCar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9745A223F83EAE6979AF0A95 /* Pods_SocialCar.framework */; };
+		4A13F0B72058BAC5008E1D63 /* BaseRModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F0B62058BAC4008E1D63 /* BaseRModel.m */; };
+		4A13F0BA2058BAD4008E1D63 /* RPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F0B82058BAD4008E1D63 /* RPosition.m */; };
+		4A13F0BD2058BDFE008E1D63 /* RealmHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F0BB2058BDFE008E1D63 /* RealmHelper.m */; };
+		4A13F0C420598294008E1D63 /* BackgroundTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F0C020598293008E1D63 /* BackgroundTaskManager.m */; };
+		4A13F0C520598294008E1D63 /* LocationTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F0C120598293008E1D63 /* LocationTracker.m */; };
+		4A13F0C620598294008E1D63 /* LocationShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A13F0C320598294008E1D63 /* LocationShareModel.m */; };
+		4A1D36091F7BC119006D1884 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A1D360B1F7BC119006D1884 /* InfoPlist.strings */; };
+		4A1D36131F7BC11A006D1884 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A1D36151F7BC11A006D1884 /* Localizable.strings */; };
+		4A1D36181F7BC11B006D1884 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A1D361A1F7BC11B006D1884 /* InfoPlist.strings */; };
+		4A336A6C203447BE006259DC /* OfferTripSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A336A6B203447BE006259DC /* OfferTripSelectionViewController.m */; };
+		4A5810432075EE3700E990EB /* ChatListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5810422075EE3700E990EB /* ChatListViewController.m */; };
+		4A5810482075F56700E990EB /* ChatListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5810452075F56600E990EB /* ChatListItem.m */; };
+		4A5810492075F56700E990EB /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5810472075F56700E990EB /* BaseModel.m */; };
+		4A6CE1AE202361CC000B6528 /* UIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6CE1AD202361CC000B6528 /* UIUtils.m */; };
+		4A845EBA202C8EE700301E4D /* RideCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A845EB9202C8EE700301E4D /* RideCell.xib */; };
+		4A845EBD202C9B8400301E4D /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A845EBB202C9B8300301E4D /* UIColor+Additions.m */; };
+		4A9B45E32063EF4200661291 /* RidesMapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A9B45E22063EF4200661291 /* RidesMapDetailViewController.m */; };
+		4AC5FA37204D62DF00F0E29A /* RecordedTripVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC5FA36204D62DF00F0E29A /* RecordedTripVC.m */; };
+		4AE8C201207CBF5D000E0A5A /* BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C1FF207CBF5D000E0A5A /* BaseCell.m */; };
+		4AE8C208207CBFB4000E0A5A /* ChatListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C206207CBFB4000E0A5A /* ChatListCell.m */; };
+		4AE8C209207CBFB4000E0A5A /* ChatListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE8C207207CBFB4000E0A5A /* ChatListCell.xib */; };
+		4AE8C20D207CC19F000E0A5A /* NSDate+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C20C207CC19F000E0A5A /* NSDate+Additions.m */; };
+		4AE8C307207CCE0F000E0A5A /* ChatRoomVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE8C306207CCE0F000E0A5A /* ChatRoomVC.m */; };
+		6A06F7B41F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A06F7B31F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.m */; };
+		6A0CE9531EAE73BD0009079D /* DriverProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0CE9521EAE73BD0009079D /* DriverProfileViewController.m */; };
+		6A0E72AA1F02776C0075330F /* DriverFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0E72A91F02776C0075330F /* DriverFeedback.m */; };
+		6A0E72F51F02F8CA0075330F /* DriverFeedbackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A0E72F41F02F8CA0075330F /* DriverFeedbackCell.xib */; };
+		6A10941B1F0A591D0078ACC4 /* Lift.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A10941A1F0A591D0078ACC4 /* Lift.m */; };
+		6A10941E1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A10941D1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.m */; };
+		6A1094211F0A94450078ACC4 /* ParseObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1094201F0A94450078ACC4 /* ParseObjects.m */; };
+		6A120A941F28A15F007F13FE /* CreateRideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A120A931F28A15F007F13FE /* CreateRideViewController.m */; };
+		6A1384D71F3B0C1500C3DCAF /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1384D61F3B0C1500C3DCAF /* FCAlertView.m */; };
+		6A1384DA1F3B0C3000C3DCAF /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1384D91F3B0C3000C3DCAF /* MBProgressHUD.m */; };
+		6A1385041F3B24BC00C3DCAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1385031F3B24BC00C3DCAF /* InfoPlist.strings */; };
+		6A1385081F3B24D400C3DCAF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A1385071F3B24D400C3DCAF /* InfoPlist.strings */; };
+		6A13DB9E1F8CEA910078F454 /* TermsAndConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13DB9D1F8CEA910078F454 /* TermsAndConditionsViewController.m */; };
+		6A13DBA21F8CFFD70078F454 /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A13DBA11F8CFFD70078F454 /* ContactUsViewController.m */; };
+		6A153E3F1F7E6AC0001B6B12 /* LiftRequestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A153E3E1F7E6AC0001B6B12 /* LiftRequestViewController.m */; };
+		6A153E451F7EDE20001B6B12 /* SharedLiftNotified.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A153E441F7EDE20001B6B12 /* SharedLiftNotified.m */; };
+		6A1C59931EBB3CB80078A59B /* DriverIntroProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1C59921EBB3CB80078A59B /* DriverIntroProfileViewController.m */; };
+		6A315F1B1E51B34200E02351 /* MyCustomAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A315F1A1E51B34200E02351 /* MyCustomAnnotation.m */; };
+		6A3CA6DD1E78858B00ACB2B9 /* SharedProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A3CA6DC1E78858B00ACB2B9 /* SharedProfileData.m */; };
+		6A4A45E61F26371000221D21 /* TrafficConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A45E51F26371000221D21 /* TrafficConditionsViewController.m */; };
+		6A4A45E91F264A7F00221D21 /* SharedRoutesAsDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A45E81F264A7F00221D21 /* SharedRoutesAsDriver.m */; };
+		6A4A45EC1F268C0200221D21 /* Ride.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A45EB1F268C0200221D21 /* Ride.m */; };
+		6A4A45F01F26A95200221D21 /* OfferTripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A45EF1F26A95200221D21 /* OfferTripViewController.m */; };
+		6A4A45F31F27588A00221D21 /* OfferTripNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A4A45F21F27588A00221D21 /* OfferTripNavigationControllerViewController.m */; };
+		6A543EF31EFE489500277646 /* Steps.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A543EF21EFE489500277646 /* Steps.m */; };
+		6A543EF61EFE5FAB00277646 /* TripRetrieved.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A543EF51EFE5FAB00277646 /* TripRetrieved.m */; };
+		6A55DDCB1F18107700C8F9FA /* RouteDetailsStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A55DDCA1F18107700C8F9FA /* RouteDetailsStatusViewController.m */; };
+		6A5734EF1E9D55FA00914BFB /* DriverDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5734EE1E9D55FA00914BFB /* DriverDetailsViewController.m */; };
+		6A5ABDE51E2962EE00E8F912 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6A5ABDE41E2962EE00E8F912 /* Base.lproj */; };
+		6A5ABDE81E29664000E8F912 /* Camera_PhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5ABDE71E29664000E8F912 /* Camera_PhotoViewController.m */; };
+		6A5ABDEB1E296A6500E8F912 /* LoginViewController_FINAL.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5ABDEA1E296A6500E8F912 /* LoginViewController_FINAL.m */; };
+		6A5B37041E8E7811008A3DFD /* CommonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B37031E8E7811008A3DFD /* CommonData.m */; };
+		6A5B37081E8E8C09008A3DFD /* ProfileDataViewControllerRegister.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B37071E8E8C09008A3DFD /* ProfileDataViewControllerRegister.m */; };
+		6A6294091F784882009C7C40 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6294081F784882009C7C40 /* Passenger.m */; };
+		6A63F5821DEDFE0C00CB8043 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63F5811DEDFE0C00CB8043 /* main.m */; };
+		6A63F5851DEDFE0C00CB8043 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63F5841DEDFE0C00CB8043 /* AppDelegate.m */; };
+		6A63F5881DEDFE0C00CB8043 /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63F5871DEDFE0C00CB8043 /* SignUpViewController.m */; };
+		6A63F58D1DEDFE0C00CB8043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A63F58C1DEDFE0C00CB8043 /* Assets.xcassets */; };
+		6A63F5901DEDFE0C00CB8043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A63F58E1DEDFE0C00CB8043 /* LaunchScreen.storyboard */; };
+		6A63F59B1DEDFE0C00CB8043 /* SocialCarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63F59A1DEDFE0C00CB8043 /* SocialCarTests.m */; };
+		6A63F5A61DEDFE0C00CB8043 /* SocialCarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63F5A51DEDFE0C00CB8043 /* SocialCarUITests.m */; };
+		6A63F5B51DEE012C00CB8043 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A63F5B41DEE012C00CB8043 /* LoginViewController.m */; };
+		6A66A9891E421FE60067F8DE /* AddressesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A66A9881E421FE60067F8DE /* AddressesTableViewController.m */; };
+		6A67928B1F220A93005A8024 /* ExternalCarpoolerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A67928A1F220A93005A8024 /* ExternalCarpoolerViewController.m */; };
+		6A685EB81E5F73BE00F93741 /* RouteDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A685EAE1E5F73BE00F93741 /* RouteDetails.xib */; };
+		6A685EB91E5F73BE00F93741 /* RouteDetailsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A685EB01E5F73BE00F93741 /* RouteDetailsTableViewCell.m */; };
+		6A685EBA1E5F73BE00F93741 /* RouteDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A685EB21E5F73BE00F93741 /* RouteDetailsViewController.m */; };
+		6A685EBB1E5F73BE00F93741 /* RouteTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A685EB31E5F73BE00F93741 /* RouteTableCell.xib */; };
+		6A685EBC1E5F73BE00F93741 /* RouteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A685EB51E5F73BE00F93741 /* RouteTableViewCell.m */; };
+		6A685EBD1E5F73BE00F93741 /* RouteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A685EB71E5F73BE00F93741 /* RouteViewController.m */; };
+		6A6D1FD61E081CA100338A0D /* LoginViewController_GOOD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6D1FD51E081CA100338A0D /* LoginViewController_GOOD.m */; };
+		6A6F50E81E6605DC00EE22C0 /* MyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3EA6D1E35FB2500BAA679 /* MyTools.m */; };
+		6A6F50EB1E6612A800EE22C0 /* LogoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F50EA1E6612A800EE22C0 /* LogoutViewController.m */; };
+		6A6F50EE1E66268000EE22C0 /* MenuTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6F50ED1E66268000EE22C0 /* MenuTabBarController.m */; };
+		6A6F50F11E6635AF00EE22C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6F50EF1E6635AF00EE22C0 /* Main.storyboard */; };
+		6A71D6A81E774E410065A202 /* ProfileDataViewControllerTabItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A71D6A71E774E410065A202 /* ProfileDataViewControllerTabItem.m */; };
+		6A8712F31F20C24000B2C274 /* LeaveFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8712F21F20C24000B2C274 /* LeaveFeedbackViewController.m */; };
+		6A8733551E349CB300BBD9E7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A8733541E349CB300BBD9E7 /* MapKit.framework */; };
+		6A90E24C1F32160700B553B0 /* TrafficConditionsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90E24B1F32160700B553B0 /* TrafficConditionsTableViewCell.m */; };
+		6A90E2511F32162E00B553B0 /* NewReportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90E24E1F32162E00B553B0 /* NewReportTableViewController.m */; };
+		6A90E2521F32162E00B553B0 /* ReportTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90E2501F32162E00B553B0 /* ReportTableViewController.m */; };
+		6A90E2591F322EE400B553B0 /* PolicyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90E2581F322EE400B553B0 /* PolicyViewController.m */; };
+		6A9101A51F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A9101A41F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.m */; };
+		6A9448201F35168F0001ADAB /* LaunchFirstTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A94481F1F35168F0001ADAB /* LaunchFirstTimeViewController.m */; };
+		6A9767501F66CA1400A3CB21 /* SignUpViewController_NEW.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A97674F1F66CA1400A3CB21 /* SignUpViewController_NEW.m */; };
+		6AAC7F8F1EFD127400FABFFF /* ShareRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAC7F8E1EFD127400FABFFF /* ShareRoutes.m */; };
+		6AB504831F86437600C73812 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6AB504821F86437600C73812 /* GoogleService-Info.plist */; };
+		6AB5F0031E828E1B001FA30D /* LiftsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB5F0021E828E1B001FA30D /* LiftsCell.xib */; };
+		6AB5F0061E829618001FA30D /* LiftsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5F0051E829618001FA30D /* LiftsTableViewCell.m */; };
+		6AB5F0091E82B925001FA30D /* MyTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5F0081E82B925001FA30D /* MyTripsViewController.m */; };
+		6AB5F00C1E82FAF7001FA30D /* RequestedTripsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB5F00B1E82FAF7001FA30D /* RequestedTripsViewController.m */; };
+		6AC6AA671F6004B600CCD67D /* SignInOrSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC6AA661F6004B600CCD67D /* SignInOrSignUpViewController.m */; };
+		6AC7437F1EBE67C100488DAD /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AC7437E1EBE67C100488DAD /* SafariServices.framework */; };
+		6AD157941F2A25A4001969DD /* RideTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD157931F2A25A4001969DD /* RideTableViewCell.m */; };
+		6AD157971F2A28CE001969DD /* RidesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD157961F2A28CE001969DD /* RidesViewController.m */; };
+		6AD2AA821F05318E000920D7 /* Feedback.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD2AA811F05318E000920D7 /* Feedback.m */; };
+		6AD3EA711E3600CA00BAA679 /* HomePassengerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD3EA701E3600CA00BAA679 /* HomePassengerViewController.m */; };
+		6AD852DB1F79681E00A8C962 /* PassengerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD852DA1F79681E00A8C962 /* PassengerDetailsViewController.m */; };
+		6ADBFAA51E8A849E002F485B /* MultipleSelections.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ADBFAA41E8A849E002F485B /* MultipleSelections.xib */; };
+		6ADBFAA81E8A85C4002F485B /* MultipleSelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADBFAA71E8A85C4002F485B /* MultipleSelectionTableViewCell.m */; };
+		6ADBFAAB1E8A88B3002F485B /* MultipleSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADBFAAA1E8A88B3002F485B /* MultipleSelectionTableViewController.m */; };
+		6ADFF1721EB9CC1100B16625 /* SharedDriverProfileData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADFF1711EB9CC1100B16625 /* SharedDriverProfileData.m */; };
+		6AE0C5FE1F0BA06F00C0B62B /* MyTripsNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE0C5FD1F0BA06F00C0B62B /* MyTripsNavigationController.m */; };
+		6AE804441E1BE37A006CAEDD /* SinInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AE804431E1BE37A006CAEDD /* SinInViewController.m */; };
+		6AEAC42D1F80C880008FA897 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AEAC42C1F80C880008FA897 /* KeychainItemWrapper.m */; };
+		6AED60431EFFC8110042E495 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AED60421EFFC8110042E495 /* Car.m */; };
+		6AED60461EFFC8940042E495 /* Driver.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AED60451EFFC8940042E495 /* Driver.m */; };
+		6AF08B091F75A755003AA8DF /* IntermediatePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF08B081F75A755003AA8DF /* IntermediatePoint.m */; };
+		6AF150D31E6B50B500DCBB9D /* HomeSegmentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF150D21E6B50B500DCBB9D /* HomeSegmentsViewController.m */; };
+		DF9269B74944AB3135DA1FE8 /* Pods_SocialCarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BF3AD80CDD558549B0BBE4E /* Pods_SocialCarUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A63F5971DEDFE0C00CB8043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A63F5751DEDFE0C00CB8043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A63F57C1DEDFE0C00CB8043;
+			remoteInfo = SocialCar;
+		};
+		6A63F5A21DEDFE0C00CB8043 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A63F5751DEDFE0C00CB8043 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A63F57C1DEDFE0C00CB8043;
+			remoteInfo = SocialCar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3465B0B5174C4800944A2F5C /* Pods-SocialCarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialCarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialCarUITests/Pods-SocialCarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A13F0B52058BAC3008E1D63 /* BaseRModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseRModel.h; sourceTree = "<group>"; };
+		4A13F0B62058BAC4008E1D63 /* BaseRModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseRModel.m; sourceTree = "<group>"; };
+		4A13F0B82058BAD4008E1D63 /* RPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPosition.m; sourceTree = "<group>"; };
+		4A13F0B92058BAD4008E1D63 /* RPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPosition.h; sourceTree = "<group>"; };
+		4A13F0BB2058BDFE008E1D63 /* RealmHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealmHelper.m; sourceTree = "<group>"; };
+		4A13F0BC2058BDFE008E1D63 /* RealmHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealmHelper.h; sourceTree = "<group>"; };
+		4A13F0BE20598292008E1D63 /* LocationShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationShareModel.h; sourceTree = "<group>"; };
+		4A13F0BF20598292008E1D63 /* BackgroundTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundTaskManager.h; sourceTree = "<group>"; };
+		4A13F0C020598293008E1D63 /* BackgroundTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundTaskManager.m; sourceTree = "<group>"; };
+		4A13F0C120598293008E1D63 /* LocationTracker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTracker.m; sourceTree = "<group>"; };
+		4A13F0C220598294008E1D63 /* LocationTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTracker.h; sourceTree = "<group>"; };
+		4A13F0C320598294008E1D63 /* LocationShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationShareModel.m; sourceTree = "<group>"; };
+		4A1D360A1F7BC119006D1884 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A1D36141F7BC11A006D1884 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A1D36191F7BC11B006D1884 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A1D361B1F7BC1AA006D1884 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4A1D36221F7BC1AC006D1884 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		4A2641451F82807C00A7FAF3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A26414B1F82807D00A7FAF3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = SocialCar/fr.lproj/Main.strings; sourceTree = "<group>"; };
+		4A26414C1F82807D00A7FAF3 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A26414D1F8280C100A7FAF3 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A2641531F8280C200A7FAF3 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = SocialCar/sl.lproj/Main.strings; sourceTree = "<group>"; };
+		4A2641541F8280C300A7FAF3 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A2641551F8280C600A7FAF3 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A336A6A203447BE006259DC /* OfferTripSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferTripSelectionViewController.h; sourceTree = "<group>"; };
+		4A336A6B203447BE006259DC /* OfferTripSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferTripSelectionViewController.m; sourceTree = "<group>"; };
+		4A41E4FD1F7E5D7B00AC5B2F /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A41E5031F7E73BE00AC5B2F /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "SocialCar/nl-NL.lproj/Main.strings"; sourceTree = "<group>"; };
+		4A41E5041F7E73BE00AC5B2F /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4A5810412075EE3700E990EB /* ChatListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListViewController.h; sourceTree = "<group>"; };
+		4A5810422075EE3700E990EB /* ChatListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListViewController.m; sourceTree = "<group>"; };
+		4A5810442075F56600E990EB /* ChatListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatListItem.h; sourceTree = "<group>"; };
+		4A5810452075F56600E990EB /* ChatListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatListItem.m; sourceTree = "<group>"; };
+		4A5810462075F56600E990EB /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		4A5810472075F56700E990EB /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		4A6CE1AC202361CC000B6528 /* UIUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIUtils.h; sourceTree = "<group>"; };
+		4A6CE1AD202361CC000B6528 /* UIUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIUtils.m; sourceTree = "<group>"; };
+		4A7D27F51F83CC4900A30CED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4A845EB9202C8EE700301E4D /* RideCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RideCell.xib; sourceTree = "<group>"; };
+		4A845EBB202C9B8300301E4D /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		4A845EBC202C9B8400301E4D /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		4A9B45E12063EF4200661291 /* RidesMapDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RidesMapDetailViewController.h; sourceTree = "<group>"; };
+		4A9B45E22063EF4200661291 /* RidesMapDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RidesMapDetailViewController.m; sourceTree = "<group>"; };
+		4AC5FA35204D62DF00F0E29A /* RecordedTripVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecordedTripVC.h; sourceTree = "<group>"; };
+		4AC5FA36204D62DF00F0E29A /* RecordedTripVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecordedTripVC.m; sourceTree = "<group>"; };
+		4AE8C1FF207CBF5D000E0A5A /* BaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCell.m; sourceTree = "<group>"; };
+		4AE8C200207CBF5D000E0A5A /* BaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCell.h; sourceTree = "<group>"; };
+		4AE8C205207CBFB4000E0A5A /* ChatListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatListCell.h; sourceTree = "<group>"; };
+		4AE8C206207CBFB4000E0A5A /* ChatListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatListCell.m; sourceTree = "<group>"; };
+		4AE8C207207CBFB4000E0A5A /* ChatListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatListCell.xib; sourceTree = "<group>"; };
+		4AE8C20B207CC19F000E0A5A /* NSDate+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Additions.h"; sourceTree = "<group>"; };
+		4AE8C20C207CC19F000E0A5A /* NSDate+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Additions.m"; sourceTree = "<group>"; };
+		4AE8C305207CCE0F000E0A5A /* ChatRoomVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatRoomVC.h; sourceTree = "<group>"; };
+		4AE8C306207CCE0F000E0A5A /* ChatRoomVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChatRoomVC.m; sourceTree = "<group>"; };
+		6A06F7B21F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerDetailsForRidesViewController.h; sourceTree = "<group>"; };
+		6A06F7B31F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerDetailsForRidesViewController.m; sourceTree = "<group>"; };
+		6A0CE9511EAE73BD0009079D /* DriverProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverProfileViewController.h; sourceTree = "<group>"; };
+		6A0CE9521EAE73BD0009079D /* DriverProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverProfileViewController.m; sourceTree = "<group>"; };
+		6A0E72A81F02776C0075330F /* DriverFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverFeedback.h; sourceTree = "<group>"; };
+		6A0E72A91F02776C0075330F /* DriverFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverFeedback.m; sourceTree = "<group>"; };
+		6A0E72F41F02F8CA0075330F /* DriverFeedbackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DriverFeedbackCell.xib; sourceTree = "<group>"; };
+		6A1094191F0A591D0078ACC4 /* Lift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lift.h; sourceTree = "<group>"; };
+		6A10941A1F0A591D0078ACC4 /* Lift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lift.m; sourceTree = "<group>"; };
+		6A10941C1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedRoutesAsPassenger.h; sourceTree = "<group>"; };
+		6A10941D1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedRoutesAsPassenger.m; sourceTree = "<group>"; };
+		6A10941F1F0A94450078ACC4 /* ParseObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseObjects.h; sourceTree = "<group>"; };
+		6A1094201F0A94450078ACC4 /* ParseObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseObjects.m; sourceTree = "<group>"; };
+		6A120A921F28A15F007F13FE /* CreateRideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = CreateRideViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A120A931F28A15F007F13FE /* CreateRideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = CreateRideViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A1384D51F3B0C1500C3DCAF /* FCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCAlertView.h; sourceTree = "<group>"; };
+		6A1384D61F3B0C1500C3DCAF /* FCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCAlertView.m; sourceTree = "<group>"; };
+		6A1384D81F3B0C3000C3DCAF /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6A1384D91F3B0C3000C3DCAF /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6A1385031F3B24BC00C3DCAF /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6A1385071F3B24D400C3DCAF /* InfoPlist.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6A13DB9C1F8CEA910078F454 /* TermsAndConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsAndConditionsViewController.h; sourceTree = "<group>"; };
+		6A13DB9D1F8CEA910078F454 /* TermsAndConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditionsViewController.m; sourceTree = "<group>"; };
+		6A13DBA01F8CFFD70078F454 /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		6A13DBA11F8CFFD70078F454 /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		6A153E3D1F7E6AC0001B6B12 /* LiftRequestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiftRequestViewController.h; sourceTree = "<group>"; };
+		6A153E3E1F7E6AC0001B6B12 /* LiftRequestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiftRequestViewController.m; sourceTree = "<group>"; };
+		6A153E431F7EDE20001B6B12 /* SharedLiftNotified.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedLiftNotified.h; sourceTree = "<group>"; };
+		6A153E441F7EDE20001B6B12 /* SharedLiftNotified.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedLiftNotified.m; sourceTree = "<group>"; };
+		6A1C59911EBB3CB80078A59B /* DriverIntroProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverIntroProfileViewController.h; sourceTree = "<group>"; };
+		6A1C59921EBB3CB80078A59B /* DriverIntroProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverIntroProfileViewController.m; sourceTree = "<group>"; };
+		6A2F65F01E81686200B0AFEA /* RouteDetailsStatusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailsStatusViewController.h; sourceTree = "<group>"; };
+		6A315F191E51B34200E02351 /* MyCustomAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCustomAnnotation.h; sourceTree = "<group>"; };
+		6A315F1A1E51B34200E02351 /* MyCustomAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCustomAnnotation.m; sourceTree = "<group>"; };
+		6A3CA6DB1E78858B00ACB2B9 /* SharedProfileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedProfileData.h; path = ../SharedProfileData.h; sourceTree = "<group>"; };
+		6A3CA6DC1E78858B00ACB2B9 /* SharedProfileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedProfileData.m; path = ../SharedProfileData.m; sourceTree = "<group>"; };
+		6A4A45E41F26371000221D21 /* TrafficConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrafficConditionsViewController.h; sourceTree = "<group>"; };
+		6A4A45E51F26371000221D21 /* TrafficConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrafficConditionsViewController.m; sourceTree = "<group>"; };
+		6A4A45E71F264A7F00221D21 /* SharedRoutesAsDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SharedRoutesAsDriver.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A4A45E81F264A7F00221D21 /* SharedRoutesAsDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SharedRoutesAsDriver.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A4A45EA1F268C0200221D21 /* Ride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Ride.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A4A45EB1F268C0200221D21 /* Ride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Ride.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A4A45EE1F26A95200221D21 /* OfferTripViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OfferTripViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A4A45EF1F26A95200221D21 /* OfferTripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OfferTripViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A4A45F11F27588A00221D21 /* OfferTripNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = OfferTripNavigationControllerViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A4A45F21F27588A00221D21 /* OfferTripNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = OfferTripNavigationControllerViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A543EF11EFE489500277646 /* Steps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Steps.h; sourceTree = "<group>"; };
+		6A543EF21EFE489500277646 /* Steps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Steps.m; sourceTree = "<group>"; };
+		6A543EF41EFE5FAB00277646 /* TripRetrieved.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TripRetrieved.h; sourceTree = "<group>"; };
+		6A543EF51EFE5FAB00277646 /* TripRetrieved.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TripRetrieved.m; sourceTree = "<group>"; };
+		6A55DDCA1F18107700C8F9FA /* RouteDetailsStatusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailsStatusViewController.m; sourceTree = "<group>"; };
+		6A5734ED1E9D55FA00914BFB /* DriverDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriverDetailsViewController.h; sourceTree = "<group>"; };
+		6A5734EE1E9D55FA00914BFB /* DriverDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriverDetailsViewController.m; sourceTree = "<group>"; };
+		6A5ABDE41E2962EE00E8F912 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		6A5ABDE61E29664000E8F912 /* Camera_PhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Camera_PhotoViewController.h; sourceTree = "<group>"; };
+		6A5ABDE71E29664000E8F912 /* Camera_PhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Camera_PhotoViewController.m; sourceTree = "<group>"; };
+		6A5ABDE91E296A6500E8F912 /* LoginViewController_FINAL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController_FINAL.h; sourceTree = "<group>"; };
+		6A5ABDEA1E296A6500E8F912 /* LoginViewController_FINAL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController_FINAL.m; sourceTree = "<group>"; };
+		6A5B37031E8E7811008A3DFD /* CommonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonData.m; sourceTree = "<group>"; };
+		6A5B37051E8E7839008A3DFD /* CommonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonData.h; sourceTree = "<group>"; };
+		6A5B37061E8E8C09008A3DFD /* ProfileDataViewControllerRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDataViewControllerRegister.h; sourceTree = "<group>"; };
+		6A5B37071E8E8C09008A3DFD /* ProfileDataViewControllerRegister.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDataViewControllerRegister.m; sourceTree = "<group>"; };
+		6A6294071F784882009C7C40 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
+		6A6294081F784882009C7C40 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
+		6A63F57D1DEDFE0C00CB8043 /* SocialCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A63F5811DEDFE0C00CB8043 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = main.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A63F5831DEDFE0C00CB8043 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AppDelegate.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A63F5841DEDFE0C00CB8043 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A63F5861DEDFE0C00CB8043 /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		6A63F5871DEDFE0C00CB8043 /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		6A63F58C1DEDFE0C00CB8043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A63F58F1DEDFE0C00CB8043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A63F5911DEDFE0C00CB8043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A63F5961DEDFE0C00CB8043 /* SocialCarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialCarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A63F59A1DEDFE0C00CB8043 /* SocialCarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SocialCarTests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A63F59C1DEDFE0C00CB8043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A63F5A11DEDFE0C00CB8043 /* SocialCarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SocialCarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A63F5A51DEDFE0C00CB8043 /* SocialCarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SocialCarUITests.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A63F5A71DEDFE0C00CB8043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A63F5B31DEE012C00CB8043 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LoginViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A63F5B41DEE012C00CB8043 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A66A9871E421FE60067F8DE /* AddressesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressesTableViewController.h; sourceTree = "<group>"; };
+		6A66A9881E421FE60067F8DE /* AddressesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AddressesTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A6792891F220A93005A8024 /* ExternalCarpoolerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExternalCarpoolerViewController.h; sourceTree = "<group>"; };
+		6A67928A1F220A93005A8024 /* ExternalCarpoolerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExternalCarpoolerViewController.m; sourceTree = "<group>"; };
+		6A685EAE1E5F73BE00F93741 /* RouteDetails.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteDetails.xib; sourceTree = "<group>"; };
+		6A685EAF1E5F73BE00F93741 /* RouteDetailsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailsTableViewCell.h; sourceTree = "<group>"; };
+		6A685EB01E5F73BE00F93741 /* RouteDetailsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailsTableViewCell.m; sourceTree = "<group>"; };
+		6A685EB11E5F73BE00F93741 /* RouteDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteDetailsViewController.h; sourceTree = "<group>"; };
+		6A685EB21E5F73BE00F93741 /* RouteDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteDetailsViewController.m; sourceTree = "<group>"; };
+		6A685EB31E5F73BE00F93741 /* RouteTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RouteTableCell.xib; sourceTree = "<group>"; };
+		6A685EB41E5F73BE00F93741 /* RouteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteTableViewCell.h; sourceTree = "<group>"; };
+		6A685EB51E5F73BE00F93741 /* RouteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteTableViewCell.m; sourceTree = "<group>"; };
+		6A685EB61E5F73BE00F93741 /* RouteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteViewController.h; sourceTree = "<group>"; };
+		6A685EB71E5F73BE00F93741 /* RouteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RouteViewController.m; sourceTree = "<group>"; };
+		6A6D1FD41E081CA100338A0D /* LoginViewController_GOOD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LoginViewController_GOOD.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A6D1FD51E081CA100338A0D /* LoginViewController_GOOD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LoginViewController_GOOD.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A6F50E91E6612A800EE22C0 /* LogoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoutViewController.h; sourceTree = "<group>"; };
+		6A6F50EA1E6612A800EE22C0 /* LogoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoutViewController.m; sourceTree = "<group>"; };
+		6A6F50EC1E66268000EE22C0 /* MenuTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTabBarController.h; sourceTree = "<group>"; };
+		6A6F50ED1E66268000EE22C0 /* MenuTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTabBarController.m; sourceTree = "<group>"; };
+		6A6F50F01E6635AF00EE22C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = SocialCar/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A70FFEA1F349F0A0092E5F0 /* SocialCar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SocialCar.entitlements; sourceTree = "<group>"; };
+		6A71D6A61E774E410065A202 /* ProfileDataViewControllerTabItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDataViewControllerTabItem.h; sourceTree = "<group>"; };
+		6A71D6A71E774E410065A202 /* ProfileDataViewControllerTabItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDataViewControllerTabItem.m; sourceTree = "<group>"; };
+		6A7A48481FD198210046926E /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = SocialCar/el.lproj/Main.strings; sourceTree = "<group>"; };
+		6A7A48491FD198220046926E /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6A7A484A1FD198220046926E /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6A7E1D941E49DDDE00A5DE2E /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		6A8396D51DEF7192008B2415 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6A8712F11F20C24000B2C274 /* LeaveFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaveFeedbackViewController.h; sourceTree = "<group>"; };
+		6A8712F21F20C24000B2C274 /* LeaveFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaveFeedbackViewController.m; sourceTree = "<group>"; };
+		6A8733541E349CB300BBD9E7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		6A90E24A1F32160700B553B0 /* TrafficConditionsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TrafficConditionsTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A90E24B1F32160700B553B0 /* TrafficConditionsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TrafficConditionsTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A90E24D1F32162E00B553B0 /* NewReportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = NewReportTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A90E24E1F32162E00B553B0 /* NewReportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = NewReportTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A90E24F1F32162E00B553B0 /* ReportTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ReportTableViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6A90E2501F32162E00B553B0 /* ReportTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ReportTableViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6A90E2571F322EE400B553B0 /* PolicyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolicyViewController.h; sourceTree = "<group>"; };
+		6A90E2581F322EE400B553B0 /* PolicyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolicyViewController.m; sourceTree = "<group>"; };
+		6A9101A31F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileDataViewControllerRegisterLIMIT.h; sourceTree = "<group>"; };
+		6A9101A41F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileDataViewControllerRegisterLIMIT.m; sourceTree = "<group>"; };
+		6A94481E1F35168F0001ADAB /* LaunchFirstTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchFirstTimeViewController.h; sourceTree = "<group>"; };
+		6A94481F1F35168F0001ADAB /* LaunchFirstTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchFirstTimeViewController.m; sourceTree = "<group>"; };
+		6A97674E1F66CA1400A3CB21 /* SignUpViewController_NEW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController_NEW.h; sourceTree = "<group>"; };
+		6A97674F1F66CA1400A3CB21 /* SignUpViewController_NEW.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController_NEW.m; sourceTree = "<group>"; };
+		6AAC7F8D1EFD127400FABFFF /* ShareRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareRoutes.h; sourceTree = "<group>"; };
+		6AAC7F8E1EFD127400FABFFF /* ShareRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareRoutes.m; sourceTree = "<group>"; };
+		6AB504821F86437600C73812 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AB5F0021E828E1B001FA30D /* LiftsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LiftsCell.xib; path = ../LiftsCell.xib; sourceTree = "<group>"; };
+		6AB5F0041E829618001FA30D /* LiftsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiftsTableViewCell.h; sourceTree = "<group>"; };
+		6AB5F0051E829618001FA30D /* LiftsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiftsTableViewCell.m; sourceTree = "<group>"; };
+		6AB5F0071E82B925001FA30D /* MyTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTripsViewController.h; sourceTree = "<group>"; };
+		6AB5F0081E82B925001FA30D /* MyTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MyTripsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6AB5F00A1E82FAF7001FA30D /* RequestedTripsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestedTripsViewController.h; sourceTree = "<group>"; };
+		6AB5F00B1E82FAF7001FA30D /* RequestedTripsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestedTripsViewController.m; sourceTree = "<group>"; };
+		6AC6AA651F6004B600CCD67D /* SignInOrSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignInOrSignUpViewController.h; sourceTree = "<group>"; };
+		6AC6AA661F6004B600CCD67D /* SignInOrSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignInOrSignUpViewController.m; sourceTree = "<group>"; };
+		6AC7437E1EBE67C100488DAD /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		6AD157921F2A25A4001969DD /* RideTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RideTableViewCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6AD157931F2A25A4001969DD /* RideTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RideTableViewCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6AD157951F2A28CE001969DD /* RidesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RidesViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6AD157961F2A28CE001969DD /* RidesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RidesViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6AD2AA801F05318E000920D7 /* Feedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feedback.h; sourceTree = "<group>"; };
+		6AD2AA811F05318E000920D7 /* Feedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feedback.m; sourceTree = "<group>"; };
+		6AD3EA6C1E35F9C100BAA679 /* MyTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTools.h; sourceTree = "<group>"; };
+		6AD3EA6D1E35FB2500BAA679 /* MyTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTools.m; sourceTree = "<group>"; };
+		6AD3EA6F1E3600CA00BAA679 /* HomePassengerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePassengerViewController.h; sourceTree = "<group>"; };
+		6AD3EA701E3600CA00BAA679 /* HomePassengerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePassengerViewController.m; sourceTree = "<group>"; };
+		6AD852D91F79681E00A8C962 /* PassengerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerDetailsViewController.h; sourceTree = "<group>"; };
+		6AD852DA1F79681E00A8C962 /* PassengerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerDetailsViewController.m; sourceTree = "<group>"; };
+		6ADBFAA41E8A849E002F485B /* MultipleSelections.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultipleSelections.xib; sourceTree = "<group>"; };
+		6ADBFAA61E8A85C4002F485B /* MultipleSelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleSelectionTableViewCell.h; sourceTree = "<group>"; };
+		6ADBFAA71E8A85C4002F485B /* MultipleSelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleSelectionTableViewCell.m; sourceTree = "<group>"; };
+		6ADBFAA91E8A88B3002F485B /* MultipleSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipleSelectionTableViewController.h; sourceTree = "<group>"; };
+		6ADBFAAA1E8A88B3002F485B /* MultipleSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipleSelectionTableViewController.m; sourceTree = "<group>"; };
+		6ADFF1701EB9CC1100B16625 /* SharedDriverProfileData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedDriverProfileData.h; sourceTree = "<group>"; };
+		6ADFF1711EB9CC1100B16625 /* SharedDriverProfileData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SharedDriverProfileData.m; sourceTree = "<group>"; };
+		6AE0C5FC1F0BA06F00C0B62B /* MyTripsNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTripsNavigationController.h; sourceTree = "<group>"; };
+		6AE0C5FD1F0BA06F00C0B62B /* MyTripsNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTripsNavigationController.m; sourceTree = "<group>"; };
+		6AE804421E1BE37A006CAEDD /* SinInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = SinInViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6AE804431E1BE37A006CAEDD /* SinInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SinInViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6AEAC42B1F80C880008FA897 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KeychainItemWrapper.h; path = SocialCar/KeychainItemWrapper.h; sourceTree = "<group>"; };
+		6AEAC42C1F80C880008FA897 /* KeychainItemWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KeychainItemWrapper.m; path = SocialCar/KeychainItemWrapper.m; sourceTree = "<group>"; };
+		6AED60411EFFC8110042E495 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		6AED60421EFFC8110042E495 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		6AED60441EFFC8940042E495 /* Driver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Driver.h; sourceTree = "<group>"; };
+		6AED60451EFFC8940042E495 /* Driver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Driver.m; sourceTree = "<group>"; };
+		6AF08B051F754226003AA8DF /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "SocialCar/en-GB.lproj/Main.strings"; sourceTree = "<group>"; };
+		6AF08B061F754226003AA8DF /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6AF08B071F75A755003AA8DF /* IntermediatePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntermediatePoint.h; sourceTree = "<group>"; };
+		6AF08B081F75A755003AA8DF /* IntermediatePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntermediatePoint.m; sourceTree = "<group>"; };
+		6AF150D11E6B50B500DCBB9D /* HomeSegmentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeSegmentsViewController.h; sourceTree = "<group>"; };
+		6AF150D21E6B50B500DCBB9D /* HomeSegmentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HomeSegmentsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6AFE3DE21F7401A400781B82 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6AFE3DE61F7401D600781B82 /* nl-NL */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "nl-NL"; path = "nl-NL.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		6AFE3DE71F7401DD00781B82 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = SocialCar/it.lproj/Main.strings; sourceTree = "<group>"; };
+		6AFE3DE81F7401DD00781B82 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		6AFE3DEA1F7401E800781B82 /* sl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sl; path = sl.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		9745A223F83EAE6979AF0A95 /* Pods_SocialCar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialCar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BF3AD80CDD558549B0BBE4E /* Pods_SocialCarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialCarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A9C2A5D1157527E22FD7D5 /* Pods_SocialCarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SocialCarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58D62972B0D3BCA270F5572 /* Pods-SocialCarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialCarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialCarTests/Pods-SocialCarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C619A4D9307D807959EFAFC4 /* Pods-SocialCarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialCarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialCarTests/Pods-SocialCarTests.release.xcconfig"; sourceTree = "<group>"; };
+		D812B0EA891D95D8CB07AE4F /* Pods-SocialCar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialCar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialCar/Pods-SocialCar.release.xcconfig"; sourceTree = "<group>"; };
+		EBB35303854D0EB0C84C6F2F /* Pods-SocialCarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialCarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SocialCarUITests/Pods-SocialCarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FD2C27FFF05E5D45C0039201 /* Pods-SocialCar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SocialCar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SocialCar/Pods-SocialCar.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A63F57A1DEDFE0C00CB8043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC7437F1EBE67C100488DAD /* SafariServices.framework in Frameworks */,
+				6A8733551E349CB300BBD9E7 /* MapKit.framework in Frameworks */,
+				1D3460677806C36DB3F0C145 /* Pods_SocialCar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63F5931DEDFE0C00CB8043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02D87EF8BE56A16A080CB696 /* Pods_SocialCarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63F59E1DEDFE0C00CB8043 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF9269B74944AB3135DA1FE8 /* Pods_SocialCarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5810402075EE0B00E990EB /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				4A5810462075F56600E990EB /* BaseModel.h */,
+				4A5810472075F56700E990EB /* BaseModel.m */,
+				4A5810442075F56600E990EB /* ChatListItem.h */,
+				4A5810452075F56600E990EB /* ChatListItem.m */,
+				4A5810412075EE3700E990EB /* ChatListViewController.h */,
+				4A5810422075EE3700E990EB /* ChatListViewController.m */,
+				4AE8C305207CCE0F000E0A5A /* ChatRoomVC.h */,
+				4AE8C306207CCE0F000E0A5A /* ChatRoomVC.m */,
+				4AE8C20A207CC196000E0A5A /* Utils */,
+				4AE8C1FE207CBF31000E0A5A /* Cells */,
+			);
+			name = Chat;
+			sourceTree = "<group>";
+		};
+		4AE8C1FE207CBF31000E0A5A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4AE8C200207CBF5D000E0A5A /* BaseCell.h */,
+				4AE8C1FF207CBF5D000E0A5A /* BaseCell.m */,
+				4AE8C205207CBFB4000E0A5A /* ChatListCell.h */,
+				4AE8C206207CBFB4000E0A5A /* ChatListCell.m */,
+				4AE8C207207CBFB4000E0A5A /* ChatListCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		4AE8C20A207CC196000E0A5A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4AE8C20B207CC19F000E0A5A /* NSDate+Additions.h */,
+				4AE8C20C207CC19F000E0A5A /* NSDate+Additions.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		6A13DB9B1F8CEA740078F454 /* Terms and Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				6A13DB9C1F8CEA910078F454 /* TermsAndConditionsViewController.h */,
+				6A13DB9D1F8CEA910078F454 /* TermsAndConditionsViewController.m */,
+			);
+			name = "Terms and Conditions";
+			sourceTree = "<group>";
+		};
+		6A13DB9F1F8CFFBD0078F454 /* Contact us */ = {
+			isa = PBXGroup;
+			children = (
+				6A13DBA01F8CFFD70078F454 /* ContactUsViewController.h */,
+				6A13DBA11F8CFFD70078F454 /* ContactUsViewController.m */,
+			);
+			name = "Contact us";
+			sourceTree = "<group>";
+		};
+		6A153E3C1F7E6AA9001B6B12 /* Notifcations */ = {
+			isa = PBXGroup;
+			children = (
+				6A153E3D1F7E6AC0001B6B12 /* LiftRequestViewController.h */,
+				6A153E3E1F7E6AC0001B6B12 /* LiftRequestViewController.m */,
+				6A153E431F7EDE20001B6B12 /* SharedLiftNotified.h */,
+				6A153E441F7EDE20001B6B12 /* SharedLiftNotified.m */,
+			);
+			name = Notifcations;
+			sourceTree = "<group>";
+		};
+		6A274E5A1E8420F00093B47E /* Home Tab Item */ = {
+			isa = PBXGroup;
+			children = (
+				6AF150D11E6B50B500DCBB9D /* HomeSegmentsViewController.h */,
+				6AF150D21E6B50B500DCBB9D /* HomeSegmentsViewController.m */,
+				6AD3EA6F1E3600CA00BAA679 /* HomePassengerViewController.h */,
+				6AD3EA701E3600CA00BAA679 /* HomePassengerViewController.m */,
+				6A66A9871E421FE60067F8DE /* AddressesTableViewController.h */,
+				6A66A9881E421FE60067F8DE /* AddressesTableViewController.m */,
+				6A6F50EC1E66268000EE22C0 /* MenuTabBarController.h */,
+				6A6F50ED1E66268000EE22C0 /* MenuTabBarController.m */,
+			);
+			name = "Home Tab Item";
+			sourceTree = "<group>";
+		};
+		6A274E5B1E8421910093B47E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6A71D6A61E774E410065A202 /* ProfileDataViewControllerTabItem.h */,
+				6A71D6A71E774E410065A202 /* ProfileDataViewControllerTabItem.m */,
+				6A5B37061E8E8C09008A3DFD /* ProfileDataViewControllerRegister.h */,
+				6A5B37071E8E8C09008A3DFD /* ProfileDataViewControllerRegister.m */,
+				6ADFF1701EB9CC1100B16625 /* SharedDriverProfileData.h */,
+				6ADFF1711EB9CC1100B16625 /* SharedDriverProfileData.m */,
+				6A3CA6DB1E78858B00ACB2B9 /* SharedProfileData.h */,
+				6A3CA6DC1E78858B00ACB2B9 /* SharedProfileData.m */,
+				6A5ABDE61E29664000E8F912 /* Camera_PhotoViewController.h */,
+				6A5ABDE71E29664000E8F912 /* Camera_PhotoViewController.m */,
+				6ADBFAA41E8A849E002F485B /* MultipleSelections.xib */,
+				6ADBFAA61E8A85C4002F485B /* MultipleSelectionTableViewCell.h */,
+				6ADBFAA71E8A85C4002F485B /* MultipleSelectionTableViewCell.m */,
+				6ADBFAA91E8A88B3002F485B /* MultipleSelectionTableViewController.h */,
+				6ADBFAAA1E8A88B3002F485B /* MultipleSelectionTableViewController.m */,
+				6A0CE9511EAE73BD0009079D /* DriverProfileViewController.h */,
+				6A0CE9521EAE73BD0009079D /* DriverProfileViewController.m */,
+				6A1C59911EBB3CB80078A59B /* DriverIntroProfileViewController.h */,
+				6A1C59921EBB3CB80078A59B /* DriverIntroProfileViewController.m */,
+				6A9101A31F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.h */,
+				6A9101A41F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		6A274E5C1E8421E50093B47E /* Logout Tab Item */ = {
+			isa = PBXGroup;
+			children = (
+				6A6F50E91E6612A800EE22C0 /* LogoutViewController.h */,
+				6A6F50EA1E6612A800EE22C0 /* LogoutViewController.m */,
+			);
+			name = "Logout Tab Item";
+			sourceTree = "<group>";
+		};
+		6A274E5D1E8422130093B47E /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6A63F5B31DEE012C00CB8043 /* LoginViewController.h */,
+				6A63F5B41DEE012C00CB8043 /* LoginViewController.m */,
+				6A6D1FD41E081CA100338A0D /* LoginViewController_GOOD.h */,
+				6A6D1FD51E081CA100338A0D /* LoginViewController_GOOD.m */,
+				6A5ABDE91E296A6500E8F912 /* LoginViewController_FINAL.h */,
+				6A5ABDEA1E296A6500E8F912 /* LoginViewController_FINAL.m */,
+				6AC6AA651F6004B600CCD67D /* SignInOrSignUpViewController.h */,
+				6AC6AA661F6004B600CCD67D /* SignInOrSignUpViewController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		6A274E5E1E8422250093B47E /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				6AE804421E1BE37A006CAEDD /* SinInViewController.h */,
+				6AE804431E1BE37A006CAEDD /* SinInViewController.m */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		6A274E5F1E84222F0093B47E /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6A63F5861DEDFE0C00CB8043 /* SignUpViewController.h */,
+				6A63F5871DEDFE0C00CB8043 /* SignUpViewController.m */,
+				6A97674E1F66CA1400A3CB21 /* SignUpViewController_NEW.h */,
+				6A97674F1F66CA1400A3CB21 /* SignUpViewController_NEW.m */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		6A274E601E8422780093B47E /* Lifts */ = {
+			isa = PBXGroup;
+			children = (
+				6AB5F0021E828E1B001FA30D /* LiftsCell.xib */,
+				6A4A45E71F264A7F00221D21 /* SharedRoutesAsDriver.h */,
+				6A4A45E81F264A7F00221D21 /* SharedRoutesAsDriver.m */,
+				6A10941C1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.h */,
+				6A10941D1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.m */,
+				6AB5F0041E829618001FA30D /* LiftsTableViewCell.h */,
+				6AB5F0051E829618001FA30D /* LiftsTableViewCell.m */,
+				6AB5F00A1E82FAF7001FA30D /* RequestedTripsViewController.h */,
+				6AB5F00B1E82FAF7001FA30D /* RequestedTripsViewController.m */,
+				6AB5F0071E82B925001FA30D /* MyTripsViewController.h */,
+				6AB5F0081E82B925001FA30D /* MyTripsViewController.m */,
+				6AE0C5FC1F0BA06F00C0B62B /* MyTripsNavigationController.h */,
+				6AE0C5FD1F0BA06F00C0B62B /* MyTripsNavigationController.m */,
+			);
+			name = Lifts;
+			sourceTree = "<group>";
+		};
+		6A274E611E84228B0093B47E /* MyTrips Tab Item */ = {
+			isa = PBXGroup;
+			children = (
+				6A6792881F220A77005A8024 /* ExternalCarpooler */,
+				6AFB82641F0FA4A400F9561A /* Common Classes */,
+				6A274E631E84241E0093B47E /* Route Table */,
+				6A274E641E8424650093B47E /* RouteDetails Table */,
+				6A8712F41F20C24B00B2C274 /* LeaveFeedback */,
+				6A274E601E8422780093B47E /* Lifts */,
+			);
+			name = "MyTrips Tab Item";
+			sourceTree = "<group>";
+		};
+		6A274E621E8423B30093B47E /* Miscelaneous */ = {
+			isa = PBXGroup;
+			children = (
+				4A13F0BF20598292008E1D63 /* BackgroundTaskManager.h */,
+				4A13F0C020598293008E1D63 /* BackgroundTaskManager.m */,
+				4A13F0BE20598292008E1D63 /* LocationShareModel.h */,
+				4A13F0C320598294008E1D63 /* LocationShareModel.m */,
+				4A13F0C220598294008E1D63 /* LocationTracker.h */,
+				4A13F0C120598293008E1D63 /* LocationTracker.m */,
+				4A13F0B52058BAC3008E1D63 /* BaseRModel.h */,
+				4A13F0B62058BAC4008E1D63 /* BaseRModel.m */,
+				4A13F0B92058BAD4008E1D63 /* RPosition.h */,
+				4A13F0B82058BAD4008E1D63 /* RPosition.m */,
+				4A13F0BC2058BDFE008E1D63 /* RealmHelper.h */,
+				4A13F0BB2058BDFE008E1D63 /* RealmHelper.m */,
+				6A5B37051E8E7839008A3DFD /* CommonData.h */,
+				6A5B37031E8E7811008A3DFD /* CommonData.m */,
+				6AD3EA6C1E35F9C100BAA679 /* MyTools.h */,
+				6AD3EA6D1E35FB2500BAA679 /* MyTools.m */,
+				6A315F191E51B34200E02351 /* MyCustomAnnotation.h */,
+				6A315F1A1E51B34200E02351 /* MyCustomAnnotation.m */,
+				6A10941F1F0A94450078ACC4 /* ParseObjects.h */,
+				6A1094201F0A94450078ACC4 /* ParseObjects.m */,
+				4A845EBC202C9B8400301E4D /* UIColor+Additions.h */,
+				4A845EBB202C9B8300301E4D /* UIColor+Additions.m */,
+			);
+			name = Miscelaneous;
+			sourceTree = "<group>";
+		};
+		6A274E631E84241E0093B47E /* Route Table */ = {
+			isa = PBXGroup;
+			children = (
+				6A685EB31E5F73BE00F93741 /* RouteTableCell.xib */,
+				6A685EB41E5F73BE00F93741 /* RouteTableViewCell.h */,
+				6A685EB51E5F73BE00F93741 /* RouteTableViewCell.m */,
+				6A685EB61E5F73BE00F93741 /* RouteViewController.h */,
+				6A685EB71E5F73BE00F93741 /* RouteViewController.m */,
+			);
+			name = "Route Table";
+			sourceTree = "<group>";
+		};
+		6A274E641E8424650093B47E /* RouteDetails Table */ = {
+			isa = PBXGroup;
+			children = (
+				6A685EAE1E5F73BE00F93741 /* RouteDetails.xib */,
+				6A685EAF1E5F73BE00F93741 /* RouteDetailsTableViewCell.h */,
+				6A685EB01E5F73BE00F93741 /* RouteDetailsTableViewCell.m */,
+				6A685EB11E5F73BE00F93741 /* RouteDetailsViewController.h */,
+				6A685EB21E5F73BE00F93741 /* RouteDetailsViewController.m */,
+				6A2F65F01E81686200B0AFEA /* RouteDetailsStatusViewController.h */,
+				6A55DDCA1F18107700C8F9FA /* RouteDetailsStatusViewController.m */,
+			);
+			name = "RouteDetails Table";
+			sourceTree = "<group>";
+		};
+		6A4A45E01F2630E600221D21 /* TrafficConditions */ = {
+			isa = PBXGroup;
+			children = (
+				6A4A45E41F26371000221D21 /* TrafficConditionsViewController.h */,
+				6A4A45E51F26371000221D21 /* TrafficConditionsViewController.m */,
+				6A90E24A1F32160700B553B0 /* TrafficConditionsTableViewCell.h */,
+				6A90E24B1F32160700B553B0 /* TrafficConditionsTableViewCell.m */,
+				6A90E24D1F32162E00B553B0 /* NewReportTableViewController.h */,
+				6A90E24E1F32162E00B553B0 /* NewReportTableViewController.m */,
+				6A90E24F1F32162E00B553B0 /* ReportTableViewController.h */,
+				6A90E2501F32162E00B553B0 /* ReportTableViewController.m */,
+				6A1384D51F3B0C1500C3DCAF /* FCAlertView.h */,
+				6A1384D61F3B0C1500C3DCAF /* FCAlertView.m */,
+				6A1384D81F3B0C3000C3DCAF /* MBProgressHUD.h */,
+				6A1384D91F3B0C3000C3DCAF /* MBProgressHUD.m */,
+			);
+			name = TrafficConditions;
+			sourceTree = "<group>";
+		};
+		6A4A45ED1F26A8E500221D21 /* Rides */ = {
+			isa = PBXGroup;
+			children = (
+				4A845EB9202C8EE700301E4D /* RideCell.xib */,
+				6A4A45EE1F26A95200221D21 /* OfferTripViewController.h */,
+				6A4A45EF1F26A95200221D21 /* OfferTripViewController.m */,
+				6A4A45F11F27588A00221D21 /* OfferTripNavigationControllerViewController.h */,
+				6A4A45F21F27588A00221D21 /* OfferTripNavigationControllerViewController.m */,
+				6A120A921F28A15F007F13FE /* CreateRideViewController.h */,
+				6A120A931F28A15F007F13FE /* CreateRideViewController.m */,
+				6AD157921F2A25A4001969DD /* RideTableViewCell.h */,
+				6AD157931F2A25A4001969DD /* RideTableViewCell.m */,
+				6AD157951F2A28CE001969DD /* RidesViewController.h */,
+				6AD157961F2A28CE001969DD /* RidesViewController.m */,
+				4A9B45E12063EF4200661291 /* RidesMapDetailViewController.h */,
+				4A9B45E22063EF4200661291 /* RidesMapDetailViewController.m */,
+				4A336A6A203447BE006259DC /* OfferTripSelectionViewController.h */,
+				4A336A6B203447BE006259DC /* OfferTripSelectionViewController.m */,
+				4AC5FA35204D62DF00F0E29A /* RecordedTripVC.h */,
+				4AC5FA36204D62DF00F0E29A /* RecordedTripVC.m */,
+			);
+			name = Rides;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		6A5734F01E9D561C00914BFB /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				6A0E72F41F02F8CA0075330F /* DriverFeedbackCell.xib */,
+				6A5734ED1E9D55FA00914BFB /* DriverDetailsViewController.h */,
+				6A5734EE1E9D55FA00914BFB /* DriverDetailsViewController.m */,
+			);
+			name = Driver;
+			sourceTree = "<group>";
+		};
+		6A63F5741DEDFE0C00CB8043 = {
+			isa = PBXGroup;
+			children = (
+				6A13DB9F1F8CFFBD0078F454 /* Contact us */,
+				6A13DB9B1F8CEA740078F454 /* Terms and Conditions */,
+				6AEAC42A1F80C86A008FA897 /* KeychainItemWrapper */,
+				6A153E3C1F7E6AA9001B6B12 /* Notifcations */,
+				6A94481D1F3516600001ADAB /* Launch First Time-Show Terms&Conditions */,
+				6A90E2531F3224EC00B553B0 /* More options */,
+				6A972CA21EDF064E00FC755E /* Frameworks */,
+				6A63F57F1DEDFE0C00CB8043 /* SocialCar */,
+				6A63F5991DEDFE0C00CB8043 /* SocialCarTests */,
+				6A63F5A41DEDFE0C00CB8043 /* SocialCarUITests */,
+				6A63F57E1DEDFE0C00CB8043 /* Products */,
+				6A8733531E349CB200BBD9E7 /* Frameworks */,
+				928AF513DB107A04921C1B15 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6A63F57E1DEDFE0C00CB8043 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A63F57D1DEDFE0C00CB8043 /* SocialCar.app */,
+				6A63F5961DEDFE0C00CB8043 /* SocialCarTests.xctest */,
+				6A63F5A11DEDFE0C00CB8043 /* SocialCarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A63F57F1DEDFE0C00CB8043 /* SocialCar */ = {
+			isa = PBXGroup;
+			children = (
+				6AB504821F86437600C73812 /* GoogleService-Info.plist */,
+				6A70FFEA1F349F0A0092E5F0 /* SocialCar.entitlements */,
+				4A5810402075EE0B00E990EB /* Chat */,
+				6A4A45ED1F26A8E500221D21 /* Rides */,
+				6A4A45E01F2630E600221D21 /* TrafficConditions */,
+				6A274E5D1E8422130093B47E /* Login */,
+				6A274E5E1E8422250093B47E /* SignIn */,
+				6A274E5F1E84222F0093B47E /* SignUp */,
+				6A274E5A1E8420F00093B47E /* Home Tab Item */,
+				6A274E5B1E8421910093B47E /* Profile */,
+				6AD852D81F7967D400A8C962 /* Passenger */,
+				6A5734F01E9D561C00914BFB /* Driver */,
+				6A274E611E84228B0093B47E /* MyTrips Tab Item */,
+				6A274E5C1E8421E50093B47E /* Logout Tab Item */,
+				6A274E621E8423B30093B47E /* Miscelaneous */,
+				6A63F5831DEDFE0C00CB8043 /* AppDelegate.h */,
+				6A63F5841DEDFE0C00CB8043 /* AppDelegate.m */,
+				6A6F50EF1E6635AF00EE22C0 /* Main.storyboard */,
+				6A5ABDE41E2962EE00E8F912 /* Base.lproj */,
+				6A63F58C1DEDFE0C00CB8043 /* Assets.xcassets */,
+				6A63F58E1DEDFE0C00CB8043 /* LaunchScreen.storyboard */,
+				6A63F5911DEDFE0C00CB8043 /* Info.plist */,
+				6A7E1D941E49DDDE00A5DE2E /* Location.gpx */,
+				6A63F5801DEDFE0C00CB8043 /* Supporting Files */,
+			);
+			path = SocialCar;
+			sourceTree = "<group>";
+		};
+		6A63F5801DEDFE0C00CB8043 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D36151F7BC11A006D1884 /* Localizable.strings */,
+				6A63F5811DEDFE0C00CB8043 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A63F5991DEDFE0C00CB8043 /* SocialCarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D360B1F7BC119006D1884 /* InfoPlist.strings */,
+				6A1385071F3B24D400C3DCAF /* InfoPlist.strings */,
+				6A1385031F3B24BC00C3DCAF /* InfoPlist.strings */,
+				6A63F59A1DEDFE0C00CB8043 /* SocialCarTests.m */,
+				6A63F59C1DEDFE0C00CB8043 /* Info.plist */,
+			);
+			path = SocialCarTests;
+			sourceTree = "<group>";
+		};
+		6A63F5A41DEDFE0C00CB8043 /* SocialCarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A1D361A1F7BC11B006D1884 /* InfoPlist.strings */,
+				6A63F5A51DEDFE0C00CB8043 /* SocialCarUITests.m */,
+				6A63F5A71DEDFE0C00CB8043 /* Info.plist */,
+			);
+			path = SocialCarUITests;
+			sourceTree = "<group>";
+		};
+		6A6792881F220A77005A8024 /* ExternalCarpooler */ = {
+			isa = PBXGroup;
+			children = (
+				6A6792891F220A93005A8024 /* ExternalCarpoolerViewController.h */,
+				6A67928A1F220A93005A8024 /* ExternalCarpoolerViewController.m */,
+			);
+			name = ExternalCarpooler;
+			sourceTree = "<group>";
+		};
+		6A8712F41F20C24B00B2C274 /* LeaveFeedback */ = {
+			isa = PBXGroup;
+			children = (
+				6A8712F11F20C24000B2C274 /* LeaveFeedbackViewController.h */,
+				6A8712F21F20C24000B2C274 /* LeaveFeedbackViewController.m */,
+			);
+			name = LeaveFeedback;
+			sourceTree = "<group>";
+		};
+		6A8733531E349CB200BBD9E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AC7437E1EBE67C100488DAD /* SafariServices.framework */,
+				6A8733541E349CB300BBD9E7 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A90E2531F3224EC00B553B0 /* More options */ = {
+			isa = PBXGroup;
+			children = (
+				6A90E2571F322EE400B553B0 /* PolicyViewController.h */,
+				6A90E2581F322EE400B553B0 /* PolicyViewController.m */,
+			);
+			name = "More options";
+			sourceTree = "<group>";
+		};
+		6A94481D1F3516600001ADAB /* Launch First Time-Show Terms&Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				6A94481E1F35168F0001ADAB /* LaunchFirstTimeViewController.h */,
+				6A94481F1F35168F0001ADAB /* LaunchFirstTimeViewController.m */,
+			);
+			name = "Launch First Time-Show Terms&Conditions";
+			sourceTree = "<group>";
+		};
+		6A972CA21EDF064E00FC755E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9745A223F83EAE6979AF0A95 /* Pods_SocialCar.framework */,
+				A2A9C2A5D1157527E22FD7D5 /* Pods_SocialCarTests.framework */,
+				9BF3AD80CDD558549B0BBE4E /* Pods_SocialCarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AD852D81F7967D400A8C962 /* Passenger */ = {
+			isa = PBXGroup;
+			children = (
+				6AD852D91F79681E00A8C962 /* PassengerDetailsViewController.h */,
+				6AD852DA1F79681E00A8C962 /* PassengerDetailsViewController.m */,
+				6A06F7B21F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.h */,
+				6A06F7B31F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.m */,
+			);
+			name = Passenger;
+			sourceTree = "<group>";
+		};
+		6AEAC42A1F80C86A008FA897 /* KeychainItemWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				6AEAC42B1F80C880008FA897 /* KeychainItemWrapper.h */,
+				6AEAC42C1F80C880008FA897 /* KeychainItemWrapper.m */,
+			);
+			name = KeychainItemWrapper;
+			sourceTree = "<group>";
+		};
+		6AFB82641F0FA4A400F9561A /* Common Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A6CE1AC202361CC000B6528 /* UIUtils.h */,
+				4A6CE1AD202361CC000B6528 /* UIUtils.m */,
+				6A1094191F0A591D0078ACC4 /* Lift.h */,
+				6A10941A1F0A591D0078ACC4 /* Lift.m */,
+				6A0E72A81F02776C0075330F /* DriverFeedback.h */,
+				6A0E72A91F02776C0075330F /* DriverFeedback.m */,
+				6A543EF41EFE5FAB00277646 /* TripRetrieved.h */,
+				6A543EF51EFE5FAB00277646 /* TripRetrieved.m */,
+				6AAC7F8D1EFD127400FABFFF /* ShareRoutes.h */,
+				6AAC7F8E1EFD127400FABFFF /* ShareRoutes.m */,
+				6A543EF11EFE489500277646 /* Steps.h */,
+				6A543EF21EFE489500277646 /* Steps.m */,
+				6AF08B071F75A755003AA8DF /* IntermediatePoint.h */,
+				6AF08B081F75A755003AA8DF /* IntermediatePoint.m */,
+				6AED60411EFFC8110042E495 /* Car.h */,
+				6AED60421EFFC8110042E495 /* Car.m */,
+				6AED60441EFFC8940042E495 /* Driver.h */,
+				6AED60451EFFC8940042E495 /* Driver.m */,
+				6AD2AA801F05318E000920D7 /* Feedback.h */,
+				6AD2AA811F05318E000920D7 /* Feedback.m */,
+				6A4A45EA1F268C0200221D21 /* Ride.h */,
+				6A4A45EB1F268C0200221D21 /* Ride.m */,
+				6A6294071F784882009C7C40 /* Passenger.h */,
+				6A6294081F784882009C7C40 /* Passenger.m */,
+			);
+			name = "Common Classes";
+			sourceTree = "<group>";
+		};
+		928AF513DB107A04921C1B15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD2C27FFF05E5D45C0039201 /* Pods-SocialCar.debug.xcconfig */,
+				D812B0EA891D95D8CB07AE4F /* Pods-SocialCar.release.xcconfig */,
+				B58D62972B0D3BCA270F5572 /* Pods-SocialCarTests.debug.xcconfig */,
+				C619A4D9307D807959EFAFC4 /* Pods-SocialCarTests.release.xcconfig */,
+				3465B0B5174C4800944A2F5C /* Pods-SocialCarUITests.debug.xcconfig */,
+				EBB35303854D0EB0C84C6F2F /* Pods-SocialCarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A63F57C1DEDFE0C00CB8043 /* SocialCar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A63F5AA1DEDFE0C00CB8043 /* Build configuration list for PBXNativeTarget "SocialCar" */;
+			buildPhases = (
+				EC233E9B879D6EF16FC6AA5F /* [CP] Check Pods Manifest.lock */,
+				6A63F5791DEDFE0C00CB8043 /* Sources */,
+				6A63F57A1DEDFE0C00CB8043 /* Frameworks */,
+				6A63F57B1DEDFE0C00CB8043 /* Resources */,
+				83C70D8F4C99806628A4EFE9 /* [CP] Embed Pods Frameworks */,
+				808AD6BC99AE4C7D71E8168B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocialCar;
+			productName = SocialCar;
+			productReference = 6A63F57D1DEDFE0C00CB8043 /* SocialCar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A63F5951DEDFE0C00CB8043 /* SocialCarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A63F5AD1DEDFE0C00CB8043 /* Build configuration list for PBXNativeTarget "SocialCarTests" */;
+			buildPhases = (
+				5E582261155ED95C1A8DCBD3 /* [CP] Check Pods Manifest.lock */,
+				6A63F5921DEDFE0C00CB8043 /* Sources */,
+				6A63F5931DEDFE0C00CB8043 /* Frameworks */,
+				6A63F5941DEDFE0C00CB8043 /* Resources */,
+				C007D54903F32486FE2B2693 /* [CP] Embed Pods Frameworks */,
+				E02F4316EDE37D6A230D4A08 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A63F5981DEDFE0C00CB8043 /* PBXTargetDependency */,
+			);
+			name = SocialCarTests;
+			productName = SocialCarTests;
+			productReference = 6A63F5961DEDFE0C00CB8043 /* SocialCarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A63F5A01DEDFE0C00CB8043 /* SocialCarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A63F5B01DEDFE0C00CB8043 /* Build configuration list for PBXNativeTarget "SocialCarUITests" */;
+			buildPhases = (
+				E57CF640CCA1D8A80105608C /* [CP] Check Pods Manifest.lock */,
+				6A63F59D1DEDFE0C00CB8043 /* Sources */,
+				6A63F59E1DEDFE0C00CB8043 /* Frameworks */,
+				6A63F59F1DEDFE0C00CB8043 /* Resources */,
+				60252B501BE11A3420DAE505 /* [CP] Embed Pods Frameworks */,
+				93E707AECBC6ABFF14728105 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A63F5A31DEDFE0C00CB8043 /* PBXTargetDependency */,
+			);
+			name = SocialCarUITests;
+			productName = SocialCarUITests;
+			productReference = 6A63F5A11DEDFE0C00CB8043 /* SocialCarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A63F5751DEDFE0C00CB8043 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Ab.Acus;
+				TargetAttributes = {
+					6A63F57C1DEDFE0C00CB8043 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = GGDS68S6MW;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					6A63F5951DEDFE0C00CB8043 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 57429M5VS7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A63F57C1DEDFE0C00CB8043;
+					};
+					6A63F5A01DEDFE0C00CB8043 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 57429M5VS7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6A63F57C1DEDFE0C00CB8043;
+					};
+				};
+			};
+			buildConfigurationList = 6A63F5781DEDFE0C00CB8043 /* Build configuration list for PBXProject "SocialCar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				fr,
+				"en-GB",
+				el,
+			);
+			mainGroup = 6A63F5741DEDFE0C00CB8043;
+			productRefGroup = 6A63F57E1DEDFE0C00CB8043 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A63F57C1DEDFE0C00CB8043 /* SocialCar */,
+				6A63F5951DEDFE0C00CB8043 /* SocialCarTests */,
+				6A63F5A01DEDFE0C00CB8043 /* SocialCarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A63F57B1DEDFE0C00CB8043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AE8C209207CBFB4000E0A5A /* ChatListCell.xib in Resources */,
+				6AB5F0031E828E1B001FA30D /* LiftsCell.xib in Resources */,
+				6A6F50F11E6635AF00EE22C0 /* Main.storyboard in Resources */,
+				6A0E72F51F02F8CA0075330F /* DriverFeedbackCell.xib in Resources */,
+				6A685EB81E5F73BE00F93741 /* RouteDetails.xib in Resources */,
+				6A63F5901DEDFE0C00CB8043 /* LaunchScreen.storyboard in Resources */,
+				6ADBFAA51E8A849E002F485B /* MultipleSelections.xib in Resources */,
+				6A685EBB1E5F73BE00F93741 /* RouteTableCell.xib in Resources */,
+				6AB504831F86437600C73812 /* GoogleService-Info.plist in Resources */,
+				4A1D36131F7BC11A006D1884 /* Localizable.strings in Resources */,
+				4A845EBA202C8EE700301E4D /* RideCell.xib in Resources */,
+				6A5ABDE51E2962EE00E8F912 /* Base.lproj in Resources */,
+				6A63F58D1DEDFE0C00CB8043 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63F5941DEDFE0C00CB8043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1385041F3B24BC00C3DCAF /* InfoPlist.strings in Resources */,
+				4A1D36091F7BC119006D1884 /* InfoPlist.strings in Resources */,
+				6A1385081F3B24D400C3DCAF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63F59F1DEDFE0C00CB8043 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A1D36181F7BC11B006D1884 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E582261155ED95C1A8DCBD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialCarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60252B501BE11A3420DAE505 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialCarUITests/Pods-SocialCarUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		808AD6BC99AE4C7D71E8168B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialCar/Pods-SocialCar-resources.sh",
+				"${PODS_ROOT}/GoogleAuthUtilities/Frameworks/frameworks/GoogleAuthUtilities.framework/Resources/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialCar/Pods-SocialCar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C70D8F4C99806628A4EFE9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SocialCar/Pods-SocialCar-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFCircularProgressView/FFCircularProgressView.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/QMChatViewController/QMChatViewController.framework",
+				"${PODS_ROOT}/QuickBlox/Quickblox.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TTTAttributedLabel/TTTAttributedLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFCircularProgressView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QMChatViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quickblox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TTTAttributedLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialCar/Pods-SocialCar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93E707AECBC6ABFF14728105 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialCarUITests/Pods-SocialCarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C007D54903F32486FE2B2693 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialCarTests/Pods-SocialCarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E02F4316EDE37D6A230D4A08 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SocialCarTests/Pods-SocialCarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E57CF640CCA1D8A80105608C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialCarUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC233E9B879D6EF16FC6AA5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SocialCar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A63F5791DEDFE0C00CB8043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD2AA821F05318E000920D7 /* Feedback.m in Sources */,
+				6A5B37041E8E7811008A3DFD /* CommonData.m in Sources */,
+				6A543EF61EFE5FAB00277646 /* TripRetrieved.m in Sources */,
+				6A13DB9E1F8CEA910078F454 /* TermsAndConditionsViewController.m in Sources */,
+				6AB5F00C1E82FAF7001FA30D /* RequestedTripsViewController.m in Sources */,
+				4AC5FA37204D62DF00F0E29A /* RecordedTripVC.m in Sources */,
+				4A845EBD202C9B8400301E4D /* UIColor+Additions.m in Sources */,
+				4A13F0C420598294008E1D63 /* BackgroundTaskManager.m in Sources */,
+				6A9448201F35168F0001ADAB /* LaunchFirstTimeViewController.m in Sources */,
+				6A4A45F31F27588A00221D21 /* OfferTripNavigationControllerViewController.m in Sources */,
+				6A6F50E81E6605DC00EE22C0 /* MyTools.m in Sources */,
+				6AF08B091F75A755003AA8DF /* IntermediatePoint.m in Sources */,
+				6A5ABDE81E29664000E8F912 /* Camera_PhotoViewController.m in Sources */,
+				6A1384DA1F3B0C3000C3DCAF /* MBProgressHUD.m in Sources */,
+				6A685EBC1E5F73BE00F93741 /* RouteTableViewCell.m in Sources */,
+				6AB5F0091E82B925001FA30D /* MyTripsViewController.m in Sources */,
+				6A66A9891E421FE60067F8DE /* AddressesTableViewController.m in Sources */,
+				6A4A45E91F264A7F00221D21 /* SharedRoutesAsDriver.m in Sources */,
+				6AD852DB1F79681E00A8C962 /* PassengerDetailsViewController.m in Sources */,
+				6ADBFAAB1E8A88B3002F485B /* MultipleSelectionTableViewController.m in Sources */,
+				6A6F50EE1E66268000EE22C0 /* MenuTabBarController.m in Sources */,
+				6AD157971F2A28CE001969DD /* RidesViewController.m in Sources */,
+				6A5B37081E8E8C09008A3DFD /* ProfileDataViewControllerRegister.m in Sources */,
+				6A1384D71F3B0C1500C3DCAF /* FCAlertView.m in Sources */,
+				6A120A941F28A15F007F13FE /* CreateRideViewController.m in Sources */,
+				4A336A6C203447BE006259DC /* OfferTripSelectionViewController.m in Sources */,
+				6A4A45E61F26371000221D21 /* TrafficConditionsViewController.m in Sources */,
+				6A6F50EB1E6612A800EE22C0 /* LogoutViewController.m in Sources */,
+				6A8712F31F20C24000B2C274 /* LeaveFeedbackViewController.m in Sources */,
+				6A685EBD1E5F73BE00F93741 /* RouteViewController.m in Sources */,
+				6A90E2591F322EE400B553B0 /* PolicyViewController.m in Sources */,
+				6A5734EF1E9D55FA00914BFB /* DriverDetailsViewController.m in Sources */,
+				4AE8C20D207CC19F000E0A5A /* NSDate+Additions.m in Sources */,
+				6A685EBA1E5F73BE00F93741 /* RouteDetailsViewController.m in Sources */,
+				6A90E2511F32162E00B553B0 /* NewReportTableViewController.m in Sources */,
+				6AED60461EFFC8940042E495 /* Driver.m in Sources */,
+				6AE0C5FE1F0BA06F00C0B62B /* MyTripsNavigationController.m in Sources */,
+				6ADFF1721EB9CC1100B16625 /* SharedDriverProfileData.m in Sources */,
+				6A55DDCB1F18107700C8F9FA /* RouteDetailsStatusViewController.m in Sources */,
+				6A63F5B51DEE012C00CB8043 /* LoginViewController.m in Sources */,
+				4A5810432075EE3700E990EB /* ChatListViewController.m in Sources */,
+				6A67928B1F220A93005A8024 /* ExternalCarpoolerViewController.m in Sources */,
+				6A3CA6DD1E78858B00ACB2B9 /* SharedProfileData.m in Sources */,
+				6A6294091F784882009C7C40 /* Passenger.m in Sources */,
+				4A13F0BA2058BAD4008E1D63 /* RPosition.m in Sources */,
+				6AB5F0061E829618001FA30D /* LiftsTableViewCell.m in Sources */,
+				4A13F0C620598294008E1D63 /* LocationShareModel.m in Sources */,
+				6A13DBA21F8CFFD70078F454 /* ContactUsViewController.m in Sources */,
+				6AAC7F8F1EFD127400FABFFF /* ShareRoutes.m in Sources */,
+				6A153E451F7EDE20001B6B12 /* SharedLiftNotified.m in Sources */,
+				6AED60431EFFC8110042E495 /* Car.m in Sources */,
+				6A63F5881DEDFE0C00CB8043 /* SignUpViewController.m in Sources */,
+				4A5810492075F56700E990EB /* BaseModel.m in Sources */,
+				6A10941B1F0A591D0078ACC4 /* Lift.m in Sources */,
+				6A4A45F01F26A95200221D21 /* OfferTripViewController.m in Sources */,
+				6A9767501F66CA1400A3CB21 /* SignUpViewController_NEW.m in Sources */,
+				6A0CE9531EAE73BD0009079D /* DriverProfileViewController.m in Sources */,
+				6A315F1B1E51B34200E02351 /* MyCustomAnnotation.m in Sources */,
+				4A13F0B72058BAC5008E1D63 /* BaseRModel.m in Sources */,
+				6A9101A51F9C750000CFC435 /* ProfileDataViewControllerRegisterLIMIT.m in Sources */,
+				6A90E2521F32162E00B553B0 /* ReportTableViewController.m in Sources */,
+				4AE8C208207CBFB4000E0A5A /* ChatListCell.m in Sources */,
+				6AEAC42D1F80C880008FA897 /* KeychainItemWrapper.m in Sources */,
+				6A90E24C1F32160700B553B0 /* TrafficConditionsTableViewCell.m in Sources */,
+				4A9B45E32063EF4200661291 /* RidesMapDetailViewController.m in Sources */,
+				4AE8C307207CCE0F000E0A5A /* ChatRoomVC.m in Sources */,
+				6A1C59931EBB3CB80078A59B /* DriverIntroProfileViewController.m in Sources */,
+				4AE8C201207CBF5D000E0A5A /* BaseCell.m in Sources */,
+				6AC6AA671F6004B600CCD67D /* SignInOrSignUpViewController.m in Sources */,
+				6A4A45EC1F268C0200221D21 /* Ride.m in Sources */,
+				6A06F7B41F7AEAAA00DEB5A5 /* PassengerDetailsForRidesViewController.m in Sources */,
+				6A1094211F0A94450078ACC4 /* ParseObjects.m in Sources */,
+				6A0E72AA1F02776C0075330F /* DriverFeedback.m in Sources */,
+				4A13F0C520598294008E1D63 /* LocationTracker.m in Sources */,
+				6A6D1FD61E081CA100338A0D /* LoginViewController_GOOD.m in Sources */,
+				6AF150D31E6B50B500DCBB9D /* HomeSegmentsViewController.m in Sources */,
+				4A5810482075F56700E990EB /* ChatListItem.m in Sources */,
+				6ADBFAA81E8A85C4002F485B /* MultipleSelectionTableViewCell.m in Sources */,
+				6A153E3F1F7E6AC0001B6B12 /* LiftRequestViewController.m in Sources */,
+				6AD3EA711E3600CA00BAA679 /* HomePassengerViewController.m in Sources */,
+				6AD157941F2A25A4001969DD /* RideTableViewCell.m in Sources */,
+				4A6CE1AE202361CC000B6528 /* UIUtils.m in Sources */,
+				6A63F5851DEDFE0C00CB8043 /* AppDelegate.m in Sources */,
+				6A5ABDEB1E296A6500E8F912 /* LoginViewController_FINAL.m in Sources */,
+				4A13F0BD2058BDFE008E1D63 /* RealmHelper.m in Sources */,
+				6AE804441E1BE37A006CAEDD /* SinInViewController.m in Sources */,
+				6A71D6A81E774E410065A202 /* ProfileDataViewControllerTabItem.m in Sources */,
+				6A10941E1F0A5B8B0078ACC4 /* SharedRoutesAsPassenger.m in Sources */,
+				6A543EF31EFE489500277646 /* Steps.m in Sources */,
+				6A685EB91E5F73BE00F93741 /* RouteDetailsTableViewCell.m in Sources */,
+				6A63F5821DEDFE0C00CB8043 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63F5921DEDFE0C00CB8043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A63F59B1DEDFE0C00CB8043 /* SocialCarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A63F59D1DEDFE0C00CB8043 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A63F5A61DEDFE0C00CB8043 /* SocialCarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A63F5981DEDFE0C00CB8043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A63F57C1DEDFE0C00CB8043 /* SocialCar */;
+			targetProxy = 6A63F5971DEDFE0C00CB8043 /* PBXContainerItemProxy */;
+		};
+		6A63F5A31DEDFE0C00CB8043 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A63F57C1DEDFE0C00CB8043 /* SocialCar */;
+			targetProxy = 6A63F5A21DEDFE0C00CB8043 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A1D360B1F7BC119006D1884 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1D360A1F7BC119006D1884 /* it */,
+				4A1D361B1F7BC1AA006D1884 /* nl-NL */,
+				4A2641451F82807C00A7FAF3 /* fr */,
+				4A26414D1F8280C100A7FAF3 /* sl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A1D36151F7BC11A006D1884 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1D36141F7BC11A006D1884 /* it */,
+				4A41E4FD1F7E5D7B00AC5B2F /* fr */,
+				4A41E5041F7E73BE00AC5B2F /* nl-NL */,
+				4A2641551F8280C600A7FAF3 /* sl */,
+				4A7D27F51F83CC4900A30CED /* en */,
+				6A7A484A1FD198220046926E /* el */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4A1D361A1F7BC11B006D1884 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A1D36191F7BC11B006D1884 /* it */,
+				4A1D36221F7BC1AC006D1884 /* nl-NL */,
+				4A26414C1F82807D00A7FAF3 /* fr */,
+				4A2641541F8280C300A7FAF3 /* sl */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A63F58E1DEDFE0C00CB8043 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A63F58F1DEDFE0C00CB8043 /* Base */,
+				6A8396D51DEF7192008B2415 /* en */,
+				6AFE3DE21F7401A400781B82 /* fr */,
+				6AFE3DE61F7401D600781B82 /* nl-NL */,
+				6AFE3DE81F7401DD00781B82 /* it */,
+				6AFE3DEA1F7401E800781B82 /* sl */,
+				6AF08B061F754226003AA8DF /* en-GB */,
+				6A7A48491FD198220046926E /* el */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A6F50EF1E6635AF00EE22C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A6F50F01E6635AF00EE22C0 /* Base */,
+				6AFE3DE71F7401DD00781B82 /* it */,
+				6AF08B051F754226003AA8DF /* en-GB */,
+				4A41E5031F7E73BE00AC5B2F /* nl-NL */,
+				4A26414B1F82807D00A7FAF3 /* fr */,
+				4A2641531F8280C200A7FAF3 /* sl */,
+				6A7A48481FD198210046926E /* el */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A63F5A81DEDFE0C00CB8043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/hit_macbook/Documents/FacebookSDK;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A63F5A91DEDFE0C00CB8043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = /Users/hit_macbook/Documents/FacebookSDK;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A63F5AB1DEDFE0C00CB8043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD2C27FFF05E5D45C0039201 /* Pods-SocialCar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SocialCar/SocialCar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GGDS68S6MW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SocialCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abacus.SocialCar2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialCar/SocialCar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6A63F5AC1DEDFE0C00CB8043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D812B0EA891D95D8CB07AE4F /* Pods-SocialCar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SocialCar/SocialCar.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = GGDS68S6MW;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = SocialCar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abacus.SocialCar2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SocialCar/SocialCar-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6A63F5AE1DEDFE0C00CB8043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58D62972B0D3BCA270F5572 /* Pods-SocialCarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 57429M5VS7;
+				INFOPLIST_FILE = SocialCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = certh.gr.SocialCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialCar.app/SocialCar";
+			};
+			name = Debug;
+		};
+		6A63F5AF1DEDFE0C00CB8043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C619A4D9307D807959EFAFC4 /* Pods-SocialCarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 57429M5VS7;
+				INFOPLIST_FILE = SocialCarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = certh.gr.SocialCarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SocialCar.app/SocialCar";
+			};
+			name = Release;
+		};
+		6A63F5B11DEDFE0C00CB8043 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3465B0B5174C4800944A2F5C /* Pods-SocialCarUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 57429M5VS7;
+				INFOPLIST_FILE = SocialCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = certh.gr.SocialCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialCar;
+			};
+			name = Debug;
+		};
+		6A63F5B21DEDFE0C00CB8043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBB35303854D0EB0C84C6F2F /* Pods-SocialCarUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 57429M5VS7;
+				INFOPLIST_FILE = SocialCarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = certh.gr.SocialCarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SocialCar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A63F5781DEDFE0C00CB8043 /* Build configuration list for PBXProject "SocialCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A63F5A81DEDFE0C00CB8043 /* Debug */,
+				6A63F5A91DEDFE0C00CB8043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A63F5AA1DEDFE0C00CB8043 /* Build configuration list for PBXNativeTarget "SocialCar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A63F5AB1DEDFE0C00CB8043 /* Debug */,
+				6A63F5AC1DEDFE0C00CB8043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A63F5AD1DEDFE0C00CB8043 /* Build configuration list for PBXNativeTarget "SocialCarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A63F5AE1DEDFE0C00CB8043 /* Debug */,
+				6A63F5AF1DEDFE0C00CB8043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A63F5B01DEDFE0C00CB8043 /* Build configuration list for PBXNativeTarget "SocialCarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A63F5B11DEDFE0C00CB8043 /* Debug */,
+				6A63F5B21DEDFE0C00CB8043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A63F5751DEDFE0C00CB8043 /* Project object */;
+}

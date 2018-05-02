@@ -1,0 +1,2016 @@
+2017-11-21 7:44:57 PM +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f980e040920; archive(resolved)='<IDEArchive: 0x7f980f87e840>', distributionTask(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team(resolved)='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f980e040920; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionProcessingPipelineContext: 0x7f980f9bbfc0; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f980e154d10; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f97f8e2ef60; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f980c2632c0; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f97f7d6fce0; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f9815500c50; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f97f755cf60; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f97f8ef6680; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f980fdc8e40; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7f9822b34470>', team='<IDEProvisioningBasicTeam 0x7f9809d045d0: teamID: 57429M5VS7, teamName: Kostas Kalogirou>'>
+	<IDEDistributionContext: 0x7f980e10a620; archive = '<IDEArchive: 0x7f980f87e840>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7f980e040920>
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionCreateDestRootStep
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionCopyItemStep
+2017-11-21 7:44:57 PM +0000  Running /usr/bin/ditto '-V' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app'
+2017-11-21 7:44:57 PM +0000  >>> Copying /Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app 
+2017-11-21 7:44:57 PM +0000  copying file ./_CodeSignature/CodeResources ... 
+2017-11-21 7:44:57 PM +0000  94239 bytes for ./_CodeSignature/CodeResources
+2017-11-21 7:44:57 PM +0000  copying file ./en.lproj/LaunchScreen.strings ... 
+2017-11-21 7:44:57 PM +0000  1 bytes for ./en.lproj/LaunchScreen.strings
+copying file ./en.lproj/Localizable.strings ... 
+2017-11-21 7:44:57 PM +0000  956 bytes for ./en.lproj/Localizable.strings
+2017-11-21 7:44:57 PM +0000  copying file ./LiftsCell.nib ... 
+2017-11-21 7:44:57 PM +0000  3652 bytes for ./LiftsCell.nib
+2017-11-21 7:44:57 PM +0000  copying file ./en-GB.lproj/LaunchScreen.strings ... 
+2017-11-21 7:44:57 PM +0000  1 bytes for ./en-GB.lproj/LaunchScreen.strings
+copying file ./en-GB.lproj/Main.strings ... 
+2017-11-21 7:44:57 PM +0000  34449 bytes for ./en-GB.lproj/Main.strings
+2017-11-21 7:44:57 PM +0000  copying file ./sl.lproj/LaunchScreen.strings ... 
+2017-11-21 7:44:57 PM +0000  26 bytes for ./sl.lproj/LaunchScreen.strings
+2017-11-21 7:44:57 PM +0000  copying file ./sl.lproj/Main.strings ... 
+2017-11-21 7:44:57 PM +0000  36113 bytes for ./sl.lproj/Main.strings
+2017-11-21 7:44:57 PM +0000  copying file ./sl.lproj/Localizable.strings ... 
+2017-11-21 7:44:57 PM +0000  7357 bytes for ./sl.lproj/Localizable.strings
+2017-11-21 7:44:57 PM +0000  copying file ./it.lproj/LaunchScreen.strings ... 
+2017-11-21 7:44:57 PM +0000  26 bytes for ./it.lproj/LaunchScreen.strings
+copying file ./it.lproj/Main.strings ... 
+2017-11-21 7:44:57 PM +0000  36171 bytes for ./it.lproj/Main.strings
+copying file ./it.lproj/Localizable.strings ... 
+2017-11-21 7:44:57 PM +0000  7196 bytes for ./it.lproj/Localizable.strings
+2017-11-21 7:44:57 PM +0000  copying file ./AppIcon60x60@2x.png ... 
+2017-11-21 7:44:57 PM +0000  9185 bytes for ./AppIcon60x60@2x.png
+2017-11-21 7:44:57 PM +0000  copying file ./MultipleSelections.nib ... 
+2017-11-21 7:44:57 PM +0000  3564 bytes for ./MultipleSelections.nib
+copying file ./GTMOAuth2ViewTouch.nib ... 
+2017-11-21 7:44:57 PM +0000  3652 bytes for ./GTMOAuth2ViewTouch.nib
+copying file ./DriverFeedbackCell.nib ... 
+2017-11-21 7:44:57 PM +0000  3883 bytes for ./DriverFeedbackCell.nib
+copying file ./SocialCar ... 
+2017-11-21 7:44:57 PM +0000  8328000 bytes for ./SocialCar
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleService-Info.plist ... 
+2017-11-21 7:44:57 PM +0000  1022 bytes for ./GoogleService-Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./AppIcon60x60@3x.png ... 
+2017-11-21 7:44:57 PM +0000  23350 bytes for ./AppIcon60x60@3x.png
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/LaunchScreen.storyboard ... 
+2017-11-21 7:44:57 PM +0000  1885 bytes for ./Base.lproj/LaunchScreen.storyboard
+copying file ./Base.lproj/Main.storyboard ... 
+2017-11-21 7:44:57 PM +0000  1497845 bytes for ./Base.lproj/Main.storyboard
+copying file ./Base.lproj/Localizable.strings ... 
+2017-11-21 7:44:57 PM +0000  1065 bytes for ./Base.lproj/Localizable.strings
+copying file ./Base.lproj/Login.storyboard ... 
+2017-11-21 7:44:57 PM +0000  16496 bytes for ./Base.lproj/Login.storyboard
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-rNf-ev-fXF.nib ... 
+2017-11-21 7:44:57 PM +0000  988 bytes for ./Base.lproj/Main.storyboardc/UIViewController-rNf-ev-fXF.nib
+copying file ./Base.lproj/Main.storyboardc/NewReportTableViewController.nib ... 
+2017-11-21 7:44:57 PM +0000  1212 bytes for ./Base.lproj/Main.storyboardc/NewReportTableViewController.nib
+copying file ./Base.lproj/Main.storyboardc/XP5-PC-VU1-view-XHX-W1-eDG.nib ... 
+2017-11-21 7:44:57 PM +0000  11025 bytes for ./Base.lproj/Main.storyboardc/XP5-PC-VU1-view-XHX-W1-eDG.nib
+copying file ./Base.lproj/Main.storyboardc/xuo-Oh-fIF-view-sqd-IK-qCt.nib ... 
+2017-11-21 7:44:57 PM +0000  1572 bytes for ./Base.lproj/Main.storyboardc/xuo-Oh-fIF-view-sqd-IK-qCt.nib
+copying file ./Base.lproj/Main.storyboardc/signUpStoryboard_new.nib ... 
+2017-11-21 7:44:57 PM +0000  1522 bytes for ./Base.lproj/Main.storyboardc/signUpStoryboard_new.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-OBh-pX-W0S.nib ... 
+2017-11-21 7:44:57 PM +0000  1151 bytes for ./Base.lproj/Main.storyboardc/UIViewController-OBh-pX-W0S.nib
+copying file ./Base.lproj/Main.storyboardc/Gvh-OU-izi-view-Ie4-m6-Oog.nib ... 
+2017-11-21 7:44:57 PM +0000  9401 bytes for ./Base.lproj/Main.storyboardc/Gvh-OU-izi-view-Ie4-m6-Oog.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/sMs-LS-BBk-view-1jY-vC-SiE.nib ... 
+2017-11-21 7:44:57 PM +0000  9208 bytes for ./Base.lproj/Main.storyboardc/sMs-LS-BBk-view-1jY-vC-SiE.nib
+copying file ./Base.lproj/Main.storyboardc/fEX-UX-PJ3-view-qmY-ck-wS2.nib ... 
+2017-11-21 7:44:57 PM +0000  5904 bytes for ./Base.lproj/Main.storyboardc/fEX-UX-PJ3-view-qmY-ck-wS2.nib
+copying file ./Base.lproj/Main.storyboardc/profileDataRegisterStoryboardLIMIT.nib ... 
+2017-11-21 7:44:57 PM +0000  2060 bytes for ./Base.lproj/Main.storyboardc/profileDataRegisterStoryboardLIMIT.nib
+copying file ./Base.lproj/Main.storyboardc/Zfa-UG-AIi-view-SBX-f9-LZy.nib ... 
+2017-11-21 7:44:57 PM +0000  6021 bytes for ./Base.lproj/Main.storyboardc/Zfa-UG-AIi-view-SBX-f9-LZy.nib
+copying file ./Base.lproj/Main.storyboardc/OJu-CA-Mij-view-5wC-i6-fFi.nib ... 
+2017-11-21 7:44:57 PM +0000  106839 bytes for ./Base.lproj/Main.storyboardc/OJu-CA-Mij-view-5wC-i6-fFi.nib
+copying file ./Base.lproj/Main.storyboardc/Segment_Requested_Trips.nib ... 
+2017-11-21 7:44:57 PM +0000  1160 bytes for ./Base.lproj/Main.storyboardc/Segment_Requested_Trips.nib
+copying file ./Base.lproj/Main.storyboardc/profileDataRegisterStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  2663 bytes for ./Base.lproj/Main.storyboardc/profileDataRegisterStoryboard.nib
+copying file ./Base.lproj/Main.storyboardc/w0j-OB-jcd-view-R3A-Wd-XYg.nib ... 
+2017-11-21 7:44:57 PM +0000  8047 bytes for ./Base.lproj/Main.storyboardc/w0j-OB-jcd-view-R3A-Wd-XYg.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-J5N-Wv-NvW.nib ... 
+2017-11-21 7:44:57 PM +0000  1562 bytes for ./Base.lproj/Main.storyboardc/UIViewController-J5N-Wv-NvW.nib
+copying file ./Base.lproj/Main.storyboardc/signUpStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  1518 bytes for ./Base.lproj/Main.storyboardc/signUpStoryboard.nib
+copying file ./Base.lproj/Main.storyboardc/inI-09-3Sl-view-UJG-27-w1W.nib ... 
+2017-11-21 7:44:57 PM +0000  14362 bytes for ./Base.lproj/Main.storyboardc/inI-09-3Sl-view-UJG-27-w1W.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-47E-jf-Isf.nib ... 
+2017-11-21 7:44:57 PM +0000  1401 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-47E-jf-Isf.nib
+copying file ./Base.lproj/Main.storyboardc/storyboardCreateDriverProfile.nib ... 
+2017-11-21 7:44:57 PM +0000  1046 bytes for ./Base.lproj/Main.storyboardc/storyboardCreateDriverProfile.nib
+copying file ./Base.lproj/Main.storyboardc/mainPageStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  1511 bytes for ./Base.lproj/Main.storyboardc/mainPageStoryboard.nib
+copying file ./Base.lproj/Main.storyboardc/signInStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  1020 bytes for ./Base.lproj/Main.storyboardc/signInStoryboard.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/3md-IT-54w-view-igg-8S-8vN.nib ... 
+2017-11-21 7:44:57 PM +0000  9944 bytes for ./Base.lproj/Main.storyboardc/3md-IT-54w-view-igg-8S-8vN.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-UJ9-GM-AuD.nib ... 
+2017-11-21 7:44:57 PM +0000  1636 bytes for ./Base.lproj/Main.storyboardc/UIViewController-UJ9-GM-AuD.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/selectAddressStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  1241 bytes for ./Base.lproj/Main.storyboardc/selectAddressStoryboard.nib
+copying file ./Base.lproj/Main.storyboardc/storyboardOfferTripViewController.nib ... 
+2017-11-21 7:44:57 PM +0000  1041 bytes for ./Base.lproj/Main.storyboardc/storyboardOfferTripViewController.nib
+copying file ./Base.lproj/Main.storyboardc/createRideStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  1153 bytes for ./Base.lproj/Main.storyboardc/createRideStoryboard.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/storyboardLiftReuestOnNotification.nib ... 
+2017-11-21 7:44:57 PM +0000  1166 bytes for ./Base.lproj/Main.storyboardc/storyboardLiftReuestOnNotification.nib
+copying file ./Base.lproj/Main.storyboardc/menuTabStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  12126 bytes for ./Base.lproj/Main.storyboardc/menuTabStoryboard.nib
+copying file ./Base.lproj/Main.storyboardc/ExternalCarpoolerViewController.nib ... 
+2017-11-21 7:44:57 PM +0000  1153 bytes for ./Base.lproj/Main.storyboardc/ExternalCarpoolerViewController.nib
+copying file ./Base.lproj/Main.storyboardc/Fya-pT-dyd-view-YnO-Cg-GpV.nib ... 
+2017-11-21 7:44:57 PM +0000  7147 bytes for ./Base.lproj/Main.storyboardc/Fya-pT-dyd-view-YnO-Cg-GpV.nib
+copying file ./Base.lproj/Main.storyboardc/6WD-Ym-mR8-view-J2d-Nb-Ern.nib ... 
+2017-11-21 7:44:57 PM +0000  6420 bytes for ./Base.lproj/Main.storyboardc/6WD-Ym-mR8-view-J2d-Nb-Ern.nib
+copying file ./Base.lproj/Main.storyboardc/rNf-ev-fXF-view-s7L-AG-p1f.nib ... 
+2017-11-21 7:44:57 PM +0000  6572 bytes for ./Base.lproj/Main.storyboardc/rNf-ev-fXF-view-s7L-AG-p1f.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/RTP-L4-bmJ-view-r1N-k4-VWg.nib ... 
+2017-11-21 7:44:57 PM +0000  4694 bytes for ./Base.lproj/Main.storyboardc/RTP-L4-bmJ-view-r1N-k4-VWg.nib
+copying file ./Base.lproj/Main.storyboardc/MyTripsStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  1347 bytes for ./Base.lproj/Main.storyboardc/MyTripsStoryboard.nib
+copying file ./Base.lproj/Main.storyboardc/OBh-pX-W0S-view-CDO-C8-2Tf.nib ... 
+2017-11-21 7:44:57 PM +0000  4576 bytes for ./Base.lproj/Main.storyboardc/OBh-pX-W0S-view-CDO-C8-2Tf.nib
+copying file ./Base.lproj/Main.storyboardc/KXo-VZ-Pem-view-pKB-rJ-TxF.nib ... 
+2017-11-21 7:44:57 PM +0000  1530 bytes for ./Base.lproj/Main.storyboardc/KXo-VZ-Pem-view-pKB-rJ-TxF.nib
+copying file ./Base.lproj/Main.storyboardc/dwY-1v-0zM-view-ebo-wK-e8W.nib ... 
+2017-11-21 7:44:57 PM +0000  5986 bytes for ./Base.lproj/Main.storyboardc/dwY-1v-0zM-view-ebo-wK-e8W.nib
+copying file ./Base.lproj/Main.storyboardc/MO6-8V-KPo-view-DB5-wd-l18.nib ... 
+2017-11-21 7:44:57 PM +0000  1530 bytes for ./Base.lproj/Main.storyboardc/MO6-8V-KPo-view-DB5-wd-l18.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/wt8-oq-jui-view-2Av-LG-IiF.nib ... 
+2017-11-21 7:44:57 PM +0000  20563 bytes for ./Base.lproj/Main.storyboardc/wt8-oq-jui-view-2Av-LG-IiF.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/storyboardDriverProfile.nib ... 
+2017-11-21 7:44:57 PM +0000  1820 bytes for ./Base.lproj/Main.storyboardc/storyboardDriverProfile.nib
+copying file ./Base.lproj/Main.storyboardc/llj-Xi-S7O-view-Oth-C8-I1y.nib ... 
+2017-11-21 7:44:57 PM +0000  6102 bytes for ./Base.lproj/Main.storyboardc/llj-Xi-S7O-view-Oth-C8-I1y.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/47E-jf-Isf-view-eSL-tw-47r.nib ... 
+2017-11-21 7:44:57 PM +0000  12414 bytes for ./Base.lproj/Main.storyboardc/47E-jf-Isf-view-eSL-tw-47r.nib
+copying file ./Base.lproj/Main.storyboardc/Segment_Passenger.nib ... 
+2017-11-21 7:44:57 PM +0000  2238 bytes for ./Base.lproj/Main.storyboardc/Segment_Passenger.nib
+copying file ./Base.lproj/Main.storyboardc/mainNavigationController.nib ... 
+2017-11-21 7:44:57 PM +0000  2722 bytes for ./Base.lproj/Main.storyboardc/mainNavigationController.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/termsAndConditionsNavigationController.nib ... 
+2017-11-21 7:44:57 PM +0000  1850 bytes for ./Base.lproj/Main.storyboardc/termsAndConditionsNavigationController.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/X48-X1-HgU-view-mcg-3H-wmb.nib ... 
+2017-11-21 7:44:57 PM +0000  9149 bytes for ./Base.lproj/Main.storyboardc/X48-X1-HgU-view-mcg-3H-wmb.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/Hf6-uJ-OXk-view-Ulv-iu-Nar.nib ... 
+2017-11-21 7:44:57 PM +0000  7857 bytes for ./Base.lproj/Main.storyboardc/Hf6-uJ-OXk-view-Ulv-iu-Nar.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/dPU-9S-z1P-view-gDw-uU-D6S.nib ... 
+2017-11-21 7:44:57 PM +0000  12348 bytes for ./Base.lproj/Main.storyboardc/dPU-9S-z1P-view-gDw-uU-D6S.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-Gvh-OU-izi.nib ... 
+2017-11-21 7:44:57 PM +0000  1108 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Gvh-OU-izi.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/1x8-6H-AJc-view-MbK-TL-B9W.nib ... 
+2017-11-21 7:44:57 PM +0000  1803 bytes for ./Base.lproj/Main.storyboardc/1x8-6H-AJc-view-MbK-TL-B9W.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/ORl-PN-EFH-view-8kd-Yh-0AK.nib ... 
+2017-11-21 7:44:57 PM +0000  2831 bytes for ./Base.lproj/Main.storyboardc/ORl-PN-EFH-view-8kd-Yh-0AK.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/1h8-h1-yIr-view-aYi-po-pOQ.nib ... 
+2017-11-21 7:44:57 PM +0000  1804 bytes for ./Base.lproj/Main.storyboardc/1h8-h1-yIr-view-aYi-po-pOQ.nib
+copying file ./Base.lproj/Main.storyboardc/UITableViewController-KXo-VZ-Pem.nib ... 
+2017-11-21 7:44:57 PM +0000  991 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-KXo-VZ-Pem.nib
+copying file ./Base.lproj/Main.storyboardc/Lht-5S-9ap-view-o6M-LR-pdT.nib ... 
+2017-11-21 7:44:57 PM +0000  20599 bytes for ./Base.lproj/Main.storyboardc/Lht-5S-9ap-view-o6M-LR-pdT.nib
+copying file ./Base.lproj/Main.storyboardc/dY1-Vp-IPh-view-r80-Vd-pvJ.nib ... 
+2017-11-21 7:44:57 PM +0000  7323 bytes for ./Base.lproj/Main.storyboardc/dY1-Vp-IPh-view-r80-Vd-pvJ.nib
+copying file ./Base.lproj/Main.storyboardc/storyboardOfferTripNavigationController.nib ... 
+2017-11-21 7:44:57 PM +0000  2111 bytes for ./Base.lproj/Main.storyboardc/storyboardOfferTripNavigationController.nib
+copying file ./Base.lproj/Main.storyboardc/storyboardDriverDetailsViewController.nib ... 
+2017-11-21 7:44:57 PM +0000  1171 bytes for ./Base.lproj/Main.storyboardc/storyboardDriverDetailsViewController.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/SLp-F4-KDC-view-ZPp-qT-D7g.nib ... 
+2017-11-21 7:44:57 PM +0000  7897 bytes for ./Base.lproj/Main.storyboardc/SLp-F4-KDC-view-ZPp-qT-D7g.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/rZb-sd-Ib7-view-eSW-u3-pGa.nib ... 
+2017-11-21 7:44:57 PM +0000  19422 bytes for ./Base.lproj/Main.storyboardc/rZb-sd-Ib7-view-eSW-u3-pGa.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/4TP-H9-57R-view-DYU-Z2-Z05.nib ... 
+2017-11-21 7:44:57 PM +0000  11247 bytes for ./Base.lproj/Main.storyboardc/4TP-H9-57R-view-DYU-Z2-Z05.nib
+copying file ./Base.lproj/Main.storyboardc/zRy-Lh-AN8-view-20J-OL-eHX.nib ... 
+2017-11-21 7:44:57 PM +0000  2110 bytes for ./Base.lproj/Main.storyboardc/zRy-Lh-AN8-view-20J-OL-eHX.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/tT8-OR-b0b-view-6nF-rl-lcE.nib ... 
+2017-11-21 7:44:57 PM +0000  4605 bytes for ./Base.lproj/Main.storyboardc/tT8-OR-b0b-view-6nF-rl-lcE.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-3md-IT-54w.nib ... 
+2017-11-21 7:44:57 PM +0000  1783 bytes for ./Base.lproj/Main.storyboardc/UIViewController-3md-IT-54w.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/J5N-Wv-NvW-view-gLx-dE-9lO.nib ... 
+2017-11-21 7:44:57 PM +0000  23956 bytes for ./Base.lproj/Main.storyboardc/J5N-Wv-NvW-view-gLx-dE-9lO.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/sI7-PF-kK6-view-6ne-I3-p4j.nib ... 
+2017-11-21 7:44:57 PM +0000  2651 bytes for ./Base.lproj/Main.storyboardc/sI7-PF-kK6-view-6ne-I3-p4j.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-Fya-pT-dyd.nib ... 
+2017-11-21 7:44:57 PM +0000  1084 bytes for ./Base.lproj/Main.storyboardc/UIViewController-Fya-pT-dyd.nib
+copying file ./Base.lproj/Main.storyboardc/UIViewController-jNe-wt-6pQ.nib ... 
+2017-11-21 7:44:57 PM +0000  1981 bytes for ./Base.lproj/Main.storyboardc/UIViewController-jNe-wt-6pQ.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/jNe-wt-6pQ-view-3im-MF-Ioa.nib ... 
+2017-11-21 7:44:57 PM +0000  9239 bytes for ./Base.lproj/Main.storyboardc/jNe-wt-6pQ-view-3im-MF-Ioa.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  2383 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/mainPageStoryboard2.nib ... 
+2017-11-21 7:44:57 PM +0000  1517 bytes for ./Base.lproj/Main.storyboardc/mainPageStoryboard2.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/UJ9-GM-AuD-view-4B4-3c-oFF.nib ... 
+2017-11-21 7:44:57 PM +0000  10539 bytes for ./Base.lproj/Main.storyboardc/UJ9-GM-AuD-view-4B4-3c-oFF.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/Main.storyboardc/myTripsNavigationControllerStoryboard.nib ... 
+2017-11-21 7:44:57 PM +0000  3128 bytes for ./Base.lproj/Main.storyboardc/myTripsNavigationControllerStoryboard.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-11-21 7:44:57 PM +0000  1792 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-11-21 7:44:57 PM +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./archived-expanded-entitlements.xcent ... 
+2017-11-21 7:44:57 PM +0000  246 bytes for ./archived-expanded-entitlements.xcent
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  542 bytes for ./GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  478 bytes for ./GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  495 bytes for ./GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  553 bytes for ./GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  363 bytes for ./GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  272 bytes for ./GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  604 bytes for ./GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  423 bytes for ./GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  323 bytes for ./GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  457 bytes for ./GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  540 bytes for ./GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  500 bytes for ./GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  436 bytes for ./GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/gplus.png ... 
+2017-11-21 7:44:57 PM +0000  271 bytes for ./GoogleSignIn.bundle/gplus.png
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  331 bytes for ./GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  634 bytes for ./GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  538 bytes for ./GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/google@3x.png ... 
+2017-11-21 7:44:57 PM +0000  1773 bytes for ./GoogleSignIn.bundle/google@3x.png
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  341 bytes for ./GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  466 bytes for ./GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  602 bytes for ./GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/google@2x.png ... 
+2017-11-21 7:44:57 PM +0000  1166 bytes for ./GoogleSignIn.bundle/google@2x.png
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  349 bytes for ./GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  577 bytes for ./GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  493 bytes for ./GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  484 bytes for ./GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  315 bytes for ./GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  272 bytes for ./GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  493 bytes for ./GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  560 bytes for ./GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  527 bytes for ./GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  478 bytes for ./GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  312 bytes for ./GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  341 bytes for ./GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  461 bytes for ./GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/gplus@3x.png ... 
+2017-11-21 7:44:57 PM +0000  795 bytes for ./GoogleSignIn.bundle/gplus@3x.png
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  500 bytes for ./GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/google.png ... 
+2017-11-21 7:44:57 PM +0000  643 bytes for ./GoogleSignIn.bundle/google.png
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/Roboto-Bold.ttf ... 
+2017-11-21 7:44:57 PM +0000  127744 bytes for ./GoogleSignIn.bundle/Roboto-Bold.ttf
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  531 bytes for ./GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/gplus@2x.png ... 
+2017-11-21 7:44:57 PM +0000  476 bytes for ./GoogleSignIn.bundle/gplus@2x.png
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  847 bytes for ./GoogleSignIn.bundle/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  466 bytes for ./GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:44:57 PM +0000  635 bytes for ./GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings
+2017-11-21 7:44:57 PM +0000  copying file ./RouteTableCell.nib ... 
+2017-11-21 7:44:57 PM +0000  6799 bytes for ./RouteTableCell.nib
+2017-11-21 7:44:57 PM +0000  copying file ./RouteDetails.nib ... 
+2017-11-21 7:44:57 PM +0000  10087 bytes for ./RouteDetails.nib
+2017-11-21 7:44:57 PM +0000  copying file ./Assets.car ... 
+2017-11-21 7:44:57 PM +0000  2919600 bytes for ./Assets.car
+2017-11-21 7:44:57 PM +0000  copying file ./nl-NL.lproj/LaunchScreen.strings ... 
+2017-11-21 7:44:57 PM +0000  26 bytes for ./nl-NL.lproj/LaunchScreen.strings
+2017-11-21 7:44:57 PM +0000  copying file ./nl-NL.lproj/Main.strings ... 
+2017-11-21 7:44:57 PM +0000  36149 bytes for ./nl-NL.lproj/Main.strings
+2017-11-21 7:44:57 PM +0000  copying file ./nl-NL.lproj/Localizable.strings ... 
+2017-11-21 7:44:57 PM +0000  6720 bytes for ./nl-NL.lproj/Localizable.strings
+2017-11-21 7:44:57 PM +0000  copying file ./RideCell.nib ... 
+2017-11-21 7:44:57 PM +0000  7789 bytes for ./RideCell.nib
+2017-11-21 7:44:57 PM +0000  copying file ./fr.lproj/LaunchScreen.strings ... 
+2017-11-21 7:44:57 PM +0000  26 bytes for ./fr.lproj/LaunchScreen.strings
+copying file ./fr.lproj/Main.strings ... 
+2017-11-21 7:44:57 PM +0000  36533 bytes for ./fr.lproj/Main.strings
+copying file ./fr.lproj/Localizable.strings ... 
+2017-11-21 7:44:57 PM +0000  8334 bytes for ./fr.lproj/Localizable.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:44:57 PM +0000  2202 bytes for ./Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/Protobuf.framework/Protobuf ... 
+2017-11-21 7:44:57 PM +0000  5326720 bytes for ./Frameworks/Protobuf.framework/Protobuf
+copying file ./Frameworks/Protobuf.framework/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  735 bytes for ./Frameworks/Protobuf.framework/Info.plist
+copying file ./Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit ... 
+2017-11-21 7:44:57 PM +0000  1451184 bytes for ./Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit
+copying file ./Frameworks/FBSDKLoginKit.framework/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  746 bytes for ./Frameworks/FBSDKLoginKit.framework/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:44:57 PM +0000  2202 bytes for ./Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKShareKit.framework/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  746 bytes for ./Frameworks/FBSDKShareKit.framework/Info.plist
+copying file ./Frameworks/FBSDKShareKit.framework/FBSDKShareKit ... 
+2017-11-21 7:44:57 PM +0000  4323040 bytes for ./Frameworks/FBSDKShareKit.framework/FBSDKShareKit
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+544096 bytes for ./Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+copying file ./Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  759 bytes for ./Frameworks/GoogleToolboxForMac.framework/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:44:57 PM +0000  2202 bytes for ./Frameworks/nanopb.framework/_CodeSignature/CodeResources
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/nanopb.framework/nanopb ... 
+2017-11-21 7:44:57 PM +0000  446416 bytes for ./Frameworks/nanopb.framework/nanopb
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/nanopb.framework/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  731 bytes for ./Frameworks/nanopb.framework/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:44:57 PM +0000  24042 bytes for ./Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit ... 
+2017-11-21 7:44:57 PM +0000  5565136 bytes for ./Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5174 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5282 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5603 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  6162 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5419 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  6747 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  9126 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  6757 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5977 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4911 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  6874 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5110 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4975 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5016 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5130 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5139 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4990 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  7039 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  7388 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4940 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  7083 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5115 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5137 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5137 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5233 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5006 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5086 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4509 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4891 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5393 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5711 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4853 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5014 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5128 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5228 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5096 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4932 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5014 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  6758 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  5043 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  7025 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4978 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  6785 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/FacebookSDK.strings ... 
+2017-11-21 7:44:57 PM +0000  4833 bytes for ./Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/FacebookSDK.strings
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/FBSDKCoreKit.framework/Info.plist ... 
+2017-11-21 7:44:57 PM +0000  744 bytes for ./Frameworks/FBSDKCoreKit.framework/Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/Bolts.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:44:57 PM +0000  2202 bytes for ./Frameworks/Bolts.framework/_CodeSignature/CodeResources
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/Bolts.framework/Bolts ... 
+2017-11-21 7:44:57 PM +0000  1369184 bytes for ./Frameworks/Bolts.framework/Bolts
+2017-11-21 7:44:57 PM +0000  copying file ./Frameworks/Bolts.framework/Info.plist ... 
+729 bytes for ./Frameworks/Bolts.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+2017-11-21 7:44:57 PM +0000  7767 bytes for ./embedded.mobileprovision
+2017-11-21 7:44:57 PM +0000  copying file ./Info.plist ... 
+2017-11-21 7:44:57 PM +0000  1871 bytes for ./Info.plist
+2017-11-21 7:44:57 PM +0000  copying file ./PkgInfo ... 
+2017-11-21 7:44:57 PM +0000  8 bytes for ./PkgInfo
+2017-11-21 7:44:57 PM +0000  2017-11-21 7:44:57 PM +0000  
+
+2017-11-21 7:44:57 PM +0000  /usr/bin/ditto exited with 0
+2017-11-21 7:44:57 PM +0000  2017-11-21 7:44:57 PM +0000  
+
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionEmbedProfileStep
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f97f8e1fc80 'org.cocoapods.Bolts' '<DVTFilePath:0x7f9815b97030:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Bolts.framework'>'>
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f97f9078320 'org.cocoapods.FBSDKCoreKit' '<DVTFilePath:0x7f97f7ccfdc0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKCoreKit.framework'>'>
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f97f7b88ac0 'org.cocoapods.FBSDKLoginKit' '<DVTFilePath:0x7f98236e50b0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKLoginKit.framework'>'>
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f98173bd1b0 'org.cocoapods.FBSDKShareKit' '<DVTFilePath:0x7f980fe02d20:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKShareKit.framework'>'>
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f97f8609c50 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f980fdca610:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f97f7f36700 'org.cocoapods.Protobuf' '<DVTFilePath:0x7f9815c76f10:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Protobuf.framework'>'>
+2017-11-21 7:44:57 PM +0000  Skipping profile for item: <IDEDistributionItem: 0x7f97f7cbc130 'org.cocoapods.nanopb' '<DVTFilePath:0x7f97f7b31b90:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/nanopb.framework'>'>
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionItemRemovalStep
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionAppThinningPlistStep
+2017-11-21 7:44:57 PM +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionCompileBitcodeStep
+2017-11-21 7:44:57 PM +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionCodeSlimmingStep
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2017-11-21 7:44:57 PM +0000  Processing step: IDEDistributionSymbolsStep
+2017-11-21 7:44:57 PM +0000  Processing symbols for Bolts.framework
+2017-11-21 7:44:57 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/Bolts.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:57 PM +0000  building file list ... 
+2017-11-21 7:44:57 PM +0000   0 files...2017-11-21 7:44:57 PM +0000  5 files to consider
+2017-11-21 7:44:57 PM +0000  Bolts.framework/
+2017-11-21 7:44:57 PM +0000  Bolts.framework/_CodeSignature/
+2017-11-21 7:44:57 PM +0000  
+sent 219 bytes  received 32 bytes  502.00 bytes/sec
+total size is 474.33K  speedup is 1935.12
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  2017-11-21 7:44:57 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+
+2017-11-21 7:44:57 PM +0000  building file list ... 
+2017-11-21 7:44:57 PM +0000   0 files...2017-11-21 7:44:57 PM +0000  49 files to consider
+2017-11-21 7:44:57 PM +0000  ./
+2017-11-21 7:44:57 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+2017-11-21 7:44:57 PM +0000  Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+2017-11-21 7:44:57 PM +0000  Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:57 PM +0000  
+sent 1.62K bytes  received 218 bytes  3.67K bytes/sec
+total size is 30.13M  speedup is 16824.30
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Bolts.framework.dSYM/Contents/Resources/Dwarf/Bolts'
+2017-11-21 7:44:57 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Bolts.framework.dSYM/Contents/Resources/Dwarf/Bolts [armv7, 0.025051 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Bolts.framework.dSYM/Contents/Resources/Dwarf/Bolts [arm64, 0.025051 seconds]:
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  
+2017-11-21 7:44:57 PM +0000  Processing symbols for FBSDKCoreKit.framework
+2017-11-21 7:44:57 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:57 PM +0000  building file list ... 
+2017-11-21 7:44:57 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  95 files to consider
+2017-11-21 7:44:58 PM +0000  FBSDKCoreKit.framework/
+2017-11-21 7:44:58 PM +0000  FBSDKCoreKit.framework/FacebookSDKStrings.bundle/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/
+2017-11-21 7:44:58 PM +0000  FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/
+FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/
+FBSDKCoreKit.framework/_CodeSignature/
+2017-11-21 7:44:58 PM +0000  
+sent 2.87K bytes  received 308 bytes  2.12K bytes/sec
+total size is 1.87M  speedup is 602.58
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  49 files to consider
+2017-11-21 7:44:58 PM +0000  ./
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+2017-11-21 7:44:58 PM +0000  nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  
+sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKCoreKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKCoreKit'
+2017-11-21 7:44:58 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKCoreKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKCoreKit [armv7, 0.059954 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKCoreKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKCoreKit [arm64, 0.059954 seconds]:
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Processing symbols for FBSDKLoginKit.framework
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  5 files to consider
+2017-11-21 7:44:58 PM +0000  FBSDKLoginKit.framework/
+2017-11-21 7:44:58 PM +0000  FBSDKLoginKit.framework/_CodeSignature/
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  sent 235 bytes  received 32 bytes  534.00 bytes/sec
+total size is 505.99K  speedup is 1940.57
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 02017-11-21 7:44:58 PM +0000  
+
+
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  49 files to consider
+2017-11-21 7:44:58 PM +0000  ./
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+Bolts.framework.dSYM/Contents/Resources/
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+2017-11-21 7:44:58 PM +0000  Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  
+sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+2017-11-21 7:44:58 PM +0000  total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKLoginKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKLoginKit'
+2017-11-21 7:44:58 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKLoginKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKLoginKit [armv7, 0.031096 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKLoginKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKLoginKit [arm64, 0.031096 seconds]:
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Processing symbols for FBSDKShareKit.framework
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  5 files to consider
+2017-11-21 7:44:58 PM +0000  FBSDKShareKit.framework/
+2017-11-21 7:44:58 PM +0000  FBSDKShareKit.framework/_CodeSignature/
+2017-11-21 7:44:58 PM +0000  
+sent 239 bytes  received 32 bytes  542.00 bytes/sec
+total size is 1.34M  speedup is 5186.51
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  49 files to consider
+2017-11-21 7:44:58 PM +0000  ./
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/Contents/
+Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+2017-11-21 7:44:58 PM +0000  nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  
+sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+2017-11-21 7:44:58 PM +0000  total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKShareKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKShareKit'
+2017-11-21 7:44:58 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKShareKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKShareKit [armv7, 0.044043 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/FBSDKShareKit.framework.dSYM/Contents/Resources/Dwarf/FBSDKShareKit [arm64, 0.044043 seconds]:
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Processing symbols for GoogleToolboxForMac.framework
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  5 files to consider
+2017-11-21 7:44:58 PM +0000  GoogleToolboxForMac.framework/
+2017-11-21 7:44:58 PM +0000  GoogleToolboxForMac.framework/_CodeSignature/
+2017-11-21 7:44:58 PM +0000  
+sent 247 bytes  received 32 bytes  558.00 bytes/sec
+2017-11-21 7:44:58 PM +0000  total size is 233.84K  speedup is 858.25
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  49 files to consider
+2017-11-21 7:44:58 PM +0000  ./
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+2017-11-21 7:44:58 PM +0000  GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+2017-11-21 7:44:58 PM +0000  nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  
+sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+2017-11-21 7:44:58 PM +0000  total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/GoogleToolboxForMac.framework.dSYM/Contents/Resources/Dwarf/GoogleToolboxForMac'
+2017-11-21 7:44:58 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/GoogleToolboxForMac.framework.dSYM/Contents/Resources/Dwarf/GoogleToolboxForMac [armv7, 0.027653 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/GoogleToolboxForMac.framework.dSYM/Contents/Resources/Dwarf/GoogleToolboxForMac [arm64, 0.027653 seconds]:
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Processing symbols for Protobuf.framework
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/Protobuf.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  5 files to consider
+2017-11-21 7:44:58 PM +0000  Protobuf.framework/
+2017-11-21 7:44:58 PM +0000  Protobuf.framework/_CodeSignature/
+2017-11-21 7:44:58 PM +0000  
+sent 225 bytes  received 32 bytes  514.00 bytes/sec
+2017-11-21 7:44:58 PM +0000  total size is 1.90M  speedup is 7753.34
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  49 files to consider
+2017-11-21 7:44:58 PM +0000  ./
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+2017-11-21 7:44:58 PM +0000  FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Protobuf.framework.dSYM/Contents/Resources/Dwarf/Protobuf'
+2017-11-21 7:44:58 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Protobuf.framework.dSYM/Contents/Resources/Dwarf/Protobuf [armv7, 0.073621 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Protobuf.framework.dSYM/Contents/Resources/Dwarf/Protobuf [arm64, 0.073621 seconds]:
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Processing symbols for nanopb.framework
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/nanopb.framework' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  5 files to consider
+2017-11-21 7:44:58 PM +0000  nanopb.framework/
+2017-11-21 7:44:58 PM +0000  nanopb.framework/_CodeSignature/
+2017-11-21 7:44:58 PM +0000  
+sent 221 bytes  received 32 bytes  506.00 bytes/sec
+total size is 203.01K  speedup is 821.66
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000  49 files to consider
+2017-11-21 7:44:58 PM +0000  ./
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+2017-11-21 7:44:58 PM +0000  Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+2017-11-21 7:44:58 PM +0000  FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+2017-11-21 7:44:58 PM +0000  SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:58 PM +0000  
+sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/nanopb.framework.dSYM/Contents/Resources/Dwarf/nanopb'
+2017-11-21 7:44:58 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/nanopb.framework.dSYM/Contents/Resources/Dwarf/nanopb [armv7, 0.016688 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/nanopb.framework.dSYM/Contents/Resources/Dwarf/nanopb [arm64, 0.016688 seconds]:
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2017-11-21 7:44:58 PM +0000  
+2017-11-21 7:44:58 PM +0000  Processing symbols for SocialCar.app
+2017-11-21 7:44:58 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:58 PM +0000  building file list ... 
+2017-11-21 7:44:58 PM +0000   0 files...2017-11-21 7:44:58 PM +0000   100 files...2017-11-21 7:44:58 PM +0000   200 files...2017-11-21 7:44:58 PM +0000   300 files...2017-11-21 7:44:58 PM +0000  338 files to consider
+2017-11-21 7:44:58 PM +0000  SocialCar.app/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/Base.lproj/
+SocialCar.app/Base.lproj/LaunchScreen.storyboardc/
+SocialCar.app/Base.lproj/Main.storyboardc/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/Frameworks/
+SocialCar.app/Frameworks/Bolts.framework/
+SocialCar.app/Frameworks/Bolts.framework/_CodeSignature/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/
+SocialCar.app/Frameworks/FBSDKCoreKit.framework/_CodeSignature/
+SocialCar.app/Frameworks/FBSDKLoginKit.framework/
+SocialCar.app/Frameworks/FBSDKLoginKit.framework/_CodeSignature/
+SocialCar.app/Frameworks/FBSDKShareKit.framework/
+SocialCar.app/Frameworks/FBSDKShareKit.framework/_CodeSignature/
+SocialCar.app/Frameworks/GoogleToolboxForMac.framework/
+SocialCar.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/
+SocialCar.app/Frameworks/Protobuf.framework/
+SocialCar.app/Frameworks/Protobuf.framework/_CodeSignature/
+SocialCar.app/Frameworks/nanopb.framework/
+SocialCar.app/Frameworks/nanopb.framework/_CodeSignature/
+SocialCar.app/GoogleSignIn.bundle/
+SocialCar.app/GoogleSignIn.bundle/ar.lproj/
+SocialCar.app/GoogleSignIn.bundle/ca.lproj/
+SocialCar.app/GoogleSignIn.bundle/cs.lproj/
+SocialCar.app/GoogleSignIn.bundle/da.lproj/
+SocialCar.app/GoogleSignIn.bundle/de.lproj/
+SocialCar.app/GoogleSignIn.bundle/el.lproj/
+SocialCar.app/GoogleSignIn.bundle/en.lproj/
+SocialCar.app/GoogleSignIn.bundle/en_GB.lproj/
+SocialCar.app/GoogleSignIn.bundle/es.lproj/
+SocialCar.app/GoogleSignIn.bundle/es_MX.lproj/
+SocialCar.app/GoogleSignIn.bundle/fi.lproj/
+SocialCar.app/GoogleSignIn.bundle/fr.lproj/
+SocialCar.app/GoogleSignIn.bundle/he.lproj/
+SocialCar.app/GoogleSignIn.bundle/hr.lproj/
+SocialCar.app/GoogleSignIn.bundle/hu.lproj/
+SocialCar.app/GoogleSignIn.bundle/id.lproj/
+SocialCar.app/GoogleSignIn.bundle/it.lproj/
+SocialCar.app/GoogleSignIn.bundle/ja.lproj/
+SocialCar.app/GoogleSignIn.bundle/ko.lproj/
+SocialCar.app/GoogleSignIn.bundle/ms.lproj/
+SocialCar.app/GoogleSignIn.bundle/nb.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/GoogleSignIn.bundle/nl.lproj/
+SocialCar.app/GoogleSignIn.bundle/pl.lproj/
+SocialCar.app/GoogleSignIn.bundle/pt.lproj/
+SocialCar.app/GoogleSignIn.bundle/pt_BR.lproj/
+SocialCar.app/GoogleSignIn.bundle/pt_PT.lproj/
+SocialCar.app/GoogleSignIn.bundle/ro.lproj/
+SocialCar.app/GoogleSignIn.bundle/ru.lproj/
+SocialCar.app/GoogleSignIn.bundle/sk.lproj/
+SocialCar.app/GoogleSignIn.bundle/sv.lproj/
+SocialCar.app/GoogleSignIn.bundle/th.lproj/
+SocialCar.app/GoogleSignIn.bundle/tr.lproj/
+SocialCar.app/GoogleSignIn.bundle/uk.lproj/
+SocialCar.app/GoogleSignIn.bundle/vi.lproj/
+SocialCar.app/GoogleSignIn.bundle/zh_CN.lproj/
+SocialCar.app/GoogleSignIn.bundle/zh_TW.lproj/
+SocialCar.app/_CodeSignature/
+SocialCar.app/en-GB.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/en-GB.lproj/._LaunchScreen.strings
+2017-11-21 7:44:59 PM +0000           171 100%    0.00kB/s    0:00:002017-11-21 7:44:59 PM +0000           171 100%    0.00kB/s    0:00:00 (xfer#1, to-check=27/338)
+2017-11-21 7:44:59 PM +0000  SocialCar.app/en-GB.lproj/._Main.strings
+2017-11-21 7:44:59 PM +0000           171 100%  166.99kB/s    0:00:00         171 100%  166.99kB/s    0:00:00 (xfer#2, to-check=26/338)
+2017-11-21 7:44:59 PM +0000  SocialCar.app/en.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/en.lproj/._LaunchScreen.strings
+2017-11-21 7:44:59 PM +0000           171 100%   83.50kB/s    0:00:00         171 100%   83.50kB/s    0:00:00 (xfer#3, to-check=22/338)
+2017-11-21 7:44:59 PM +0000  SocialCar.app/fr.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/fr.lproj/._Main.strings
+2017-11-21 7:44:59 PM +0000           171 100%   83.50kB/s    0:00:00         171 100%   83.50kB/s    0:00:00 (xfer#4, to-check=18/338)
+2017-11-21 7:44:59 PM +0000  SocialCar.app/it.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/it.lproj/._Main.strings
+2017-11-21 7:44:59 PM +0000           171 100%   55.66kB/s    0:00:00         171 100%   55.66kB/s    0:00:00 (xfer#5, to-check=13/338)
+2017-11-21 7:44:59 PM +0000  SocialCar.app/nl-NL.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/nl-NL.lproj/._Main.strings
+2017-11-21 7:44:59 PM +0000           171 100%   41.75kB/s    0:00:00         171 100%   41.75kB/s    0:00:00 (xfer#6, to-check=8/338)
+2017-11-21 7:44:59 PM +0000  SocialCar.app/sl.lproj/
+2017-11-21 7:44:59 PM +0000  SocialCar.app/sl.lproj/._Main.strings
+2017-11-21 7:44:59 PM +0000           171 100%   41.75kB/s    0:00:00         171 100%   33.40kB/s    0:00:00 (xfer#7, to-check=3/338)
+2017-11-21 7:44:59 PM +0000  
+sent 12.58K bytes  received 828 bytes  8.92K bytes/sec
+total size is 19.64M  speedup is 1502.26
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '--link-dest' '/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/dSYMs/' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt'
+2017-11-21 7:44:59 PM +0000  building file list ... 
+2017-11-21 7:44:59 PM +0000   0 files...2017-11-21 7:44:59 PM +0000  49 files to consider
+2017-11-21 7:44:59 PM +0000  ./
+2017-11-21 7:44:59 PM +0000  Bolts.framework.dSYM/
+Bolts.framework.dSYM/Contents/
+2017-11-21 7:44:59 PM +0000  Bolts.framework.dSYM/Contents/Resources/
+Bolts.framework.dSYM/Contents/Resources/DWARF/
+FBSDKCoreKit.framework.dSYM/
+FBSDKCoreKit.framework.dSYM/Contents/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/
+FBSDKCoreKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKLoginKit.framework.dSYM/
+FBSDKLoginKit.framework.dSYM/Contents/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/
+FBSDKLoginKit.framework.dSYM/Contents/Resources/DWARF/
+FBSDKShareKit.framework.dSYM/
+FBSDKShareKit.framework.dSYM/Contents/
+FBSDKShareKit.framework.dSYM/Contents/Resources/
+FBSDKShareKit.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:59 PM +0000  GoogleToolboxForMac.framework.dSYM/
+GoogleToolboxForMac.framework.dSYM/Contents/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/
+GoogleToolboxForMac.framework.dSYM/Contents/Resources/DWARF/
+Protobuf.framework.dSYM/
+Protobuf.framework.dSYM/Contents/
+Protobuf.framework.dSYM/Contents/Resources/
+Protobuf.framework.dSYM/Contents/Resources/DWARF/
+SocialCar.app.dSYM/
+SocialCar.app.dSYM/Contents/
+SocialCar.app.dSYM/Contents/Resources/
+SocialCar.app.dSYM/Contents/Resources/DWARF/
+nanopb.framework.dSYM/
+2017-11-21 7:44:59 PM +0000  nanopb.framework.dSYM/Contents/
+nanopb.framework.dSYM/Contents/Resources/
+nanopb.framework.dSYM/Contents/Resources/DWARF/
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  sent 1.71K bytes  received 314 bytes  4.04K bytes/sec
+total size is 30.13M  speedup is 15263.79
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  
+
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  
+
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  /usr/bin/rsync exited with 0
+
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/SocialCar.app.dSYM/Contents/Resources/Dwarf/SocialCar'
+2017-11-21 7:44:59 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/SocialCar.app.dSYM/Contents/Resources/Dwarf/SocialCar [armv7, 0.203382 seconds]:
+/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/SocialCar.app.dSYM/Contents/Resources/Dwarf/SocialCar [arm64, 0.203382 seconds]:
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2017-11-21 7:44:59 PM +0000  
+
+2017-11-21 7:44:59 PM +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2017-11-21 7:44:59 PM +0000  Processing step: IDEDistributionAppThinningStep
+2017-11-21 7:44:59 PM +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2017-11-21 7:44:59 PM +0000  Processing step: IDEDistributionODRStep
+2017-11-21 7:44:59 PM +0000  Processing step: IDEDistributionStripXattrsStep
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f97f8e1fc80 'org.cocoapods.Bolts' '<DVTFilePath:0x7f9815b97030:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Bolts.framework'>'>
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f97f9078320 'org.cocoapods.FBSDKCoreKit' '<DVTFilePath:0x7f97f7ccfdc0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKCoreKit.framework'>'>
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f97f7b88ac0 'org.cocoapods.FBSDKLoginKit' '<DVTFilePath:0x7f98236e50b0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKLoginKit.framework'>'>
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f98173bd1b0 'org.cocoapods.FBSDKShareKit' '<DVTFilePath:0x7f980fe02d20:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKShareKit.framework'>'>
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f97f8609c50 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f980fdca610:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/GoogleToolboxForMac.framework'>'>
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f97f7f36700 'org.cocoapods.Protobuf' '<DVTFilePath:0x7f9815c76f10:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Protobuf.framework'>'>
+2017-11-21 7:44:59 PM +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7f97f7cbc130 'org.cocoapods.nanopb' '<DVTFilePath:0x7f97f7b31b90:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/nanopb.framework'>'>
+2017-11-21 7:44:59 PM +0000  Running /usr/bin/xattr '-crs' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app'
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  
+
+2017-11-21 7:44:59 PM +0000  /usr/bin/xattr exited with 0
+2017-11-21 7:44:59 PM +0000  
+2017-11-21 7:44:59 PM +0000  2017-11-21 7:44:59 PM +0000  Processing step: IDEDistributionCodesignStep
+
+2017-11-21 7:44:59 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f97f8e1fc80 'org.cocoapods.Bolts' '<DVTFilePath:0x7f9815b97030:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Bolts.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9815b45e80>: {
+}
+2017-11-21 7:44:59 PM +0000  Entitlements for <IDEDistributionItem: 0x7f97f8e1fc80 'org.cocoapods.Bolts' '<DVTFilePath:0x7f9815b97030:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Bolts.framework'>'>: {
+}
+2017-11-21 7:44:59 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f97f8e1fc80 'org.cocoapods.Bolts' '<DVTFilePath:0x7f9815b97030:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Bolts.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlements93kQNz
+2017-11-21 7:44:59 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlements93kQNz' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/Bolts.framework'
+2017-11-21 7:45:00 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/Bolts.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Bolts]
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  /usr/bin/codesign exited with 0
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f97f9078320 'org.cocoapods.FBSDKCoreKit' '<DVTFilePath:0x7f97f7ccfdc0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKCoreKit.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f97f858dd40>: {
+}
+2017-11-21 7:45:00 PM +0000  Entitlements for <IDEDistributionItem: 0x7f97f9078320 'org.cocoapods.FBSDKCoreKit' '<DVTFilePath:0x7f97f7ccfdc0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKCoreKit.framework'>'>: {
+}
+2017-11-21 7:45:00 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f97f9078320 'org.cocoapods.FBSDKCoreKit' '<DVTFilePath:0x7f97f7ccfdc0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKCoreKit.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsQIqrBC
+2017-11-21 7:45:00 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsQIqrBC' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework'
+2017-11-21 7:45:00 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FBSDKCoreKit]
+2017-11-21 7:45:00 PM +0000  2017-11-21 7:45:00 PM +0000  
+
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  /usr/bin/codesign exited with 0
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f97f7b88ac0 'org.cocoapods.FBSDKLoginKit' '<DVTFilePath:0x7f98236e50b0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKLoginKit.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9822da2a50>: {
+}
+2017-11-21 7:45:00 PM +0000  Entitlements for <IDEDistributionItem: 0x7f97f7b88ac0 'org.cocoapods.FBSDKLoginKit' '<DVTFilePath:0x7f98236e50b0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKLoginKit.framework'>'>: {
+}
+2017-11-21 7:45:00 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f97f7b88ac0 'org.cocoapods.FBSDKLoginKit' '<DVTFilePath:0x7f98236e50b0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKLoginKit.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsI3oYIF
+2017-11-21 7:45:00 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsI3oYIF' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework'
+2017-11-21 7:45:00 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FBSDKLoginKit]
+2017-11-21 7:45:00 PM +0000  2017-11-21 7:45:00 PM +0000  
+
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  2017-11-21 7:45:00 PM +0000  /usr/bin/codesign exited with 0
+2017-11-21 7:45:00 PM +0000  
+
+2017-11-21 7:45:00 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f98173bd1b0 'org.cocoapods.FBSDKShareKit' '<DVTFilePath:0x7f980fe02d20:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKShareKit.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f98255419b0>: {
+}
+2017-11-21 7:45:00 PM +0000  Entitlements for <IDEDistributionItem: 0x7f98173bd1b0 'org.cocoapods.FBSDKShareKit' '<DVTFilePath:0x7f980fe02d20:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKShareKit.framework'>'>: {
+}
+2017-11-21 7:45:00 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f98173bd1b0 'org.cocoapods.FBSDKShareKit' '<DVTFilePath:0x7f980fe02d20:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/FBSDKShareKit.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsZBif1X
+2017-11-21 7:45:00 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsZBif1X' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework'
+2017-11-21 7:45:00 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.FBSDKShareKit]
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  /usr/bin/codesign exited with 0
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f97f8609c50 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f980fdca610:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/GoogleToolboxForMac.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f97f7527510>: {
+}
+2017-11-21 7:45:00 PM +0000  Entitlements for <IDEDistributionItem: 0x7f97f8609c50 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f980fdca610:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/GoogleToolboxForMac.framework'>'>: {
+}
+2017-11-21 7:45:00 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f97f8609c50 'org.cocoapods.GoogleToolboxForMac' '<DVTFilePath:0x7f980fdca610:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/GoogleToolboxForMac.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlements56lBI1
+2017-11-21 7:45:00 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlements56lBI1' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework'
+2017-11-21 7:45:00 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.GoogleToolboxForMac]
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  /usr/bin/codesign exited with 0
+
+2017-11-21 7:45:00 PM +0000  
+2017-11-21 7:45:00 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f97f7f36700 'org.cocoapods.Protobuf' '<DVTFilePath:0x7f9815c76f10:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Protobuf.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f9815bb0400>: {
+}
+2017-11-21 7:45:00 PM +0000  Entitlements for <IDEDistributionItem: 0x7f97f7f36700 'org.cocoapods.Protobuf' '<DVTFilePath:0x7f9815c76f10:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Protobuf.framework'>'>: {
+}
+2017-11-21 7:45:00 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f97f7f36700 'org.cocoapods.Protobuf' '<DVTFilePath:0x7f9815c76f10:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/Protobuf.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsTnsKha
+2017-11-21 7:45:00 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsTnsKha' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/Protobuf.framework'
+2017-11-21 7:45:01 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/Protobuf.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.Protobuf]
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  /usr/bin/codesign exited with 0
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f97f7cbc130 'org.cocoapods.nanopb' '<DVTFilePath:0x7f97f7b31b90:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/nanopb.framework'>'> from <IDEiCloudEntitlementsProcessor: 0x7f97f81db140>: {
+}
+2017-11-21 7:45:01 PM +0000  Entitlements for <IDEDistributionItem: 0x7f97f7cbc130 'org.cocoapods.nanopb' '<DVTFilePath:0x7f97f7b31b90:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/nanopb.framework'>'>: {
+}
+2017-11-21 7:45:01 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f97f7cbc130 'org.cocoapods.nanopb' '<DVTFilePath:0x7f97f7b31b90:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app/Frameworks/nanopb.framework'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsX0TCfE
+2017-11-21 7:45:01 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsX0TCfE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/nanopb.framework'
+2017-11-21 7:45:01 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app/Frameworks/nanopb.framework: signed bundle with Mach-O universal (armv7 arm64) [org.cocoapods.nanopb]
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  /usr/bin/codesign exited with 0
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  Applying entitlements delta for <IDEDistributionItem: 0x7f980c0d6ce0 'certh.gr.SocialCar' '<DVTFilePath:0x7f9815be65a0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app'>'> from <IDEiCloudEntitlementsProcessor: 0x7f980b144c70>: {
+}
+2017-11-21 7:45:01 PM +0000  Entitlements for <IDEDistributionItem: 0x7f980c0d6ce0 'certh.gr.SocialCar' '<DVTFilePath:0x7f9815be65a0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app'>'>: {
+    "application-identifier" = "57429M5VS7.certh.gr.SocialCar";
+    "aps-environment" = production;
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 57429M5VS7;
+    "get-task-allow" = 0;
+}
+2017-11-21 7:45:01 PM +0000  Writing entitlements for <IDEDistributionItem: 0x7f980c0d6ce0 'certh.gr.SocialCar' '<DVTFilePath:0x7f9815be65a0:'/Users/hit_macbook/Library/Developer/Xcode/Archives/2017-11-21/SocialCar 21-11-2017, 9.44 PM.xcarchive/Products/Applications/SocialCar.app'>'> to: /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsaxm3bZ
+2017-11-21 7:45:01 PM +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'E67C7C18B263C56B4AA6ED5CE52B74E4FA1CBEBB' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/entitlementsaxm3bZ' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app'
+2017-11-21 7:45:01 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app: replacing existing signature
+2017-11-21 7:45:01 PM +0000  /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root/Payload/SocialCar.app: signed app bundle with Mach-O universal (armv7 arm64) [certh.gr.SocialCar]
+2017-11-21 7:45:01 PM +0000  2017-11-21 7:45:01 PM +0000  
+
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  2017-11-21 7:45:01 PM +0000  /usr/bin/codesign exited with 02017-11-21 7:45:01 PM +0000  
+
+
+2017-11-21 7:45:01 PM +0000  Processing step: IDEDistributionStreamingZipItemStep
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2017-11-21 7:45:01 PM +0000  Processing step: IDEDistributionCreateIPAStep
+2017-11-21 7:45:01 PM +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Symbols' '--link-dest' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root'
+2017-11-21 7:45:01 PM +0000  building file list ... 
+2017-11-21 7:45:01 PM +0000   0 files...2017-11-21 7:45:01 PM +0000  17 files to consider
+2017-11-21 7:45:01 PM +0000  Symbols/
+2017-11-21 7:45:01 PM +0000  
+sent 950 bytes  received 26 bytes  1.91K bytes/sec
+total size is 11.32M  speedup is 12162.98
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  /usr/bin/rsync exited with 0
+2017-11-21 7:45:01 PM +0000  
+2017-11-21 7:45:01 PM +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root' '/var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Packages/SocialCar.ipa'
+2017-11-21 7:45:01 PM +0000  >>> Copying /var/folders/sn/tbgcv5_n4qx40qdywm0zqy840000gn/T/XcodeDistPipeline.sWt/Root 
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/_CodeSignature/CodeResources ... 
+2017-11-21 7:45:01 PM +0000  94239 bytes for ./Payload/SocialCar.app/_CodeSignature/CodeResources
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/en.lproj/LaunchScreen.strings ... 
+1 bytes for ./Payload/SocialCar.app/en.lproj/LaunchScreen.strings
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/en.lproj/Localizable.strings ... 
+2017-11-21 7:45:01 PM +0000  956 bytes for ./Payload/SocialCar.app/en.lproj/Localizable.strings
+copying file ./Payload/SocialCar.app/LiftsCell.nib ... 
+2017-11-21 7:45:01 PM +0000  3652 bytes for ./Payload/SocialCar.app/LiftsCell.nib
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/en-GB.lproj/LaunchScreen.strings ... 
+1 bytes for ./Payload/SocialCar.app/en-GB.lproj/LaunchScreen.strings
+copying file ./Payload/SocialCar.app/en-GB.lproj/Main.strings ... 
+2017-11-21 7:45:01 PM +0000  34449 bytes for ./Payload/SocialCar.app/en-GB.lproj/Main.strings
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/sl.lproj/LaunchScreen.strings ... 
+26 bytes for ./Payload/SocialCar.app/sl.lproj/LaunchScreen.strings
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/sl.lproj/Main.strings ... 
+2017-11-21 7:45:01 PM +0000  36113 bytes for ./Payload/SocialCar.app/sl.lproj/Main.strings
+copying file ./Payload/SocialCar.app/sl.lproj/Localizable.strings ... 
+2017-11-21 7:45:01 PM +0000  7357 bytes for ./Payload/SocialCar.app/sl.lproj/Localizable.strings
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/it.lproj/LaunchScreen.strings ... 
+26 bytes for ./Payload/SocialCar.app/it.lproj/LaunchScreen.strings
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/it.lproj/Main.strings ... 
+2017-11-21 7:45:01 PM +0000  36171 bytes for ./Payload/SocialCar.app/it.lproj/Main.strings
+copying file ./Payload/SocialCar.app/it.lproj/Localizable.strings ... 
+2017-11-21 7:45:01 PM +0000  7196 bytes for ./Payload/SocialCar.app/it.lproj/Localizable.strings
+2017-11-21 7:45:01 PM +0000  copying file ./Payload/SocialCar.app/AppIcon60x60@2x.png ... 
+2017-11-21 7:45:01 PM +0000  9185 bytes for ./Payload/SocialCar.app/AppIcon60x60@2x.png
+copying file ./Payload/SocialCar.app/MultipleSelections.nib ... 
+2017-11-21 7:45:01 PM +0000  3564 bytes for ./Payload/SocialCar.app/MultipleSelections.nib
+copying file ./Payload/SocialCar.app/GTMOAuth2ViewTouch.nib ... 
+2017-11-21 7:45:01 PM +0000  3652 bytes for ./Payload/SocialCar.app/GTMOAuth2ViewTouch.nib
+copying file ./Payload/SocialCar.app/DriverFeedbackCell.nib ... 
+2017-11-21 7:45:01 PM +0000  3883 bytes for ./Payload/SocialCar.app/DriverFeedbackCell.nib
+copying file ./Payload/SocialCar.app/SocialCar ... 
+2017-11-21 7:45:02 PM +0000  8328048 bytes for ./Payload/SocialCar.app/SocialCar
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleService-Info.plist ... 
+1022 bytes for ./Payload/SocialCar.app/GoogleService-Info.plist
+copying file ./Payload/SocialCar.app/AppIcon60x60@3x.png ... 
+23350 bytes for ./Payload/SocialCar.app/AppIcon60x60@3x.png
+copying file ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboard ... 
+1885 bytes for ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboard
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboard ... 
+2017-11-21 7:45:02 PM +0000  1497845 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboard
+copying file ./Payload/SocialCar.app/Base.lproj/Localizable.strings ... 
+2017-11-21 7:45:02 PM +0000  1065 bytes for ./Payload/SocialCar.app/Base.lproj/Localizable.strings
+copying file ./Payload/SocialCar.app/Base.lproj/Login.storyboard ... 
+2017-11-21 7:45:02 PM +0000  16496 bytes for ./Payload/SocialCar.app/Base.lproj/Login.storyboard
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-rNf-ev-fXF.nib ... 
+2017-11-21 7:45:02 PM +0000  988 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-rNf-ev-fXF.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/NewReportTableViewController.nib ... 
+2017-11-21 7:45:02 PM +0000  1212 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/NewReportTableViewController.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/XP5-PC-VU1-view-XHX-W1-eDG.nib ... 
+2017-11-21 7:45:02 PM +0000  11025 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/XP5-PC-VU1-view-XHX-W1-eDG.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/xuo-Oh-fIF-view-sqd-IK-qCt.nib ... 
+2017-11-21 7:45:02 PM +0000  1572 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/xuo-Oh-fIF-view-sqd-IK-qCt.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/signUpStoryboard_new.nib ... 
+2017-11-21 7:45:02 PM +0000  1522 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/signUpStoryboard_new.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-OBh-pX-W0S.nib ... 
+2017-11-21 7:45:02 PM +0000  1151 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-OBh-pX-W0S.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Gvh-OU-izi-view-Ie4-m6-Oog.nib ... 
+2017-11-21 7:45:02 PM +0000  9401 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Gvh-OU-izi-view-Ie4-m6-Oog.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/sMs-LS-BBk-view-1jY-vC-SiE.nib ... 
+2017-11-21 7:45:02 PM +0000  9208 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/sMs-LS-BBk-view-1jY-vC-SiE.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/fEX-UX-PJ3-view-qmY-ck-wS2.nib ... 
+2017-11-21 7:45:02 PM +0000  5904 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/fEX-UX-PJ3-view-qmY-ck-wS2.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/profileDataRegisterStoryboardLIMIT.nib ... 
+2017-11-21 7:45:02 PM +0000  2060 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/profileDataRegisterStoryboardLIMIT.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Zfa-UG-AIi-view-SBX-f9-LZy.nib ... 
+2017-11-21 7:45:02 PM +0000  6021 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Zfa-UG-AIi-view-SBX-f9-LZy.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/OJu-CA-Mij-view-5wC-i6-fFi.nib ... 
+2017-11-21 7:45:02 PM +0000  106839 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/OJu-CA-Mij-view-5wC-i6-fFi.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Segment_Requested_Trips.nib ... 
+1160 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Segment_Requested_Trips.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/profileDataRegisterStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  2663 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/profileDataRegisterStoryboard.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/w0j-OB-jcd-view-R3A-Wd-XYg.nib ... 
+2017-11-21 7:45:02 PM +0000  8047 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/w0j-OB-jcd-view-R3A-Wd-XYg.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-J5N-Wv-NvW.nib ... 
+2017-11-21 7:45:02 PM +0000  1562 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-J5N-Wv-NvW.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/signUpStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  1518 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/signUpStoryboard.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/inI-09-3Sl-view-UJG-27-w1W.nib ... 
+2017-11-21 7:45:02 PM +0000  14362 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/inI-09-3Sl-view-UJG-27-w1W.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UITableViewController-47E-jf-Isf.nib ... 
+2017-11-21 7:45:02 PM +0000  1401 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UITableViewController-47E-jf-Isf.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardCreateDriverProfile.nib ... 
+2017-11-21 7:45:02 PM +0000  1046 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardCreateDriverProfile.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/mainPageStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  1511 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/mainPageStoryboard.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/signInStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  1020 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/signInStoryboard.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/3md-IT-54w-view-igg-8S-8vN.nib ... 
+2017-11-21 7:45:02 PM +0000  9944 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/3md-IT-54w-view-igg-8S-8vN.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-UJ9-GM-AuD.nib ... 
+2017-11-21 7:45:02 PM +0000  1636 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-UJ9-GM-AuD.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/selectAddressStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  1241 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/selectAddressStoryboard.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardOfferTripViewController.nib ... 
+2017-11-21 7:45:02 PM +0000  1041 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardOfferTripViewController.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/createRideStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  1153 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/createRideStoryboard.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardLiftReuestOnNotification.nib ... 
+2017-11-21 7:45:02 PM +0000  1166 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardLiftReuestOnNotification.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/menuTabStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  12126 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/menuTabStoryboard.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/ExternalCarpoolerViewController.nib ... 
+2017-11-21 7:45:02 PM +0000  1153 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/ExternalCarpoolerViewController.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Fya-pT-dyd-view-YnO-Cg-GpV.nib ... 
+2017-11-21 7:45:02 PM +0000  7147 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Fya-pT-dyd-view-YnO-Cg-GpV.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/6WD-Ym-mR8-view-J2d-Nb-Ern.nib ... 
+2017-11-21 7:45:02 PM +0000  6420 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/6WD-Ym-mR8-view-J2d-Nb-Ern.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/rNf-ev-fXF-view-s7L-AG-p1f.nib ... 
+2017-11-21 7:45:02 PM +0000  6572 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/rNf-ev-fXF-view-s7L-AG-p1f.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/RTP-L4-bmJ-view-r1N-k4-VWg.nib ... 
+2017-11-21 7:45:02 PM +0000  4694 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/RTP-L4-bmJ-view-r1N-k4-VWg.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/MyTripsStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  1347 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/MyTripsStoryboard.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/OBh-pX-W0S-view-CDO-C8-2Tf.nib ... 
+2017-11-21 7:45:02 PM +0000  4576 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/OBh-pX-W0S-view-CDO-C8-2Tf.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/KXo-VZ-Pem-view-pKB-rJ-TxF.nib ... 
+2017-11-21 7:45:02 PM +0000  1530 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/KXo-VZ-Pem-view-pKB-rJ-TxF.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/dwY-1v-0zM-view-ebo-wK-e8W.nib ... 
+2017-11-21 7:45:02 PM +0000  5986 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/dwY-1v-0zM-view-ebo-wK-e8W.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/MO6-8V-KPo-view-DB5-wd-l18.nib ... 
+2017-11-21 7:45:02 PM +0000  1530 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/MO6-8V-KPo-view-DB5-wd-l18.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/wt8-oq-jui-view-2Av-LG-IiF.nib ... 
+2017-11-21 7:45:02 PM +0000  20563 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/wt8-oq-jui-view-2Av-LG-IiF.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardDriverProfile.nib ... 
+2017-11-21 7:45:02 PM +0000  1820 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardDriverProfile.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/llj-Xi-S7O-view-Oth-C8-I1y.nib ... 
+2017-11-21 7:45:02 PM +0000  6102 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/llj-Xi-S7O-view-Oth-C8-I1y.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/47E-jf-Isf-view-eSL-tw-47r.nib ... 
+2017-11-21 7:45:02 PM +0000  12414 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/47E-jf-Isf-view-eSL-tw-47r.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Segment_Passenger.nib ... 
+2017-11-21 7:45:02 PM +0000  2238 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Segment_Passenger.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/mainNavigationController.nib ... 
+2017-11-21 7:45:02 PM +0000  2722 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/mainNavigationController.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/termsAndConditionsNavigationController.nib ... 
+2017-11-21 7:45:02 PM +0000  1850 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/termsAndConditionsNavigationController.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/X48-X1-HgU-view-mcg-3H-wmb.nib ... 
+2017-11-21 7:45:02 PM +0000  9149 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/X48-X1-HgU-view-mcg-3H-wmb.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Hf6-uJ-OXk-view-Ulv-iu-Nar.nib ... 
+2017-11-21 7:45:02 PM +0000  7857 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Hf6-uJ-OXk-view-Ulv-iu-Nar.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/dPU-9S-z1P-view-gDw-uU-D6S.nib ... 
+2017-11-21 7:45:02 PM +0000  12348 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/dPU-9S-z1P-view-gDw-uU-D6S.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-Gvh-OU-izi.nib ... 
+2017-11-21 7:45:02 PM +0000  1108 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-Gvh-OU-izi.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/1x8-6H-AJc-view-MbK-TL-B9W.nib ... 
+2017-11-21 7:45:02 PM +0000  1803 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/1x8-6H-AJc-view-MbK-TL-B9W.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/ORl-PN-EFH-view-8kd-Yh-0AK.nib ... 
+2017-11-21 7:45:02 PM +0000  2831 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/ORl-PN-EFH-view-8kd-Yh-0AK.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/1h8-h1-yIr-view-aYi-po-pOQ.nib ... 
+2017-11-21 7:45:02 PM +0000  1804 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/1h8-h1-yIr-view-aYi-po-pOQ.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UITableViewController-KXo-VZ-Pem.nib ... 
+2017-11-21 7:45:02 PM +0000  991 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UITableViewController-KXo-VZ-Pem.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Lht-5S-9ap-view-o6M-LR-pdT.nib ... 
+2017-11-21 7:45:02 PM +0000  20599 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Lht-5S-9ap-view-o6M-LR-pdT.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/dY1-Vp-IPh-view-r80-Vd-pvJ.nib ... 
+2017-11-21 7:45:02 PM +0000  7323 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/dY1-Vp-IPh-view-r80-Vd-pvJ.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardOfferTripNavigationController.nib ... 
+2017-11-21 7:45:02 PM +0000  2111 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardOfferTripNavigationController.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardDriverDetailsViewController.nib ... 
+2017-11-21 7:45:02 PM +0000  1171 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/storyboardDriverDetailsViewController.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/SLp-F4-KDC-view-ZPp-qT-D7g.nib ... 
+2017-11-21 7:45:02 PM +0000  7897 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/SLp-F4-KDC-view-ZPp-qT-D7g.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/rZb-sd-Ib7-view-eSW-u3-pGa.nib ... 
+2017-11-21 7:45:02 PM +0000  19422 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/rZb-sd-Ib7-view-eSW-u3-pGa.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/4TP-H9-57R-view-DYU-Z2-Z05.nib ... 
+2017-11-21 7:45:02 PM +0000  11247 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/4TP-H9-57R-view-DYU-Z2-Z05.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/zRy-Lh-AN8-view-20J-OL-eHX.nib ... 
+2017-11-21 7:45:02 PM +0000  2110 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/zRy-Lh-AN8-view-20J-OL-eHX.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/tT8-OR-b0b-view-6nF-rl-lcE.nib ... 
+2017-11-21 7:45:02 PM +0000  4605 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/tT8-OR-b0b-view-6nF-rl-lcE.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-3md-IT-54w.nib ... 
+2017-11-21 7:45:02 PM +0000  1783 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-3md-IT-54w.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/J5N-Wv-NvW-view-gLx-dE-9lO.nib ... 
+2017-11-21 7:45:02 PM +0000  23956 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/J5N-Wv-NvW-view-gLx-dE-9lO.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/sI7-PF-kK6-view-6ne-I3-p4j.nib ... 
+2017-11-21 7:45:02 PM +0000  2651 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/sI7-PF-kK6-view-6ne-I3-p4j.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-Fya-pT-dyd.nib ... 
+2017-11-21 7:45:02 PM +0000  1084 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-Fya-pT-dyd.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-jNe-wt-6pQ.nib ... 
+2017-11-21 7:45:02 PM +0000  1981 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UIViewController-jNe-wt-6pQ.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/jNe-wt-6pQ-view-3im-MF-Ioa.nib ... 
+2017-11-21 7:45:02 PM +0000  9239 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/jNe-wt-6pQ-view-3im-MF-Ioa.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2017-11-21 7:45:02 PM +0000  2383 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/Info.plist
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/mainPageStoryboard2.nib ... 
+2017-11-21 7:45:02 PM +0000  1517 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/mainPageStoryboard2.nib
+copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UJ9-GM-AuD-view-4B4-3c-oFF.nib ... 
+2017-11-21 7:45:02 PM +0000  10539 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/UJ9-GM-AuD-view-4B4-3c-oFF.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/myTripsNavigationControllerStoryboard.nib ... 
+2017-11-21 7:45:02 PM +0000  3128 bytes for ./Payload/SocialCar.app/Base.lproj/Main.storyboardc/myTripsNavigationControllerStoryboard.nib
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2017-11-21 7:45:02 PM +0000  1792 bytes for ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2017-11-21 7:45:02 PM +0000  832 bytes for ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2017-11-21 7:45:02 PM +0000  258 bytes for ./Payload/SocialCar.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/SocialCar.app/archived-expanded-entitlements.xcent ... 
+2017-11-21 7:45:02 PM +0000  246 bytes for ./Payload/SocialCar.app/archived-expanded-entitlements.xcent
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  542 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/de.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  478 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/he.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  495 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings ... 
+553 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/el.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  363 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ja.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  272 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/en.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  604 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/uk.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  423 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/es_MX.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  323 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/zh_CN.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  457 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/nb.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  540 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/es.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  500 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/pt_BR.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  436 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/da.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/gplus.png ... 
+2017-11-21 7:45:02 PM +0000  271 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/gplus.png
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  331 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/it.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  634 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/sk.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  538 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/pt_PT.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/google@3x.png ... 
+2017-11-21 7:45:02 PM +0000  1773 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/google@3x.png
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  341 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ms.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  466 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/sv.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  602 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/cs.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/google@2x.png ... 
+2017-11-21 7:45:02 PM +0000  1166 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/google@2x.png
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  349 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ko.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  577 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/hu.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  493 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/tr.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  484 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/pl.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  315 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/zh_TW.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  272 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/en_GB.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  493 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/vi.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  560 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ru.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  527 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/fr.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  478 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/fi.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  312 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/id.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  341 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/nl.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  461 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/th.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/gplus@3x.png ... 
+2017-11-21 7:45:02 PM +0000  795 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/gplus@3x.png
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  500 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/pt.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/google.png ... 
+2017-11-21 7:45:02 PM +0000  643 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/google.png
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/Roboto-Bold.ttf ... 
+2017-11-21 7:45:02 PM +0000  127744 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/Roboto-Bold.ttf
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  531 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ro.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/gplus@2x.png ... 
+2017-11-21 7:45:02 PM +0000  476 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/gplus@2x.png
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/Info.plist ... 
+2017-11-21 7:45:02 PM +0000  847 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/Info.plist
+copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  466 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/hr.lproj/GoogleSignIn.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings ... 
+2017-11-21 7:45:02 PM +0000  635 bytes for ./Payload/SocialCar.app/GoogleSignIn.bundle/ca.lproj/GoogleSignIn.strings
+copying file ./Payload/SocialCar.app/RouteTableCell.nib ... 
+2017-11-21 7:45:02 PM +0000  6799 bytes for ./Payload/SocialCar.app/RouteTableCell.nib
+copying file ./Payload/SocialCar.app/RouteDetails.nib ... 
+2017-11-21 7:45:02 PM +0000  10087 bytes for ./Payload/SocialCar.app/RouteDetails.nib
+copying file ./Payload/SocialCar.app/Assets.car ... 
+2017-11-21 7:45:02 PM +0000  2919600 bytes for ./Payload/SocialCar.app/Assets.car
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/nl-NL.lproj/LaunchScreen.strings ... 
+26 bytes for ./Payload/SocialCar.app/nl-NL.lproj/LaunchScreen.strings
+copying file ./Payload/SocialCar.app/nl-NL.lproj/Main.strings ... 
+36149 bytes for ./Payload/SocialCar.app/nl-NL.lproj/Main.strings
+copying file ./Payload/SocialCar.app/nl-NL.lproj/Localizable.strings ... 
+6720 bytes for ./Payload/SocialCar.app/nl-NL.lproj/Localizable.strings
+copying file ./Payload/SocialCar.app/RideCell.nib ... 
+7789 bytes for ./Payload/SocialCar.app/RideCell.nib
+copying file ./Payload/SocialCar.app/fr.lproj/LaunchScreen.strings ... 
+26 bytes for ./Payload/SocialCar.app/fr.lproj/LaunchScreen.strings
+copying file ./Payload/SocialCar.app/fr.lproj/Main.strings ... 
+2017-11-21 7:45:02 PM +0000  36533 bytes for ./Payload/SocialCar.app/fr.lproj/Main.strings
+copying file ./Payload/SocialCar.app/fr.lproj/Localizable.strings ... 
+2017-11-21 7:45:02 PM +0000  8334 bytes for ./Payload/SocialCar.app/fr.lproj/Localizable.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:45:02 PM +0000  2202 bytes for ./Payload/SocialCar.app/Frameworks/Protobuf.framework/_CodeSignature/CodeResources
+copying file ./Payload/SocialCar.app/Frameworks/Protobuf.framework/Protobuf ... 
+2017-11-21 7:45:02 PM +0000  2029424 bytes for ./Payload/SocialCar.app/Frameworks/Protobuf.framework/Protobuf
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/Protobuf.framework/Info.plist ... 
+735 bytes for ./Payload/SocialCar.app/Frameworks/Protobuf.framework/Info.plist
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit ... 
+2017-11-21 7:45:02 PM +0000  544752 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework/Info.plist ... 
+746 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKLoginKit.framework/Info.plist
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:45:02 PM +0000  2202 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework/Info.plist ... 
+2017-11-21 7:45:02 PM +0000  746 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework/Info.plist
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework/FBSDKShareKit ... 
+2017-11-21 7:45:02 PM +0000  1438048 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKShareKit.framework/FBSDKShareKit
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework/_CodeSignature/CodeResources
+copying file ./Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac ... 
+2017-11-21 7:45:02 PM +0000  264208 bytes for ./Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework/GoogleToolboxForMac
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework/Info.plist ... 
+759 bytes for ./Payload/SocialCar.app/Frameworks/GoogleToolboxForMac.framework/Info.plist
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:45:02 PM +0000  2202 bytes for ./Payload/SocialCar.app/Frameworks/nanopb.framework/_CodeSignature/CodeResources
+copying file ./Payload/SocialCar.app/Frameworks/nanopb.framework/nanopb ... 
+2017-11-21 7:45:02 PM +0000  232480 bytes for ./Payload/SocialCar.app/Frameworks/nanopb.framework/nanopb
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/nanopb.framework/Info.plist ... 
+731 bytes for ./Payload/SocialCar.app/Frameworks/nanopb.framework/Info.plist
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:45:02 PM +0000  24042 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit ... 
+2017-11-21 7:45:02 PM +0000  1723840 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/FacebookSDK.strings ... 
+5174 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/FacebookSDK.strings
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/FacebookSDK.strings ... 
+5282 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/FacebookSDK.strings
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/FacebookSDK.strings ... 
+5603 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/FacebookSDK.strings
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/FacebookSDK.strings ... 
+6162 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/FacebookSDK.strings
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/FacebookSDK.strings ... 
+5419 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/FacebookSDK.strings
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  6747 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/FacebookSDK.strings
+copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  9126 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  6757 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5977 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4911 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  6874 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5110 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4975 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5016 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5130 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5139 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4990 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  7039 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  7388 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4940 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  7083 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5115 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5137 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5137 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5233 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5006 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5086 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4509 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4891 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5393 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5711 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4853 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5014 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5128 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5228 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5096 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4932 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5014 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  6758 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  5043 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  7025 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4978 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  6785 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/FacebookSDK.strings ... 
+2017-11-21 7:45:02 PM +0000  4833 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/FacebookSDK.strings
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/Info.plist ... 
+2017-11-21 7:45:02 PM +0000  744 bytes for ./Payload/SocialCar.app/Frameworks/FBSDKCoreKit.framework/Info.plist
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/Bolts.framework/_CodeSignature/CodeResources ... 
+2017-11-21 7:45:02 PM +0000  2202 bytes for ./Payload/SocialCar.app/Frameworks/Bolts.framework/_CodeSignature/CodeResources
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/Bolts.framework/Bolts ... 
+2017-11-21 7:45:02 PM +0000  512112 bytes for ./Payload/SocialCar.app/Frameworks/Bolts.framework/Bolts
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/Frameworks/Bolts.framework/Info.plist ... 
+729 bytes for ./Payload/SocialCar.app/Frameworks/Bolts.framework/Info.plist
+2017-11-21 7:45:02 PM +0000  copying file ./Payload/SocialCar.app/embedded.mobileprovision ... 
+2017-11-21 7:45:02 PM +0000  7501 bytes for ./Payload/SocialCar.app/embedded.mobileprovision
+copying file ./Payload/SocialCar.app/Info.plist ... 
+2017-11-21 7:45:02 PM +0000  1871 bytes for ./Payload/SocialCar.app/Info.plist
+copying file ./Payload/SocialCar.app/PkgInfo ... 
+2017-11-21 7:45:02 PM +0000  8 bytes for ./Payload/SocialCar.app/PkgInfo
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/E375142B-540A-33FD-9CA5-F3C9D36EAAFF.symbols ... 
+2017-11-21 7:45:02 PM +0000  3739968 bytes for ./Symbols/E375142B-540A-33FD-9CA5-F3C9D36EAAFF.symbols
+copying file ./Symbols/3EB7F0FE-78BA-3697-BC10-F023E48B21E3.symbols ... 
+2017-11-21 7:45:02 PM +0000  54184 bytes for ./Symbols/3EB7F0FE-78BA-3697-BC10-F023E48B21E3.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/9C8DB34A-2E25-3EFF-B0A0-6FE277D09858.symbols ... 
+2017-11-21 7:45:02 PM +0000  405656 bytes for ./Symbols/9C8DB34A-2E25-3EFF-B0A0-6FE277D09858.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/42A0F380-EDCC-38F6-8525-A6292E6803EE.symbols ... 
+2017-11-21 7:45:02 PM +0000  69304 bytes for ./Symbols/42A0F380-EDCC-38F6-8525-A6292E6803EE.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/6B8DB7F5-F38D-3AAF-BD0F-BB77A12ECCED.symbols ... 
+2017-11-21 7:45:02 PM +0000  145392 bytes for ./Symbols/6B8DB7F5-F38D-3AAF-BD0F-BB77A12ECCED.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/DC4F3CF4-7AED-38D3-953C-B3F4F5758CD6.symbols ... 
+2017-11-21 7:45:02 PM +0000  3067560 bytes for ./Symbols/DC4F3CF4-7AED-38D3-953C-B3F4F5758CD6.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/AAEDFE42-3D07-3C94-B977-B4ADC62BD660.symbols ... 
+2017-11-21 7:45:02 PM +0000  154600 bytes for ./Symbols/AAEDFE42-3D07-3C94-B977-B4ADC62BD660.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/6D126397-D9E5-3BCC-BA81-E0E984BE8B0E.symbols ... 
+2017-11-21 7:45:02 PM +0000  527424 bytes for ./Symbols/6D126397-D9E5-3BCC-BA81-E0E984BE8B0E.symbols
+2017-11-21 7:45:02 PM +0000  copying file ./Symbols/DFC7461C-E791-34C3-A6A7-58EEEC813A4E.symbols ... 
+2017-11-21 7:45:03 PM +0000  782944 bytes for ./Symbols/DFC7461C-E791-34C3-A6A7-58EEEC813A4E.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/DF703168-D652-34B9-B742-62B03DD2DFCD.symbols ... 
+2017-11-21 7:45:03 PM +0000  53576 bytes for ./Symbols/DF703168-D652-34B9-B742-62B03DD2DFCD.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/C2C8DC68-ED3F-3B3E-B082-2DC84DC7A5F1.symbols ... 
+2017-11-21 7:45:03 PM +0000  740864 bytes for ./Symbols/C2C8DC68-ED3F-3B3E-B082-2DC84DC7A5F1.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/03FFCB16-1EDE-3201-ABF7-0FBECE289D8B.symbols ... 
+2017-11-21 7:45:03 PM +0000  598968 bytes for ./Symbols/03FFCB16-1EDE-3201-ABF7-0FBECE289D8B.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/687F6B6B-5FC7-3721-BB0D-593ECB1527F1.symbols ... 
+2017-11-21 7:45:03 PM +0000  185920 bytes for ./Symbols/687F6B6B-5FC7-3721-BB0D-593ECB1527F1.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/130EABE8-25B5-38EF-AACA-1016A4274120.symbols ... 
+2017-11-21 7:45:03 PM +0000  76024 bytes for ./Symbols/130EABE8-25B5-38EF-AACA-1016A4274120.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/41096D53-0084-30CD-879F-93A89E62911E.symbols ... 
+2017-11-21 7:45:03 PM +0000  1061496 bytes for ./Symbols/41096D53-0084-30CD-879F-93A89E62911E.symbols
+2017-11-21 7:45:03 PM +0000  copying file ./Symbols/2B015C11-1135-33B8-B998-8C2B046CC435.symbols ... 
+2017-11-21 7:45:03 PM +0000  207184 bytes for ./Symbols/2B015C11-1135-33B8-B998-8C2B046CC435.symbols
+2017-11-21 7:45:03 PM +0000  
+2017-11-21 7:45:03 PM +0000  
+2017-11-21 7:45:03 PM +0000  /usr/bin/ditto exited with 0
+2017-11-21 7:45:03 PM +0000  
+2017-11-21 7:45:03 PM +0000  2017-11-21 7:45:03 PM +0000  Processing step: IDEDistributionCreateManifestStep
+
+2017-11-21 7:45:03 PM +0000  Skipping step: IDEDistributionCreateManifestStep because it said so

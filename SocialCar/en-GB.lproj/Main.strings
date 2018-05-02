@@ -1,0 +1,849 @@
+
+/* Class = "UITextField"; placeholder = "Maximum number of transfers"; ObjectID = "08T-40-6Od"; */
+"08T-40-6Od.placeholder" = "Maximum number of transfers";
+
+/* Class = "UINavigationItem"; title = "FAQs"; ObjectID = "0F1-OK-59Q"; */
+"0F1-OK-59Q.title" = "FAQs";
+
+/* Class = "UITextField"; placeholder = "Smoking allowed"; ObjectID = "0Gs-hj-2ag"; */
+"0Gs-hj-2ag.placeholder" = "Smoking allowed";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "0bS-Jd-Rh3"; */
+"0bS-Jd-Rh3.text" = "L";
+
+/* Class = "UILabel"; text = "Car model"; ObjectID = "0dF-ZO-y6r"; */
+"0dF-ZO-y6r.text" = "Car model";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "0fj-bY-Xoa"; */
+"0fj-bY-Xoa.text" = "Origin";
+
+/* Class = "UITextField"; placeholder = "Luggage"; ObjectID = "0sw-lV-0Fs"; */
+"0sw-lV-0Fs.placeholder" = "Luggage";
+
+/* Class = "UITextField"; placeholder = "Pets allowed"; ObjectID = "1aI-qb-GuL"; */
+"1aI-qb-GuL.placeholder" = "Pets allowed";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "1av-dj-pqP"; */
+"1av-dj-pqP.normalTitle" = "SIGN IN";
+
+/* Class = "UITextField"; placeholder = "Child seat"; ObjectID = "1iI-6I-iP6"; */
+"1iI-6I-iP6.placeholder" = "Child seat";
+
+/* Class = "UITabBarItem"; title = "Logout"; ObjectID = "1m1-9Z-raW"; */
+"1m1-9Z-raW.title" = "Logout";
+
+/* Class = "UILabel"; text = "Social  "; ObjectID = "28W-8P-uHe"; */
+"28W-8P-uHe.text" = "Social  ";
+
+/* Class = "UITextField"; placeholder = "Rating"; ObjectID = "2Bn-WR-b9P"; */
+"2Bn-WR-b9P.placeholder" = "Rating";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE BY EMAIL"; ObjectID = "2NG-dw-WLd"; */
+"2NG-dw-WLd.normalTitle" = "CONTINUE BY EMAIL";
+
+/* Class = "UITextField"; placeholder = "Special needs"; ObjectID = "2sj-MV-5UR"; */
+"2sj-MV-5UR.placeholder" = "Special needs";
+
+/* Class = "UITextField"; placeholder = "Carpooler Age Range"; ObjectID = "2ws-BZ-6l3"; */
+"2ws-BZ-6l3.placeholder" = "Carpooler Age Range";
+
+/* Class = "UILabel"; text = "Driver"; ObjectID = "3SI-34-fFw"; */
+"3SI-34-fFw.text" = "Driver";
+
+/* Class = "UIViewController"; title = "Status"; ObjectID = "3md-IT-54w"; */
+"3md-IT-54w.title" = "Status";
+
+/* Class = "UITableViewController"; title = "Send Report"; ObjectID = "47E-jf-Isf"; */
+"47E-jf-Isf.title" = "Send Report";
+
+/* Class = "UIViewController"; title = "Driver details"; ObjectID = "4TP-H9-57R"; */
+"4TP-H9-57R.title" = "Driver details";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "4VB-Vz-vp3"; */
+"4VB-Vz-vp3.text" = "OR";
+
+/* Class = "UILabel"; text = "REQUESTED"; ObjectID = "4v1-bC-uqp"; */
+"4v1-bC-uqp.text" = "REQUESTED";
+
+/* Class = "UITextField"; placeholder = "Maximum number of transfers"; ObjectID = "5Ib-fw-J0G"; */
+"5Ib-fw-J0G.placeholder" = "Maximum number of transfers";
+
+/* Class = "UIButton"; normalTitle = "Select photo"; ObjectID = "5S8-aG-etY"; */
+"5S8-aG-etY.normalTitle" = "Select photo";
+
+/* Class = "UITextField"; placeholder = "Departure:"; ObjectID = "5g3-GJ-yC3"; */
+"5g3-GJ-yC3.placeholder" = "Departure:";
+
+/* Class = "UITextField"; text = "Departure:"; ObjectID = "5g3-GJ-yC3"; */
+"5g3-GJ-yC3.text" = "Departure:";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "5sm-Ep-If2"; */
+"5sm-Ep-If2.text" = "L";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "6FT-wy-5Xa"; */
+"6FT-wy-5Xa.text" = "Destination";
+
+/* Class = "UINavigationItem"; title = "Driver Profile"; ObjectID = "6d1-eM-mAE"; */
+"6d1-eM-mAE.title" = "Driver Profile";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "6wS-3r-SVQ"; */
+"6wS-3r-SVQ.text" = "OR";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7li-C1-RsE"; */
+"7li-C1-RsE.text" = "Label";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "81J-Xf-BHi"; */
+"81J-Xf-BHi.text" = "Login info";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google"; ObjectID = "8Gs-nm-4Iu"; */
+"8Gs-nm-4Iu.normalTitle" = "Sign in with Google";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "8bW-rI-J7K"; */
+"8bW-rI-J7K.normalTitle" = "Sign in with Google+";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "8gd-ur-gix"; */
+"8gd-ur-gix.text" = "Login info";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "8jB-cR-ePb"; */
+"8jB-cR-ePb.text" = "Origin";
+
+/* Class = "UILabel"; text = "20:45"; ObjectID = "8oj-ue-499"; */
+"8oj-ue-499.text" = "20:45";
+
+/* Class = "UINavigationItem"; title = "Terms and conditions"; ObjectID = "9X9-7e-Jkl"; */
+"9X9-7e-Jkl.title" = "Terms and conditions";
+
+/* Class = "UITextField"; placeholder = "GPS Tracking"; ObjectID = "9rU-05-0r2"; */
+"9rU-05-0r2.placeholder" = "GPS Tracking";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "AIM-AZ-brl"; */
+"AIM-AZ-brl.title" = "Home";
+
+/* Class = "UITextField"; placeholder = "Luggage"; ObjectID = "AmB-T0-eHH"; */
+"AmB-T0-eHH.placeholder" = "Luggage";
+
+/* Class = "UITextField"; placeholder = "Carpooler Gender"; ObjectID = "Ana-Eu-70E"; */
+"Ana-Eu-70E.placeholder" = "Carpooler Gender";
+
+/* Class = "UITextField"; placeholder = "Smoking"; ObjectID = "BNO-bF-viC"; */
+"BNO-bF-viC.placeholder" = "Smoking";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "BPT-dt-j0s"; */
+"BPT-dt-j0s.normalTitle" = "SIGN UP";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Bnb-va-L73"; */
+"Bnb-va-L73.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "CBD-i9-Wsx"; */
+"CBD-i9-Wsx.normalTitle" = "Sign in with Google+";
+
+/* Class = "UITextField"; placeholder = "Smoking"; ObjectID = "CFX-xK-6ge"; */
+"CFX-xK-6ge.placeholder" = "Smoking";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "CL9-B0-oiv"; */
+"CL9-B0-oiv.title" = "Home";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "Cii-yr-XEX"; */
+"Cii-yr-XEX.normalTitle" = "Sign in with Facebook";
+
+/* Class = "UITextField"; placeholder = "Smoking"; ObjectID = "Ckn-qi-xaW"; */
+"Ckn-qi-xaW.placeholder" = "Smoking";
+
+/* Class = "UITextField"; placeholder = "Music"; ObjectID = "D5O-Vv-HJ7"; */
+"D5O-Vv-HJ7.placeholder" = "Music";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "D6d-Fd-z9y"; */
+"D6d-Fd-z9y.text" = "Destination";
+
+/* Class = "UITextField"; placeholder = "Luggage"; ObjectID = "DI4-22-95L"; */
+"DI4-22-95L.placeholder" = "Luggage";
+
+/* Class = "UILabel"; text = "0 (0 feedback)"; ObjectID = "Dfn-Ld-lc4"; */
+"Dfn-Ld-lc4.text" = "0 (0 feedback)";
+
+/* Class = "UIButton"; normalTitle = "Already have account?"; ObjectID = "Dfn-Wz-JJz"; */
+"Dfn-Wz-JJz.normalTitle" = "Already have account?";
+
+/* Class = "UIButton"; normalTitle = "I accept"; ObjectID = "Dp0-fP-glv"; */
+"Dp0-fP-glv.normalTitle" = "I accept";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "DqG-Xp-5NW"; */
+"DqG-Xp-5NW.normalTitle" = "Edit";
+
+/* Class = "UILabel"; text = "DRIVER"; ObjectID = "Dso-DK-0al"; */
+"Dso-DK-0al.text" = "DRIVER";
+
+/* Class = "UINavigationController"; title = "Reports"; ObjectID = "Dxw-Hr-yA3"; */
+"Dxw-Hr-yA3.title" = "Reports";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "Edk-Mc-hRl"; */
+"Edk-Mc-hRl.normalTitle" = "Edit";
+
+/* Class = "UITabBarItem"; title = "Traffic conditions"; ObjectID = "F4D-uK-xVQ"; */
+"F4D-uK-xVQ.title" = "Traffic conditions";
+
+/* Class = "UILabel"; text = "Add photo"; ObjectID = "FNY-wh-wnh"; */
+"FNY-wh-wnh.text" = "Add photo";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "FVi-gs-Q6X"; */
+"FVi-gs-Q6X.title" = "Back";
+
+/* Class = "UIButton"; normalTitle = "CREATE NEW TRIP"; ObjectID = "Fd8-d6-EHA"; */
+"Fd8-d6-EHA.normalTitle" = "CREATE NEW TRIP";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "FiR-Ub-75C"; */
+"FiR-Ub-75C.text" = "Other info";
+
+/* Class = "UIViewController"; title = "Details"; ObjectID = "Fya-pT-dyd"; */
+"Fya-pT-dyd.title" = "Details";
+
+/* Class = "UITextField"; placeholder = "Music allowed"; ObjectID = "GTY-c7-3mG"; */
+"GTY-c7-3mG.placeholder" = "Music allowed";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "GeH-8i-IXL"; */
+"GeH-8i-IXL.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Travel preferences (optional)"; ObjectID = "H6c-TQ-czw"; */
+"H6c-TQ-czw.text" = "Travel preferences (optional)";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "HF6-1G-SyK"; */
+"HF6-1G-SyK.text" = "Don't have an account?";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "HM9-Jf-KBV"; */
+"HM9-Jf-KBV.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "HZW-PY-HwS"; */
+"HZW-PY-HwS.text" = "L";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "Hdw-xM-QMK"; */
+"Hdw-xM-QMK.text" = "2";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "Hf6-uJ-OXk"; */
+"Hf6-uJ-OXk.title" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "Food"; ObjectID = "HnH-cC-x4d"; */
+"HnH-cC-x4d.placeholder" = "Food";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "I5r-XP-RnL"; */
+"I5r-XP-RnL.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "Password"; ObjectID = "IAZ-Gw-0yV"; */
+"IAZ-Gw-0yV.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "IBg-fy-dat"; */
+"IBg-fy-dat.placeholder" = "Date of Birth";
+
+/* Class = "UILabel"; text = "Additional info"; ObjectID = "IWK-G0-BQx"; */
+"IWK-G0-BQx.text" = "Additional info";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "IjW-dY-CCl"; */
+"IjW-dY-CCl.normalTitle" = "SIGN UP";
+
+/* Class = "UINavigationItem"; title = "Terms and conditions"; ObjectID = "Itz-J1-Crg"; */
+"Itz-J1-Crg.title" = "Terms and conditions";
+
+/* Class = "UITextField"; placeholder = "Maximum cost"; ObjectID = "Ixt-dA-i4A"; */
+"Ixt-dA-i4A.placeholder" = "Maximum cost";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "J0V-5g-6r2"; */
+"J0V-5g-6r2.text" = "OR";
+
+/* Class = "UIViewController"; title = "Terms and conditions"; ObjectID = "J5N-Wv-NvW"; */
+"J5N-Wv-NvW.title" = "Terms and conditions";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "JF7-6J-bwN"; */
+"JF7-6J-bwN.normalTitle" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "JGd-Dr-YzR"; */
+"JGd-Dr-YzR.normalTitle" = "Sign in with Facebook";
+
+/* Class = "UILabel"; text = "19 min."; ObjectID = "JyU-bK-pBm"; */
+"JyU-bK-pBm.text" = "19 min.";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "KDO-uP-XGE"; */
+"KDO-uP-XGE.text" = "OR";
+
+/* Class = "UITextField"; placeholder = "GPS Tracking"; ObjectID = "Kd3-hO-vcw"; */
+"Kd3-hO-vcw.placeholder" = "GPS Tracking";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Kz8-HO-nIl"; */
+"Kz8-HO-nIl.title" = "Back";
+
+/* Class = "UILabel"; text = "Lorem ipsum tenent lorem ipsum Lorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsum"; ObjectID = "LZk-iX-50Z"; */
+"LZk-iX-50Z.text" = "Lorem ipsum tenent lorem ipsum Lorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsum";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "Lht-5S-9ap"; */
+"Lht-5S-9ap.title" = "Profile data";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "LmX-z9-kCg"; */
+"LmX-z9-kCg.text" = "Already have an account?";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "M56-zz-DCw"; */
+"M56-zz-DCw.text" = "L";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "M7w-oA-dU7"; */
+"M7w-oA-dU7.normalTitle" = "OK";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "M8X-nS-oDh"; */
+"M8X-nS-oDh.title" = "Sign In";
+
+/* Class = "UITextField"; placeholder = "Carpooler Age Range"; ObjectID = "MWn-gh-e79"; */
+"MWn-gh-e79.placeholder" = "Carpooler Age Range";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "MeH-kr-JM5"; */
+"MeH-kr-JM5.placeholder" = "Name";
+
+/* Class = "UITextField"; placeholder = "Carpooler Gender"; ObjectID = "NEh-tF-5o0"; */
+"NEh-tF-5o0.placeholder" = "Carpooler Gender";
+
+/* Class = "UITextView"; text = "Leave feedback and then tap outside to hide keyboard."; ObjectID = "NP5-Sc-YXN"; */
+"NP5-Sc-YXN.text" = "Leave feedback and then tap outside to hide keyboard.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NVR-QA-tfR"; */
+"NVR-QA-tfR.text" = "Label";
+
+/* Class = "UILabel"; text = "20-07-2017"; ObjectID = "NhS-Ve-d9F"; */
+"NhS-Ve-d9F.text" = "20-07-2017";
+
+/* Class = "UILabel"; text = "Car photo"; ObjectID = "Nk9-Lp-GT8"; */
+"Nk9-Lp-GT8.text" = "Car photo";
+
+/* Class = "UIViewController"; title = "Rides"; ObjectID = "OBh-pX-W0S"; */
+"OBh-pX-W0S.title" = "Rides";
+
+/* Class = "UILabel"; text = "Connect you social account with facebook and google plus one! You 'll unlock more features."; ObjectID = "ODM-Dn-155"; */
+"ODM-Dn-155.text" = "Connect you social account with facebook and google plus one! You 'll unlock more features.";
+
+/* Class = "UIViewController"; title = "Terms and conditions"; ObjectID = "OJu-CA-Mij"; */
+"OJu-CA-Mij.title" = "Terms and conditions";
+
+/* Class = "UIViewController"; title = "Requested Trips"; ObjectID = "ORl-PN-EFH"; */
+"ORl-PN-EFH.title" = "Requested Trips";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "OkO-WA-8jL"; */
+"OkO-WA-8jL.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Name Surname"; ObjectID = "OmC-lo-kAU"; */
+"OmC-lo-kAU.text" = "Name Surname";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "Osu-kz-6b2"; */
+"Osu-kz-6b2.title" = "Profile data";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "Otb-ks-qJa"; */
+"Otb-ks-qJa.title" = "Next";
+
+/* Class = "UINavigationItem"; title = "My Trips"; ObjectID = "PRw-3S-KdK"; */
+"PRw-3S-KdK.title" = "My Trips";
+
+/* Class = "UINavigationItem"; title = "Select Address"; ObjectID = "PoU-RZ-wj2"; */
+"PoU-RZ-wj2.title" = "Select Address";
+
+/* Class = "UITextField"; placeholder = "Food allowed"; ObjectID = "Pth-ym-jIb"; */
+"Pth-ym-jIb.placeholder" = "Food allowed";
+
+/* Class = "UILabel"; text = "11.58 €"; ObjectID = "Q7f-0J-g6N"; */
+"Q7f-0J-g6N.text" = "11.58 €";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "QMA-Xg-sdJ"; */
+"QMA-Xg-sdJ.title" = "Back";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "Qec-mV-4cn"; */
+"Qec-mV-4cn.title" = "Profile";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Qff-Yg-EWb"; */
+"Qff-Yg-EWb.placeholder" = "Password";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "QxO-f3-Lpg"; */
+"QxO-f3-Lpg.title" = "Profile";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "R9e-L4-aWU"; */
+"R9e-L4-aWU.placeholder" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "BECOME A DRIVER"; ObjectID = "RGf-FK-IKc"; */
+"RGf-FK-IKc.normalTitle" = "BECOME A DRIVER";
+
+/* Class = "UILabel"; text = "Seats:"; ObjectID = "RJb-NE-Drm"; */
+"RJb-NE-Drm.text" = "Seats:";
+
+/* Class = "UILabel"; text = "Travel preferences (optional)"; ObjectID = "RO0-su-Ni6"; */
+"RO0-su-Ni6.text" = "Travel preferences (optional)";
+
+/* Class = "UIButton"; normalTitle = "Sign in "; ObjectID = "RdP-CD-AKA"; */
+"RdP-CD-AKA.normalTitle" = "Sign in ";
+
+/* Class = "UILabel"; text = "HIGH"; ObjectID = "RjL-Rx-hdI"; */
+"RjL-Rx-hdI.text" = "HIGH";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "RlJ-ga-X2Y"; */
+"RlJ-ga-X2Y.placeholder" = "Email";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "SDL-gJ-NSA"; */
+"SDL-gJ-NSA.title" = "Profile";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ScR-Hl-Rbv"; */
+"ScR-Hl-Rbv.text" = "-";
+
+/* Class = "UITextField"; placeholder = "Air conditioning"; ObjectID = "SiM-AX-C6M"; */
+"SiM-AX-C6M.placeholder" = "Air conditioning";
+
+/* Class = "UITextField"; placeholder = "Maximum cost"; ObjectID = "Spb-Tw-FYf"; */
+"Spb-Tw-FYf.placeholder" = "Maximum cost";
+
+/* Class = "UITextField"; placeholder = "To (optional)"; ObjectID = "SwU-hB-h5a"; */
+"SwU-hB-h5a.placeholder" = "To (optional)";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "TCV-2u-wph"; */
+"TCV-2u-wph.normalTitle" = "Register";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "TH7-h6-ncO"; */
+"TH7-h6-ncO.normalTitle" = "Register";
+
+/* Class = "UIViewController"; title = "Solutions"; ObjectID = "UJ9-GM-AuD"; */
+"UJ9-GM-AuD.title" = "Solutions";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "VD7-4e-z1L"; */
+"VD7-4e-z1L.normalTitle" = "Sign in with Facebook";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "VFS-sP-Zj6"; */
+"VFS-sP-Zj6.text" = "Already have an account?";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "VIR-pe-auh"; */
+"VIR-pe-auh.normalTitle" = "Sign in with Google+";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "VNg-Ld-iAf"; */
+"VNg-Ld-iAf.placeholder" = "Phone";
+
+/* Class = "UITextField"; placeholder = "Rating-Not editable"; ObjectID = "Va7-8J-Rf7"; */
+"Va7-8J-Rf7.placeholder" = "Rating-Not editable";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VfG-rN-1QY"; */
+"VfG-rN-1QY.text" = "Label";
+
+/* Class = "UITabBarController"; title = "SocialCar"; ObjectID = "Vq1-oO-8DX"; */
+"Vq1-oO-8DX.title" = "SocialCar";
+
+/* Class = "UITextField"; placeholder = "Seats"; ObjectID = "WE0-vU-aPO"; */
+"WE0-vU-aPO.placeholder" = "Seats";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "WOc-Yh-Zsl"; */
+"WOc-Yh-Zsl.title" = "Title";
+
+/* Class = "UIViewController"; title = "New Trip (Ride)"; ObjectID = "X48-X1-HgU"; */
+"X48-X1-HgU.title" = "New Trip (Ride)";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "XCX-TM-jpl"; */
+"XCX-TM-jpl.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "XQb-aC-V41"; */
+"XQb-aC-V41.placeholder" = "Date of Birth";
+
+/* Class = "UILabel"; text = "STATUS: PENDING"; ObjectID = "XTT-Kv-nOf"; */
+"XTT-Kv-nOf.text" = "STATUS: PENDING";
+
+/* Class = "UITextField"; placeholder = "Pets"; ObjectID = "XaL-qf-3Da"; */
+"XaL-qf-3Da.placeholder" = "Pets";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "Xch-i0-jeD"; */
+"Xch-i0-jeD.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Accident"; ObjectID = "Xnm-bs-S5p"; */
+"Xnm-bs-S5p.text" = "Accident";
+
+/* Class = "UITabBarItem"; title = "My Trips"; ObjectID = "YIC-ZR-u3e"; */
+"YIC-ZR-u3e.title" = "My Trips";
+
+/* Class = "UITextField"; placeholder = "Optimise Travel Solutions by"; ObjectID = "Z6T-6b-tWu"; */
+"Z6T-6b-tWu.placeholder" = "Optimise Travel Solutions by";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "ZCo-Mc-c0p"; */
+"ZCo-Mc-c0p.placeholder" = "Gender";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "ZG8-mL-t3x"; */
+"ZG8-mL-t3x.title" = "Home";
+
+/* Class = "UITextView"; text = "Please read carefully and accept our Terms and Conditions before using the RideMyRoute mobile application. By accessing or using the app you agree to be bound by these Term."; ObjectID = "ZGY-RU-TKo"; */
+"ZGY-RU-TKo.text" = "Please read carefully and accept our Terms and Conditions before using the RideMyRoute mobile application. By accessing or using the app you agree to be bound by these Term.";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ZOW-E6-WwY"; */
+"ZOW-E6-WwY.placeholder" = "Password";
+
+/* Class = "UITextField"; text = "test20"; ObjectID = "ZOW-E6-WwY"; */
+"ZOW-E6-WwY.text" = "test20";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "ZWc-0i-z7l"; */
+"ZWc-0i-z7l.text" = "Origin";
+
+/* Class = "UITextField"; placeholder = "Music"; ObjectID = "ZkA-gg-2NZ"; */
+"ZkA-gg-2NZ.placeholder" = "Music";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "Zml-Jw-uig"; */
+"Zml-Jw-uig.text" = "Origin";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "Znf-98-sQn"; */
+"Znf-98-sQn.placeholder" = "Gender";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "ZoN-uX-gqm"; */
+"ZoN-uX-gqm.normalTitle" = "Register";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "aLK-JV-Mt6"; */
+"aLK-JV-Mt6.placeholder" = "Password";
+
+/* Class = "UITextField"; placeholder = "Inserting starting address"; ObjectID = "aMX-Bc-y5d"; */
+"aMX-Bc-y5d.placeholder" = "Inserting starting address";
+
+/* Class = "UITextField"; placeholder = "Car plate"; ObjectID = "aQG-Dd-QhO"; */
+"aQG-Dd-QhO.placeholder" = "Car plate";
+
+/* Class = "UITextField"; text = "Password"; ObjectID = "aTF-46-qsP"; */
+"aTF-46-qsP.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "GPS Tracking"; ObjectID = "b3z-Lc-pa1"; */
+"b3z-Lc-pa1.placeholder" = "GPS Tracking";
+
+/* Class = "UIButton"; normalTitle = "I decline"; ObjectID = "b8L-V2-IyB"; */
+"b8L-V2-IyB.normalTitle" = "I decline";
+
+/* Class = "UITextField"; placeholder = "Optimise Travel Solutions by"; ObjectID = "bMe-cP-wJD"; */
+"bMe-cP-wJD.placeholder" = "Optimise Travel Solutions by";
+
+/* Class = "UILabel"; text = "In order to help with other users, your feedback will be public"; ObjectID = "bT0-ca-LiZ"; */
+"bT0-ca-LiZ.text" = "In order to help with other users, your feedback will be public";
+
+/* Class = "UITextField"; placeholder = "Rating-Not editable"; ObjectID = "c3g-vx-gbD"; */
+"c3g-vx-gbD.placeholder" = "Rating-Not editable";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "cEn-vU-S7o"; */
+"cEn-vU-S7o.normalTitle" = "SEND";
+
+/* Class = "UITabBarItem"; title = "FAQs"; ObjectID = "cQI-Q4-5h8"; */
+"cQI-Q4-5h8.title" = "FAQs";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "d24-au-A2D"; */
+"d24-au-A2D.placeholder" = "Gender";
+
+/* Class = "UITextField"; placeholder = "Pets"; ObjectID = "dM9-nh-FE6"; */
+"dM9-nh-FE6.placeholder" = "Pets";
+
+/* Class = "UILabel"; text = "Plate:"; ObjectID = "dMY-NY-qJw"; */
+"dMY-NY-qJw.text" = "Plate:";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "dY1-Vp-IPh"; */
+"dY1-Vp-IPh.title" = "Sign In";
+
+/* Class = "UILabel"; text = "It looks like you are not registered as a driver."; ObjectID = "dmz-a8-rOv"; */
+"dmz-a8-rOv.text" = "It looks like you are not registered as a driver.";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "dzK-nR-m7x"; */
+"dzK-nR-m7x.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Policy"; ObjectID = "e00-ZN-3YU"; */
+"e00-ZN-3YU.title" = "Policy";
+
+/* Class = "UITextField"; text = "Email"; ObjectID = "efM-OY-1fi"; */
+"efM-OY-1fi.text" = "Email";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "eiP-3Y-Y9r"; */
+"eiP-3Y-Y9r.placeholder" = "Email";
+
+/* Class = "UITextField"; text = "test20@test20.gr"; ObjectID = "eiP-3Y-Y9r"; */
+"eiP-3Y-Y9r.text" = "test20@test20.gr";
+
+/* Class = "UILabel"; text = "AAA 1234"; ObjectID = "epC-WP-S9R"; */
+"epC-WP-S9R.text" = "AAA 1234";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eqA-4E-n8U"; */
+"eqA-4E-n8U.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Travel Modes"; ObjectID = "fBT-LH-TZg"; */
+"fBT-LH-TZg.placeholder" = "Travel Modes";
+
+/* Class = "UIViewController"; title = "Starting point"; ObjectID = "fEX-UX-PJ3"; */
+"fEX-UX-PJ3.title" = "Starting point";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "fXx-Nd-2bD"; */
+"fXx-Nd-2bD.text" = "Destination";
+
+/* Class = "UITextField"; placeholder = "Enter date and time"; ObjectID = "fdq-pu-9vt"; */
+"fdq-pu-9vt.placeholder" = "Enter date and time";
+
+/* Class = "UIButton"; normalTitle = "SET STARTING POINT"; ObjectID = "fgm-EJ-X9d"; */
+"fgm-EJ-X9d.normalTitle" = "SET STARTING POINT";
+
+/* Class = "UIButton"; normalTitle = "SEND REQUEST"; ObjectID = "fgo-oV-3de"; */
+"fgo-oV-3de.normalTitle" = "SEND REQUEST";
+
+/* Class = "UITextField"; placeholder = "Carpooler Age Range"; ObjectID = "foI-Ye-2n8"; */
+"foI-Ye-2n8.placeholder" = "Carpooler Age Range";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "g4D-li-3kA"; */
+"g4D-li-3kA.normalTitle" = "SIGN IN";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "gaU-ka-tNy"; */
+"gaU-ka-tNy.normalTitle" = "Forgot your password?";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "gcW-an-pIA"; */
+"gcW-an-pIA.title" = "Next";
+
+/* Class = "UITextField"; placeholder = "Optimise Travel Solutions by"; ObjectID = "gjV-aM-N36"; */
+"gjV-aM-N36.placeholder" = "Optimise Travel Solutions by";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "gu5-o4-KAt"; */
+"gu5-o4-KAt.text" = "Other info";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "h9e-nh-BmB"; */
+"h9e-nh-BmB.title" = "Profile data";
+
+/* Class = "UITextField"; text = "Email"; ObjectID = "hB7-5k-HLB"; */
+"hB7-5k-HLB.text" = "Email";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "hND-AN-D8O"; */
+"hND-AN-D8O.text" = "Other info";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "hT3-cL-Kkf"; */
+"hT3-cL-Kkf.title" = "Profile";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "hch-S4-7Ug"; */
+"hch-S4-7Ug.normalTitle" = "Forgot your password?";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "hcm-Do-2eq"; */
+"hcm-Do-2eq.text" = "L";
+
+/* Class = "UITextField"; placeholder = "Special needs"; ObjectID = "hcv-kC-H38"; */
+"hcv-kC-H38.placeholder" = "Special needs";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "hhq-wF-FCL"; */
+"hhq-wF-FCL.normalTitle" = "CREATE";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "hmt-XO-QT5"; */
+"hmt-XO-QT5.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Maximum cost"; ObjectID = "iAJ-lD-lEj"; */
+"iAJ-lD-lEj.placeholder" = "Maximum cost";
+
+/* Class = "UITextField"; placeholder = "Music"; ObjectID = "iYU-Nb-Gyo"; */
+"iYU-Nb-Gyo.placeholder" = "Music";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "imX-Gp-Nlb"; */
+"imX-Gp-Nlb.text" = "Label";
+
+/* Class = "UIViewController"; title = "Driver profile"; ObjectID = "inI-09-3Sl"; */
+"inI-09-3Sl.title" = "Driver profile";
+
+/* Class = "UILabel"; text = "Unlock more features connecting your facebook or google account!"; ObjectID = "j3z-Kd-MZ5"; */
+"j3z-Kd-MZ5.text" = "Unlock more features connecting your facebook or google account!";
+
+/* Class = "UIViewController"; title = "Leave Feedback"; ObjectID = "jNe-wt-6pQ"; */
+"jNe-wt-6pQ.title" = "Leave Feedback";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "jWI-yd-18w"; */
+"jWI-yd-18w.text" = "Other info";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "jZY-cj-r99"; */
+"jZY-cj-r99.text" = "L";
+
+/* Class = "UITextField"; placeholder = "Maximum number of transfers"; ObjectID = "jvL-Up-2v1"; */
+"jvL-Up-2v1.placeholder" = "Maximum number of transfers";
+
+/* Class = "UITextField"; placeholder = "Colour"; ObjectID = "k2n-i4-zdW"; */
+"k2n-i4-zdW.placeholder" = "Colour";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "k6O-VA-61h"; */
+"k6O-VA-61h.normalTitle" = "SIGN UP";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "kEI-jL-sOW"; */
+"kEI-jL-sOW.text" = "Login info";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "kJk-69-BLW"; */
+"kJk-69-BLW.text" = "OR";
+
+/* Class = "UILabel"; text = "PASSENGER"; ObjectID = "kqM-wV-Y3c"; */
+"kqM-wV-Y3c.text" = "PASSENGER";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "kzK-oq-Fvj"; */
+"kzK-oq-Fvj.normalTitle" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Take photo"; ObjectID = "lnc-Ch-Ite"; */
+"lnc-Ch-Ite.normalTitle" = "Take photo";
+
+/* Class = "UITextField"; placeholder = "Maximum walking distance (m)"; ObjectID = "m6t-Xb-xni"; */
+"m6t-Xb-xni.placeholder" = "Maximum walking distance (m)";
+
+/* Class = "UITextField"; placeholder = "Enter trip name"; ObjectID = "mZW-qQ-Y0a"; */
+"mZW-qQ-Y0a.placeholder" = "Enter trip name";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "mm0-C2-TAr"; */
+"mm0-C2-TAr.title" = "Title";
+
+/* Class = "UILabel"; text = "OFFERED"; ObjectID = "n37-Mc-F3P"; */
+"n37-Mc-F3P.text" = "OFFERED";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "nVM-SD-q6Q"; */
+"nVM-SD-q6Q.normalTitle" = "SEND";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "nd3-Tx-v0c"; */
+"nd3-Tx-v0c.placeholder" = "Date of Birth";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "nsA-wt-CRD"; */
+"nsA-wt-CRD.text" = "L";
+
+/* Class = "UILabel"; text = "SEAT IBIZA"; ObjectID = "oAX-q9-yAa"; */
+"oAX-q9-yAa.text" = "SEAT IBIZA";
+
+/* Class = "UITabBarItem"; title = "Terms and conditions"; ObjectID = "oCZ-ba-Ze0"; */
+"oCZ-ba-Ze0.title" = "Terms and conditions";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "oMw-KM-bxW"; */
+"oMw-KM-bxW.text" = "L";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "oil-kM-cFR"; */
+"oil-kM-cFR.placeholder" = "Phone";
+
+/* Class = "UITextField"; placeholder = "Maximum walking distance (m)"; ObjectID = "opU-rR-3N1"; */
+"opU-rR-3N1.placeholder" = "Maximum walking distance (m)";
+
+/* Class = "UITextField"; placeholder = "Carpooler Gender"; ObjectID = "osN-ZX-dec"; */
+"osN-ZX-dec.placeholder" = "Carpooler Gender";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "pJt-cg-VEs"; */
+"pJt-cg-VEs.text" = "Destination";
+
+/* Class = "UILabel"; text = "Car info"; ObjectID = "pS4-1o-eOY"; */
+"pS4-1o-eOY.text" = "Car info";
+
+/* Class = "UILabel"; text = "Colour:"; ObjectID = "pgT-4g-z0m"; */
+"pgT-4g-z0m.text" = "Colour:";
+
+/* Class = "UITextField"; placeholder = "Model"; ObjectID = "pkG-EH-8wZ"; */
+"pkG-EH-8wZ.placeholder" = "Model";
+
+/* Class = "UITextField"; placeholder = "Food"; ObjectID = "ptE-i6-lGF"; */
+"ptE-i6-lGF.placeholder" = "Food";
+
+/* Class = "UITextField"; placeholder = "Food"; ObjectID = "qDM-FB-96f"; */
+"qDM-FB-96f.placeholder" = "Food";
+
+/* Class = "UINavigationItem"; title = "Select address"; ObjectID = "qgG-b3-QvD"; */
+"qgG-b3-QvD.title" = "Select address";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "rZQ-FI-zJM"; */
+"rZQ-FI-zJM.placeholder" = "Phone";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "rZb-sd-Ib7"; */
+"rZb-sd-Ib7.title" = "Profile data";
+
+/* Class = "UILabel"; text = "Don't have account?"; ObjectID = "rfx-lO-kIo"; */
+"rfx-lO-kIo.text" = "Don't have account?";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "rkc-KC-Ztj"; */
+"rkc-KC-Ztj.normalTitle" = "CANCEL";
+
+/* Class = "UIViewController"; title = "Privacy Policy"; ObjectID = "sI7-PF-kK6"; */
+"sI7-PF-kK6.title" = "Privacy Policy";
+
+/* Class = "UIViewController"; title = "TrafficConditions"; ObjectID = "sMs-LS-BBk"; */
+"sMs-LS-BBk.title" = "TrafficConditions";
+
+/* Class = "UIButton"; normalTitle = "Sign in by email"; ObjectID = "sQ5-5f-UAd"; */
+"sQ5-5f-UAd.normalTitle" = "Sign in by email";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "snc-KJ-74C"; */
+"snc-KJ-74C.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Pets"; ObjectID = "t89-in-iSH"; */
+"t89-in-iSH.placeholder" = "Pets";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "tF4-Ff-G6j"; */
+"tF4-Ff-G6j.normalTitle" = "Sign up";
+
+/* Class = "UITextField"; placeholder = "Maximum walking distance (m)"; ObjectID = "tFH-45-Ab2"; */
+"tFH-45-Ab2.placeholder" = "Maximum walking distance (m)";
+
+/* Class = "UILabel"; text = "192 min."; ObjectID = "tFa-Vd-BPu"; */
+"tFa-Vd-BPu.text" = "192 min.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "til-UU-T9P"; */
+"til-UU-T9P.placeholder" = "Email";
+
+/* Class = "UITextField"; placeholder = "Preferences"; ObjectID = "uCr-vt-Kca"; */
+"uCr-vt-Kca.placeholder" = "Preferences";
+
+/* Class = "UITextField"; text = "Preferences"; ObjectID = "uCr-vt-Kca"; */
+"uCr-vt-Kca.text" = "Preferences";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "uuv-1N-owP"; */
+"uuv-1N-owP.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "How was your experience with "; ObjectID = "vOb-v7-Ij4"; */
+"vOb-v7-Ij4.text" = "How was your experience with ";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "vi8-eI-mLi"; */
+"vi8-eI-mLi.text" = "Don't have an account?";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "vl9-iT-szR"; */
+"vl9-iT-szR.placeholder" = "Phone";
+
+/* Class = "UITextField"; placeholder = "Travel Modes"; ObjectID = "vr0-i9-bzY"; */
+"vr0-i9-bzY.placeholder" = "Travel Modes";
+
+/* Class = "UILabel"; text = "No trips found"; ObjectID = "w0r-UG-sfh"; */
+"w0r-UG-sfh.text" = "No trips found";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "wBk-Yp-e39"; */
+"wBk-Yp-e39.placeholder" = "Date of Birth";
+
+/* Class = "UIViewController"; title = "FAQs"; ObjectID = "wt8-oq-jui"; */
+"wt8-oq-jui.title" = "FAQs";
+
+/* Class = "UITextField"; placeholder = "Travel Modes"; ObjectID = "wtC-Yt-p0E"; */
+"wtC-Yt-p0E.placeholder" = "Travel Modes";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "x9G-1j-Mg8"; */
+"x9G-1j-Mg8.normalTitle" = "Sign in with Facebook";
+
+/* Class = "UITextField"; placeholder = "From (insert Address)"; ObjectID = "xTe-f5-QLx"; */
+"xTe-f5-QLx.placeholder" = "From (insert Address)";
+
+/* Class = "UITextField"; placeholder = "Luggage allowed"; ObjectID = "xfK-Za-G7f"; */
+"xfK-Za-G7f.placeholder" = "Luggage allowed";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xiV-tQ-MYR"; */
+"xiV-tQ-MYR.text" = "Label";
+
+/* Class = "UILabel"; text = "User didn't answer yet."; ObjectID = "yEg-dH-oEQ"; */
+"yEg-dH-oEQ.text" = "User didn't answer yet.";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "yTJ-vh-6lK"; */
+"yTJ-vh-6lK.text" = "L";
+
+/* Class = "UIButton"; normalTitle = "OFFER A TRIP"; ObjectID = "yno-Z7-kmd"; */
+"yno-Z7-kmd.normalTitle" = "OFFER A TRIP";
+
+/* Class = "UILabel"; text = "Travel preferences (optional)"; ObjectID = "yuT-GG-DaP"; */
+"yuT-GG-DaP.text" = "Travel preferences (optional)";
+
+/* Class = "UIButton"; normalTitle = "Forgot your pasword?"; ObjectID = "yz1-U9-uHg"; */
+"yz1-U9-uHg.normalTitle" = "Forgot your pasword?";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "z4l-zQ-Pw5"; */
+"z4l-zQ-Pw5.text" = "OR";
+
+/* Class = "UINavigationItem"; title = "Privacy Policy"; ObjectID = "z8K-Vp-H1T"; */
+"z8K-Vp-H1T.title" = "Privacy Policy";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "zPw-Bi-Ldh"; */
+"zPw-Bi-Ldh.text" = "Login info";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "zQG-hI-q5T"; */
+"zQG-hI-q5T.normalTitle" = "Sign up";
+
+/* Class = "UIViewController"; title = "Carpooler"; ObjectID = "zRy-Lh-AN8"; */
+"zRy-Lh-AN8.title" = "Carpooler";
+
+/* Class = "UILabel"; text = "11.58 €"; ObjectID = "zWZ-sb-7Qg"; */
+"zWZ-sb-7Qg.text" = "11.58 €";
+
+/* Class = "UITextField"; placeholder = "Special needs"; ObjectID = "zYp-9a-HFb"; */
+"zYp-9a-HFb.placeholder" = "Special needs";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "zfQ-bq-i0W"; */
+"zfQ-bq-i0W.title" = "Back";

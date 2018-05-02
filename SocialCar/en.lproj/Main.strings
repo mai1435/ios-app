@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "8bW-rI-J7K"; */
+"8bW-rI-J7K.normalTitle" = "Sign in with Google+";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "Cii-yr-XEX"; */
+"Cii-yr-XEX.normalTitle" = "Sign in with Facebook";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "KDO-uP-XGE"; */
+"KDO-uP-XGE.text" = "OR";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "LmX-z9-kCg"; */
+"LmX-z9-kCg.text" = "Already have an account?";
+
+/* Class = "UIViewController"; title = "Second VC"; ObjectID = "M8X-nS-oDh"; */
+"M8X-nS-oDh.title" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "tF4-Ff-G6j"; */
+"tF4-Ff-G6j.normalTitle" = "Sign up";

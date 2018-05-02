@@ -1,0 +1,438 @@
+/* ,departs at */
+" ,departs at" = ",departs at ";
+
+/* didn't answer yet */
+" didn't answer yet" = "heeft nog niet geantwoord";
+
+/* < Back */
+"< Back" = "< Terug";
+
+/* <Back */
+"<Back" = "(ID: ";
+
+/* <BackXX */
+"<BackXX" = "(ID: ";
+
+/* Accident */
+"Accident" = "Ongeval";
+
+/* Active Trip */
+"Active Trip" = "Actieve Rit";
+
+/* Air conditioning */
+"Air conditioning" = "Airconditioning";
+
+/* Already have account tapped! */
+"Already have account tapped!" = "U heeft reeds een account!";
+
+/* Authentication error */
+"Authentication error" = "Authenticatiefout";
+
+/* BLIND */
+"BLIND" = "BLIND";
+
+/* BUS */
+"BUS" = "BUS";
+
+/* Back */
+"Back" = "TERUG";
+
+/* Button just pressed! */
+"Button just pressed!" = "Knop ingedrukt!";
+
+/* CAR POOLING */
+"CAR POOLING" = "Carpooling";
+
+/* CAR_POOLING */
+"CAR_POOLING" = "CAR_POOLING";
+
+/* CHEAPEST */
+"CHEAPEST" = "GOEDKOOPST";
+
+/* COMFORT */
+"COMFORT" = "COMFORT";
+
+/* CONTINUE */
+"CONTINUE" = "DOORGAAN ";
+
+/* Cancel */
+"Cancel" = "ANNULEER";
+
+/* Cancel request */
+"Cancel request" = "Annuleer verzoek";
+
+/* Cancelled Trip */
+"Cancelled Trip" = "Geannuleerde rit";
+
+/* Cannot connect to server!Please,try again later. */
+"Cannot connect to server!Please,try again later." = "Kan geen verbinding maken met de server! Probeer het later nog eens.";
+
+/* Car data created successfully! */
+"Car data created successfully!" = "Auto data is succesvol gemaakt!";
+
+/* Car data updated successfully! */
+"Car data updated successfully!" = "Auto data is succesvol bijgewerkt!";
+
+/* Carpooler Age */
+"Carpooler Age" = "Leeftijd Carpooler";
+
+/* Carpooler Gender */
+"Carpooler Gender" = "Geslacht Carpooler";
+
+/* Child seat */
+"Child seat" = "Kinderzitje";
+
+/* Clear */
+"Clear" = "Duidelijk";
+
+/* Complete Registration */
+"Complete Registration" = "Voltooi Registratie";
+
+/* Completed */
+"Completed" = "Voltooid";
+
+/* Credentials */
+"Credentials" = "Referenties";
+
+/* Credentials required! */
+"Credentials required!" = "Referenties vereist";
+
+/* Current location is not supported! */
+"Current location is not supported!" = "Huidige locatie wordt niet ondersteund!";
+
+/* DEAF */
+"DEAF" = "DOOF";
+
+/* Data updated successfully! */
+"Data updated successfully!" = "Gegevens succesvol bijgewerkt!";
+
+/* Decline Terms&Conditions */
+"Decline Terms&Conditions" = "Afwijzen Algemene Voorwaarden";
+
+/* Delete trip? */
+"Delete trip?" = "Trip verwijderen?";
+
+/* Departure: */
+"Departure:" = "Vertrek:";
+
+/* Device has no camera! */
+"Device has no camera!" = "Apparaat heeft geen camera!";
+
+/* Do you want to cancel the lift? */
+"Do you want to cancel the lift?" = "Wilt u de lift annuleren?";
+
+/* Do you want to logout? */
+"Do you want to logout?" = "Wenst u af te melden?";
+
+/* Done */
+"Done" = "Gedaan";
+
+/* EDIT DRIVER PROFILE */
+"EDIT DRIVER PROFILE" = "BEWERK GEGEVENS BESTUURDER";
+
+/* ELDERLY */
+"ELDERLY" = "OUDEREN";
+
+/* Edit */
+"Edit" = "Bewerken";
+
+/* Email */
+"Email" = "E-mail";
+
+/* Email is not unique! */
+"Email is not unique!" = "E-mail is niet uniek!";
+
+/* Email not valid! */
+"Email not valid!" = "E-mail is niet geldig!";
+
+/* Error */
+"Error" = "Error";
+
+/* FASTEST */
+"FASTEST" = "SNELSTE";
+
+/* FEET */
+"FEET" = "VOETEN";
+
+/* FEMALE */
+"FEMALE" = "FEMALE";
+
+/* Food */
+"Food" = "Eten";
+
+/* GPS Tracking */
+"GPS Tracking" = "GPS Tracking ";
+
+/* Gender */
+"Gender" = "Geslacht";
+
+/* High */
+"High" = "Hoog";
+
+/* If you have any passengers associated with this active trip, they will notified. */
+"If you have any passengers associated with this active trip, they will be notified." = "Als u passagiers heeft die geassocieerd zijn met deze actieve reis, zullen zij hiervan op de hoogte worden gesteld.";
+
+/* Insert destination address */
+"Insert destination address" = "Plaats bestemmingsadres in";
+
+/* Logout */
+"Logout" = "Afmelden";
+
+/* Logout? */
+"Logout?" = "Afmelden?";
+
+/* Low */
+"Low" = "Laag";
+
+/* Luggage */
+"Luggage" = "Bagage";
+
+/* Luggage allowed */
+"Luggage allowed" = "Bagage toegestaan";
+
+/* MALE */
+"MALE" = "MALE";
+
+/* METRO */
+"METRO" = "METRO";
+
+/* No comment provided by engineer. */
+"Map Error" = "Kaart Error";
+
+/* Maximum 6 seats allowed! */
+"Maximum 6 seats allowed!" = "Maximaal 6 zitplaatsen toegestaan!";
+
+/* Maximum 6 seats supported */
+"Maximum 6 seats supported" = "Maximaal 6 zitplaatsen worden ondersteund";
+
+/* Medium */
+"Medium" = "Medium";
+
+/* Men at work */
+"Men at work" = "Mannen aan het werk";
+
+/* Music */
+"Music" = "Muziek";
+
+/* N/A */
+"N/A" = "Nvt";
+
+/* Next */
+"Next" = "Volgende";
+
+/* No */
+"No" = "Nee";
+
+/* No comment provided by engineer. */
+"No Results" = "Geen Resultaten";
+
+/* No internet connection! */
+"No internet connection!" = "Geen internetverbinding";
+
+/* No routes available. */
+"No routes available." = "Geen routes beschikbaar";
+
+/* None */
+"None" = "Geen";
+
+/* OK */
+"OK" = "OK";
+
+/* Pending Trip */
+"Pending Trip" = "Trip in afwachting";
+
+/* Pets */
+"Pets" = "Huisdieren ";
+
+/* Phone number is not valid! */
+"Phone number is not valid!" = "Telefoonnummer is niet geldig";
+
+/* Plate */
+"Plate " = "Nummerplaat";
+
+/* Please provide proper credentials! */
+"Please provide proper credentials!" = "Gelieve de juiste referenties te geven!";
+
+/* Please,select luggage type! */
+"Please select luggage type!" = "Selecteer aub de bagage type!";
+
+/* Please, close application */
+"Please, close application!" = "Gelieve de applicatie te sluiten!";
+
+/* RAIL */
+"RAIL" = "HET SPOOR";
+
+/* Register */
+"Register" = "Registreer";
+
+/* Rejected Trip */
+"Rejected trip" = "Afgewezen trip";
+
+/* Rides */
+"Rides" = "Ritten";
+
+/* SAFEST */
+"SAFEST" = "VEILIGST";
+
+/* SEARCH SOLUTIONS */
+"SEARCH SOLUTIONS" = "ZOEK OPLOSSINGEN";
+
+/* SET DESTINATION POINT */
+"SET DESTINATION POINT" = "BESTEMMING INGEVEN";
+
+/* SET STARTING POINT */
+"SET STARTING POINT" = "STEL STARTPUNT IN";
+
+/* SHORTEST */
+"SHORTEST" = "KORTSTE";
+
+/* STATUS: */
+"STATUS: " = "STATUS:";
+
+/* Save */
+"Save" = "Opslaan";
+
+/* Select colour */
+"Select colour" = "Kleur selecteren";
+
+/* Select photo */
+"Select photo" = "Foto selecteren";
+
+/* Sign in with Facebook */
+"Sign in with Facebook" = "Aanmelden met Facebook";
+
+/* Sign in with Google */
+"Sign in with Google" = "Aanmelden met Google";
+
+/* Simulator mode */
+"Simulator mode" = "Simulatie modus";
+
+/* Smoking */
+"Smoking" = "Roken ";
+
+/* TRAM */
+"TRAM" = "TRAM";
+
+/* Take photo */
+"Take photo" = "Foto nemen";
+
+/* The trip is completed */
+"The trip is completed" = "De reis is voltooid";
+
+/* Traffic Conditions */
+"Traffic Conditions" = "Verkeersvoorwaarden";
+
+/* Traffic jam */
+"Traffic jam" = "File";
+
+/* Trip activated */
+"Trip activated" = "Reis geactiveerd";
+
+/* Trip disabled */
+"Trip disabled" = "Reis uitgeschakeld";
+
+/* Update */
+"Update" = "Update";
+
+/* User created successfully! */
+"User created successfully!" = "Gebruiker succesvol gemaakt!";
+
+/* View gesture taped! */
+"View gesture taped!" = "Bekijk";
+
+/* WHEELCHAIR */
+"WHEELCHAIR" = "ROLSTOEL";
+
+/* Walk towards */
+"Walk towards " = "Loop naar ";
+
+/* Yes */
+"Yes" = "Ja";
+
+/* You can edit your driver information. */
+"You can edit your driver information." = "U kunt uw bestuurdersinformatie bewerken.";
+
+/* You have to fill in car info! */
+"You have to fill in car info!" = "U moet auto-informatie invullen!";
+
+/* You have to fill in login and other info! */
+"You have to fill in login and other info!" = "Je moet inloggen en andere informatie invullen!";
+
+/* You have to write ride name. */
+"You have to write ride name." = "U moet de ritnaam opgeven.";
+
+/* btn_signIn Facebook pressed! */
+"btn_signIn Facebook pressed!" = "btn_signIn Facebook pressed! ";
+
+/* btn_signIn_googleplus pressed! */
+"btn_signIn_googleplus pressed!" = "btn_signIn_googleplus gedrukt!";
+
+/* btn_signUp pressed! */
+"btn_signUp pressed!" = "btn_signUp ingedrukt!";
+
+/* feedback */
+"feedback" = "feedback";
+
+/* ft */
+"ft" = "ft";
+
+/* highlighted! */
+"highlighted!" = "gemarkeerd";
+
+/* m */
+"m" = "m";
+
+/* min
+   min. */
+"min." = "min.";
+
+/* € */
+"€" = "€";
+
+/* SMALL */
+"SMALL" = "KLEIN";
+
+/* MEDIUM */
+"MEDIUM" = "MEDIUM";
+
+/* LARGE */
+"LARGE" = "GROOT";
+
+/* NO */
+"NO" = "GEEN";
+
+"ACCEPTED_LIFT_TITLE" = "​​Verzoek aanvaard";
+"ACCEPTED_LIFT_BODY" = "De chauffeur heeft je ​carpool aanvaard.";
+
+"REFUSED_LIFT_TITLE" = "Verzoek geweigerd";
+"REFUSED_LIFT_BODY" = "De chauffeur heeft je ​carpool geweigerd.";
+
+"CANCELLED_LIFT_TITLE" = "Carpool rit geannuleerd";
+"CANCELLED_LIFT_BODY" = "De chauffeur heeft de carpool ​rit ​geannuleerd";
+
+"REQUEST_LIFT_TO_DRIVER_TITLE" = "Carpool verzoek";
+"REQUEST_LIFT_TO_DRIVER_BODY" = "Ee​n passagier wilt meerijden.";
+
+"RIDE_CELL_DETAIL" = "Als je de carpool aanvraag hebt geaccepteerd zal hier de avatar zichtbaar zijn.";
+
+//"When you will accept a lift request for this trip, the passenger avatar will be displayed in this area." = "Als je de carpool aanvraag hebt geaccepteerd zal je hier de avatar zichtbaar zijn.";
+
+
+"DELETE TRIP" = "TRIP VERWIJDEREN";
+
+//"Terms and conditions" = "Algemene voorwaarden";
+"Contact us" = "Neem contact met ons op";
+
+/* Departs */
+"Departs " = "Vertrekken ";
+
+/* Arrives */
+"Arrives " = "Aankomen ";
+
+"Password must be at least 6 characters!" = "Wachtwoord moet tenminste 6 tekens bevatten!";
+"Password did not match!" = "Wachtwoord stond niet overeen!";
+
+"Car details required!" = "We hebben informatie over je auto nodig!";
+
+"It looks like you are not registered as a driver.Please fill in car details from Profile." = "Het ziet ernaar uit dat je nog niet geregistreerd bent als een chauffeur. Vul gegevens over je auto in bij het profiel om dit te doen.";
+

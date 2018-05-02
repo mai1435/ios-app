@@ -1,0 +1,441 @@
+/* ,departs at */
+" ,departs at" = "départ à ";
+
+/* didn't answer yet */
+" didn't answer yet" = "n'a pas encore répondu";
+
+/* < Back */
+"< Back" = "<Retour";
+
+/* <Back */
+"<Back" = "";
+
+/* <BackXX */
+"<BackXX" = "";
+
+/* Accident */
+"Accident" = "Accident";
+
+/* Active Trip */
+"Active Trip" = "Trajet actif";
+
+/* Air conditioning */
+"Air conditioning" = "Air conditionné";
+
+/* Already have account tapped! */
+"Already have account tapped!" = "Le compte est déjà pris!";
+
+/* Authentication error */
+"Authentication error" = "Erreur d’authentification ";
+
+/* BLIND */
+"BLIND" = "AVEUGLE";
+
+/* BUS */
+"BUS" = "BUS";
+
+/* Back */
+"Back" = "Retour";
+
+/* Button just pressed! */
+"Button just pressed!" = "Le bouton vient d'être pressé!";
+
+/* CAR POOLING */
+"CAR POOLING" = "COVOITURAGE";
+
+/* CAR_POOLING */
+"CAR_POOLING" = "COVOITURAGE";
+
+/* CHEAPEST */
+"CHEAPEST" = "Le moins cher";
+
+/* COMFORT */
+"COMFORT" = "CONFORT";
+
+/* CONTINUE */
+"CONTINUE" = "CONTINUER";
+
+/* Cancel */
+"Cancel" = "ANNULER";
+
+/* Cancel request */
+"Cancel request" = "Annuler la demande";
+
+/* Cancelled Trip */
+"Cancelled Trip" = "Annuler le trajet";
+
+/* Cannot connect to server!Please,try again later. */
+"Cannot connect to server!Please,try again later." = "Impossible de se connecter au serveur! Veuillez réessayer plus tard.";
+
+/* Car data created successfully! */
+"Car data created successfully!" = "Les données concernant la voiture ont été créées avec succès!";
+
+/* Car data updated successfully! */
+"Car data updated successfully!" = "Les données concernant la voiture ont été mises à jour avec succès!";
+
+/* Carpooler Age */
+"Carpooler Age" = "Age du Covoitureur";
+
+/* Carpooler Gender */
+"Carpooler Gender" = "Genre du covoitureur";
+
+/* Child seat */
+"Child seat" = "Siège enfant";
+
+/* Clear */
+"Clear" = "Effacer";
+
+/* Complete Registration */
+"Complete Registration" = "Enregistrement complet";
+
+/* Completed */
+"Completed" = "Terminé";
+
+/* Credentials */
+"Credentials" = "Identifiants";
+
+/* Credentials required! */
+"Credentials required!" = "Identifiants requis !";
+
+/* Current location is not supported! */
+"Current location is not supported!" = "L'emplacement actuel n'est pas pris en charge!";
+
+/* DEAF */
+"DEAF" = "SOURD";
+
+/* Data updated successfully! */
+"Data updated successfully!" = "Les données ont été mises à jour avec succès!";
+
+/* Decline Terms&Conditions */
+"Decline Terms&Conditions" = "Refuser les Termes et conditions";
+
+/* Delete trip? */
+"Delete trip?" = "Effacer le trajet?";
+
+/* Departure: */
+"Departure:" = "Départ :";
+
+/* Device has no camera! */
+"Device has no camera!" = "L'appareil n'a pas de caméra!";
+
+/* Do you want to cancel the lift? */
+"Do you want to cancel the lift?" = "Voulez-vous annuler le transport?";
+
+/* Do you want to logout? */
+"Do you want to logout?" = "Voulez-vous vous déconnecter?";
+
+/* Done */
+"Done" = "Terminé";
+
+/* EDIT DRIVER PROFILE */
+"EDIT DRIVER PROFILE" = "MODIFIER LE PROFIL CONDUCTEUR";
+
+/* ELDERLY */
+"ELDERLY" = "PERSONNE AGEE";
+
+/* Edit */
+/*"Edit" = "Modifier"; */
+"Edit" = "Editer"; 
+
+/* Email */
+"Email" = "Email";
+
+/* Email is not unique! */
+"Email is not unique!" = "L'email existe déjà!";
+
+/* Email not valid! */
+"Email not valid!" = "L'Email n'est pas valide!";
+
+/* Error */
+"Error" = "Erreur";
+
+/* FASTEST */
+"FASTEST" = "LE PLUS RAPIDE";
+
+/* FEET */
+"FEET" = "A PIEDS";
+
+/* FEMALE */
+"FEMALE" = "FEMME";
+
+/* Food */
+"Food" = "Nourriture";
+
+/* GPS Tracking */
+"GPS Tracking" = "Suivi GPS";
+
+/* Gender */
+"Gender" = "Genre";
+
+/* High */
+"High" = "Elevé";
+
+/* If you have any passengers associated with this active trip, they will notified. */
+"If you have any passengers associated with this active trip, they will be notified." = "Si vous avez des passagers associés à ce voyage actif, ils seront informés.";
+
+/* Insert destination address */
+"Insert destination address" = "Insérer l'adresse de destination";
+
+/* Logout */
+"Logout" = "Se déconnecter";
+
+/* Logout? */
+"Logout?" = "Déconnecté? ";
+
+/* Low */
+"Low" = "Bas";
+
+/* Luggage */
+"Luggage" = "Bagages";
+
+/* Luggage allowed */
+"Luggage allowed" = "Bagages acceptés";
+
+/* MALE */
+"MALE" = "HOMME ";
+
+/* METRO */
+"METRO" = "METRO";
+
+/* No comment provided by engineer. */
+"Map Error" = "Erreur de carte";
+
+/* Maximum 6 seats allowed! */
+"Maximum 6 seats allowed!" = "Maximum 6  sièges acceptés!";
+
+/* Maximum 6 seats supported */
+"Maximum 6 seats supported" = "Maximum 6  sièges possibles";
+
+/* Medium */
+"Medium" = "Moyen";
+
+/* Men at work */
+"Men at work" = "Attention travaux";
+
+/* Music */
+"Music" = "Musique";
+
+/* N/A */
+"N/A" = "N/A ";
+
+/* Next */
+"Next" = "Suivant";
+
+/* No */
+"No" = "Non";
+
+/* No comment provided by engineer. */
+"No Results" = "Pas de résultat";
+
+/* No internet connection! */
+"No internet connection!" = "Pas de connexion internet!";
+
+/* No routes available. */
+"No routes available." = "Pas de route disponible.";
+
+/* None */
+"None" = "Aucun";
+
+/* OK */
+"OK" = "OK";
+
+/* Pending Trip */
+"Pending Trip" = "Trajet en attente ";
+
+/* Pets */
+"Pets" = "Animaux";
+
+/* Phone number is not valid! */
+"Phone number is not valid!" = "Le numéro de téléphone n'est pas valide";
+
+/* Plate */
+"Plate " = "Plaque ";
+
+/* Please provide proper credentials! */
+"Please provide proper credentials!" = "Veuillez fournir des identifiants valides!";
+
+/* Please,select luggage type! */
+"Please select luggage type!" = "Veuillez sélectionner le type de bagages!";
+
+/* Please, close application */
+"Please, close application!" = "Veuillez fermer l'application!";
+
+/* RAIL */
+"RAIL" = "CHEMIN DE FER";
+
+/* Register */
+"Register" = "ENREGISTREZ-VOUS";
+
+/* Rejected Trip */
+"Rejected trip" = "Trajet rejeté ";
+
+/* Rides */
+"Rides" = "Trajets";
+
+/* SAFEST */
+"SAFEST" = "LE PLUS SECURISE";
+
+/* SEARCH SOLUTIONS */
+"SEARCH SOLUTIONS" = "RECHERCHE DE SOLUTIONS";
+
+/* SET DESTINATION POINT */
+"SET DESTINATION POINT" = "CHOISIR LE POINT D'ARRIVEE";
+
+/* SET STARTING POINT */
+"SET STARTING POINT" = "CHOISIR LE POINT DE DEPART";
+
+/* SHORTEST */
+"SHORTEST" = "LE PLUS COURT";
+
+/* STATUS: */
+"STATUS: " = "STATUT : ";
+
+/* Save */
+"Save" = "Enregistrer";
+
+/* Select colour */
+"Select colour" = "Choisissez la couleur";
+
+/* Select photo */
+"Select photo" = "Choisissez une photo";
+
+/* Sign in with Facebook */
+"Sign in with Facebook" = "Se connecter avec Facebook";
+
+/* Sign in with Google */
+"Sign in with Google" = "Se connecter avec Google";
+
+/* Simulator mode */
+"Simulator mode" = "Mode simulateur";
+
+/* Smoking */
+"Smoking" = "Fumer";
+
+/* TRAM */
+"TRAM" = "TRAM";
+
+/* Take photo */
+"Take photo" = "Prendre une photo";
+
+/* The trip is completed */
+"The trip is completed" = "Le voyage est terminé";
+
+/* Traffic Conditions */
+"Traffic Conditions" = "Conditions de Circulation";
+
+/* Traffic jam */
+"Traffic jam" = "Embouteillage";
+
+/* Trip activated */
+"Trip activated" = "Le voyage est activé";
+
+/* Trip disabled */
+"Trip disabled" = "Le voyage est désactivé";
+
+/* Update */
+"Update" = "Mettre à jour";
+
+/* User created successfully! */
+"User created successfully!" = "L'utilisateur a été créé avec succès!";
+
+/* View gesture taped! */
+"View gesture taped!" = "Voir le déplacement enregistré!";
+
+/* WHEELCHAIR */
+"WHEELCHAIR" = "FAUTEUIL ROULANT";
+
+/* Walk towards */
+"Walk towards " = "Marcher vers ";
+
+/* Yes */
+"Yes" = "Oui";
+
+/* You can edit your driver information. */
+"You can edit your driver information." = "Vous pouvez modifier vos informations de conducteur";
+
+/* You have to fill in car info! */
+"You have to fill in car info!" = "Vous devez remplir les informations de la voiture!";
+
+/* You have to fill in login and other info! */
+"You have to fill in login and other info!" = "Vous devez remplir les identifiants et autres informations!";
+
+/* You have to write ride name. */
+"You have to write ride name." = "Vous devez écrire un nom pour le trajet";
+
+/* btn_signIn Facebook pressed! */
+"btn_signIn Facebook pressed!" = "";
+
+/* btn_signIn_googleplus pressed! */
+"btn_signIn_googleplus pressed!" = "";
+
+/* btn_signUp pressed! */
+"btn_signUp pressed!" = "";
+
+/* feedback */
+"feedback" = "Commentaires";
+
+/* ft */
+"ft" = "";
+
+/* highlighted! */
+"highlighted!" = "";
+
+/* m */
+"m" = "";
+
+/* min
+   min. */
+"min." = "min ";
+
+/* € */
+"€" = "€ ";
+
+/* SMALL */
+"SMALL" = "PETIT";
+
+/* MEDIUM */
+"MEDIUM" = "MOYEN";
+
+/* LARGE */
+"LARGE" = "GRAND";
+
+/* NO */
+"NO" = "NON";
+
+"ACCEPTED_LIFT_TITLE" = "Demande acceptée";
+
+"ACCEPTED_LIFT_BODY" = "Le conducteur a accepté le trajet demandé.";
+
+"REFUSED_LIFT_TITLE" = "Demande refusée";
+
+"REFUSED_LIFT_BODY" = "Le conducteur a refusé le trajet demandé.";
+
+"CANCELLED_LIFT_TITLE" = "Trajet annulé";
+
+"CANCELLED_LIFT_BODY" = "Le conducteur a annulé le trajet proposé.";
+
+"REQUEST_LIFT_TO_DRIVER_TITLE" = "Demande de trajet";
+
+"REQUEST_LIFT_TO_DRIVER_BODY" = "Un passager vous a demandé un trajet.";
+
+"RIDE_CELL_DETAIL" = "L'avatar du passager sera affiché dans cette zone lorsque que vous aurez accepté la demande de trajet.";
+
+//"When you will accept a lift request for this trip, the passenger avatar will be displayed in this area." = "L'avatar du passager sera affiché dans cette zone lorsque que vous aurez accepté la demande de trajet.";
+
+"DELETE TRIP" = "EFFACER LE TRAJET";
+
+"Contact us" = "Contactez nous";
+
+/* Departs */
+"Departs " = "Départ à ";
+
+/* Arrives */
+"Arrives " = "Arrivée ";
+
+"Password must be at least 6 characters!" = "Le mot de passe doit être au moins de 6 caractères!";
+"Password did not match!" = "Le mot de passe ne correspond pas!";
+
+"Car details required!" = "Détails de la voiture obligatoires!";
+
+"It looks like you are not registered as a driver.Please fill in car details from Profile." = "Vous n'êtes apparemment pas enregistré comme conducteur. Veuillez remplir les détails de la voiture dans Profile.";
+

@@ -1,0 +1,943 @@
+
+/* Class = "UITextField"; placeholder = "Maximum number of transfers"; ObjectID = "08T-40-6Od"; */
+"08T-40-6Od.placeholder" = "Μέγιστος αριθμός μετεπιβιβάσεων";
+
+/* Class = "UINavigationItem"; title = "FAQs"; ObjectID = "0F1-OK-59Q"; */
+"0F1-OK-59Q.title" = "Συνήθεις ερωτήσεις";
+
+/* Class = "UITextField"; placeholder = "Smoking allowed"; ObjectID = "0Gs-hj-2ag"; */
+"0Gs-hj-2ag.placeholder" = "Κάπνισμα";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "0bS-Jd-Rh3"; */
+"0bS-Jd-Rh3.text" = "L";
+
+/* Class = "UILabel"; text = "Car model"; ObjectID = "0dF-ZO-y6r"; */
+"0dF-ZO-y6r.text" = "Μοντέλο αυτοκινήτου";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "0fj-bY-Xoa"; */
+"0fj-bY-Xoa.text" = "Αφετερία";
+
+/* Class = "UITextField"; placeholder = "Luggage"; ObjectID = "0sw-lV-0Fs"; */
+"0sw-lV-0Fs.placeholder" = "Αποσκευή";
+
+/* Class = "UITextField"; placeholder = "Pets allowed"; ObjectID = "1aI-qb-GuL"; */
+"1aI-qb-GuL.placeholder" = "Κατοικίδια";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "1av-dj-pqP"; */
+"1av-dj-pqP.normalTitle" = "ΣΥΝΔΕΣΗ";
+
+/* Class = "UITextField"; placeholder = "Child seat"; ObjectID = "1iI-6I-iP6"; */
+"1iI-6I-iP6.placeholder" = "Παιδικό κάθισμα";
+
+/* Class = "UITabBarItem"; title = "Logout"; ObjectID = "1m1-9Z-raW"; */
+"1m1-9Z-raW.title" = "Αποσύνδεση";
+
+/* Class = "UIViewController"; title = "Contact us"; ObjectID = "1x8-6H-AJc"; */
+"1x8-6H-AJc.title" = "Επικοινωνία";
+
+/* Class = "UILabel"; text = "Social  "; ObjectID = "28W-8P-uHe"; */
+"28W-8P-uHe.text" = "Κοινωνικά  ";
+
+/* Class = "UITextField"; placeholder = "Rating"; ObjectID = "2Bn-WR-b9P"; */
+"2Bn-WR-b9P.placeholder" = "Βαθμολογία";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE BY EMAIL"; ObjectID = "2NG-dw-WLd"; */
+"2NG-dw-WLd.normalTitle" = "ΣΥΝΕΧΕΙΑ ΜΕ ΗΛ.ΔΙΕΥΘΥΝΣΗ";
+
+/* Class = "UITextField"; placeholder = "Special needs"; ObjectID = "2sj-MV-5UR"; */
+"2sj-MV-5UR.placeholder" = "Ειδικές ανάγκες";
+
+/* Class = "UITextField"; placeholder = "Carpooler Age Range"; ObjectID = "2ws-BZ-6l3"; */
+"2ws-BZ-6l3.placeholder" = "Όριο ηλικίας οδηγού μετάβασης";
+
+/* Class = "UILabel"; text = "Driver"; ObjectID = "3SI-34-fFw"; */
+"3SI-34-fFw.text" = "Οδηγός";
+
+/* Class = "UIViewController"; title = "Status"; ObjectID = "3md-IT-54w"; */
+"3md-IT-54w.title" = "Κατάσταση";
+
+/* Class = "UITableViewController"; title = "Send Report"; ObjectID = "47E-jf-Isf"; */
+"47E-jf-Isf.title" = "Αποστολή αναφοράς";
+
+/* Class = "UILabel"; text = "2 (7 feedback)"; ObjectID = "4Lq-oG-HbI"; */
+"4Lq-oG-HbI.text" = "2 (7 σχόλια)";
+
+/* Class = "UIViewController"; title = "Driver details"; ObjectID = "4TP-H9-57R"; */
+"4TP-H9-57R.title" = "Πληροφορίες οδηγού";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "4VB-Vz-vp3"; */
+"4VB-Vz-vp3.text" = "Ή";
+
+/* Class = "UILabel"; text = "REQUESTED"; ObjectID = "4v1-bC-uqp"; */
+"4v1-bC-uqp.text" = "ΑΙΤΟΥΜΕΝΑ";
+
+/* Class = "UITextField"; placeholder = "Maximum number of transfers"; ObjectID = "5Ib-fw-J0G"; */
+"5Ib-fw-J0G.placeholder" = "Μέγιστος αριθμός μετεπιβιβάσεων";
+
+/* Class = "UIButton"; normalTitle = "Select photo"; ObjectID = "5S8-aG-etY"; */
+"5S8-aG-etY.normalTitle" = "Επιλογή φωτογραφίας";
+
+/* Class = "UITextField"; placeholder = "Departure:"; ObjectID = "5g3-GJ-yC3"; */
+"5g3-GJ-yC3.placeholder" = "Αναχώρηση:";
+
+/* Class = "UITextField"; text = "Departure:"; ObjectID = "5g3-GJ-yC3"; */
+"5g3-GJ-yC3.text" = "Αναχώρηση:";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "5sm-Ep-If2"; */
+"5sm-Ep-If2.text" = "L";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "6FT-wy-5Xa"; */
+"6FT-wy-5Xa.text" = "Προορισμός";
+
+/* Class = "UINavigationItem"; title = "Driver Profile"; ObjectID = "6d1-eM-mAE"; */
+"6d1-eM-mAE.title" = "Προφίλ οδηγού";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6nD-MW-Ayk"; */
+"6nD-MW-Ayk.text" = "Επιγραφή";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "6wS-3r-SVQ"; */
+"6wS-3r-SVQ.text" = "Ή";
+
+/* Class = "UINavigationController"; title = "Contact us"; ObjectID = "7k4-Pc-if4"; */
+"7k4-Pc-if4.title" = "Επικοινωνία";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7li-C1-RsE"; */
+"7li-C1-RsE.text" = "Επιγραφή";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "81J-Xf-BHi"; */
+"81J-Xf-BHi.text" = "Πληροφορίες εισόδου";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google"; ObjectID = "8Gs-nm-4Iu"; */
+"8Gs-nm-4Iu.normalTitle" = "Σύνδεση με Google";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "8bW-rI-J7K"; */
+"8bW-rI-J7K.normalTitle" = "Σύνδεση με Google+";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "8gd-ur-gix"; */
+"8gd-ur-gix.text" = "Πληροφορίες σύνδεσης";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "8jB-cR-ePb"; */
+"8jB-cR-ePb.text" = "Αφετερία";
+
+/* Class = "UILabel"; text = "20:45"; ObjectID = "8oj-ue-499"; */
+"8oj-ue-499.text" = "20:45";
+
+/* Class = "UINavigationItem"; title = "Terms and conditions"; ObjectID = "9X9-7e-Jkl"; */
+"9X9-7e-Jkl.title" = "Όροι και προϋποθέσεις";
+
+/* Class = "UITextField"; placeholder = "GPS Tracking"; ObjectID = "9rU-05-0r2"; */
+"9rU-05-0r2.placeholder" = "Καταγραφή GPS";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "AIM-AZ-brl"; */
+"AIM-AZ-brl.title" = "Αρχική";
+
+/* Class = "UITextField"; placeholder = "Luggage"; ObjectID = "AmB-T0-eHH"; */
+"AmB-T0-eHH.placeholder" = "Αποσκευή";
+
+/* Class = "UITextField"; placeholder = "Carpooler Gender"; ObjectID = "Ana-Eu-70E"; */
+"Ana-Eu-70E.placeholder" = "Φύλο οδηγού μετάβασης";
+
+/* Class = "UITextField"; placeholder = "Smoking"; ObjectID = "BNO-bF-viC"; */
+"BNO-bF-viC.placeholder" = "Κάπνισμα";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "BPT-dt-j0s"; */
+"BPT-dt-j0s.normalTitle" = "ΕΓΓΡΑΦΗ";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Bnb-va-L73"; */
+"Bnb-va-L73.title" = "Πίσω";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "CBD-i9-Wsx"; */
+"CBD-i9-Wsx.normalTitle" = "Σύνδεση με Google+";
+
+/* Class = "UITextField"; placeholder = "Smoking"; ObjectID = "CFX-xK-6ge"; */
+"CFX-xK-6ge.placeholder" = "Κάπνισμα";
+
+/* Class = "UINavigationItem"; title = "Home"; ObjectID = "CL9-B0-oiv"; */
+"CL9-B0-oiv.title" = "Αρχική";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "Cii-yr-XEX"; */
+"Cii-yr-XEX.normalTitle" = "Σύνδεση με Facebook";
+
+/* Class = "UITextField"; placeholder = "Smoking"; ObjectID = "Ckn-qi-xaW"; */
+"Ckn-qi-xaW.placeholder" = "Κάπνισμα";
+
+/* Class = "UITextField"; placeholder = "Music"; ObjectID = "D5O-Vv-HJ7"; */
+"D5O-Vv-HJ7.placeholder" = "Μουσική";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "D6d-Fd-z9y"; */
+"D6d-Fd-z9y.text" = "Άφιξη";
+
+/* Class = "UITextField"; placeholder = "Luggage"; ObjectID = "DI4-22-95L"; */
+"DI4-22-95L.placeholder" = "Αποσκευή";
+
+/* Class = "UILabel"; text = "0 (0 feedback)"; ObjectID = "Dfn-Ld-lc4"; */
+"Dfn-Ld-lc4.text" = "0 (0 σχόλια)";
+
+/* Class = "UIButton"; normalTitle = "Already have account?"; ObjectID = "Dfn-Wz-JJz"; */
+"Dfn-Wz-JJz.normalTitle" = "Ήδη έχετε λογαριασμό;";
+
+/* Class = "UIButton"; normalTitle = "I accept"; ObjectID = "Dp0-fP-glv"; */
+"Dp0-fP-glv.normalTitle" = "Αποδέχομαι";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "DqG-Xp-5NW"; */
+"DqG-Xp-5NW.normalTitle" = "Επεξεργασία";
+
+/* Class = "UILabel"; text = "DRIVER"; ObjectID = "Dso-DK-0al"; */
+"Dso-DK-0al.text" = "ΟΔΗΓΟΣ";
+
+/* Class = "UINavigationController"; title = "Reports"; ObjectID = "Dxw-Hr-yA3"; */
+"Dxw-Hr-yA3.title" = "Αναφορές";
+
+/* Class = "UIButton"; normalTitle = "Edit"; ObjectID = "Edk-Mc-hRl"; */
+"Edk-Mc-hRl.normalTitle" = "Επεξεργασία";
+
+/* Class = "UITabBarItem"; title = "Traffic conditions"; ObjectID = "F4D-uK-xVQ"; */
+"F4D-uK-xVQ.title" = "Συνθήκες κυκλοφορίας";
+
+/* Class = "UILabel"; text = "Add photo"; ObjectID = "FNY-wh-wnh"; */
+"FNY-wh-wnh.text" = "Προσθήκη φωτογραφίας";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "FVi-gs-Q6X"; */
+"FVi-gs-Q6X.title" = "Πίσω";
+
+/* Class = "UIButton"; normalTitle = "CREATE NEW TRIP"; ObjectID = "Fd8-d6-EHA"; */
+"Fd8-d6-EHA.normalTitle" = "ΝΕΟ ΤΑΞΙΔΙ";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "FiR-Ub-75C"; */
+"FiR-Ub-75C.text" = "Άλλες πληροφορίες";
+
+/* Class = "UIViewController"; title = "Details"; ObjectID = "Fya-pT-dyd"; */
+"Fya-pT-dyd.title" = "Πληροφορίες";
+
+/* Class = "UITextField"; placeholder = "Music allowed"; ObjectID = "GTY-c7-3mG"; */
+"GTY-c7-3mG.placeholder" = "Μουσική";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "GeH-8i-IXL"; */
+"GeH-8i-IXL.placeholder" = "Ηλ.διεύθυνση";
+
+/* Class = "UITabBarItem"; title = "Contact us"; ObjectID = "GzL-bK-FZJ"; */
+"GzL-bK-FZJ.title" = "Επικοινωνία";
+
+/* Class = "UILabel"; text = "Travel preferences (optional)"; ObjectID = "H6c-TQ-czw"; */
+"H6c-TQ-czw.text" = "Προτιμήσεις ταξιδιού(προαιρετικό)";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "HF6-1G-SyK"; */
+"HF6-1G-SyK.text" = "Δεν έχετε λογαριασμό;";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "HM9-Jf-KBV"; */
+"HM9-Jf-KBV.placeholder" = "Όνομα";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "HZW-PY-HwS"; */
+"HZW-PY-HwS.text" = "L";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "Hdw-xM-QMK"; */
+"Hdw-xM-QMK.text" = "2";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "Hf6-uJ-OXk"; */
+"Hf6-uJ-OXk.title" = "Σύνδεση";
+
+/* Class = "UITextField"; placeholder = "Food"; ObjectID = "HnH-cC-x4d"; */
+"HnH-cC-x4d.placeholder" = "Φαγητό";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "I5r-XP-RnL"; */
+"I5r-XP-RnL.placeholder" = "Κωδικός";
+
+/* Class = "UITextField"; text = "Password"; ObjectID = "IAZ-Gw-0yV"; */
+"IAZ-Gw-0yV.text" = "Κωδικός";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "IBg-fy-dat"; */
+"IBg-fy-dat.placeholder" = "Ημερομηνία γέννησης";
+
+/* Class = "UILabel"; text = "Additional info"; ObjectID = "IWK-G0-BQx"; */
+"IWK-G0-BQx.text" = "Επιπλέον πληροφορίες";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "IjW-dY-CCl"; */
+"IjW-dY-CCl.normalTitle" = "ΕΓΓΡΑΦΗ";
+
+/* Class = "UINavigationItem"; title = "Terms and conditions"; ObjectID = "Itz-J1-Crg"; */
+"Itz-J1-Crg.title" = "Όροι και προϋποθέσεις";
+
+/* Class = "UITextField"; placeholder = "Maximum cost"; ObjectID = "Ixt-dA-i4A"; */
+"Ixt-dA-i4A.placeholder" = "Μέγιστο κόστος";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "J0V-5g-6r2"; */
+"J0V-5g-6r2.text" = "Ή";
+
+/* Class = "UIViewController"; title = "Terms and conditions"; ObjectID = "J5N-Wv-NvW"; */
+"J5N-Wv-NvW.title" = "Όροι και προϋποθέσεις";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "JF7-6J-bwN"; */
+"JF7-6J-bwN.normalTitle" = "Εγγραφή";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "JGd-Dr-YzR"; */
+"JGd-Dr-YzR.normalTitle" = "Σύνδεση με Facebook";
+
+/* Class = "UILabel"; text = "19 min."; ObjectID = "JyU-bK-pBm"; */
+"JyU-bK-pBm.text" = "19 λεπτά";
+
+/* Class = "UILabel"; text = "0 (0 feedback)"; ObjectID = "K6L-ur-cPF"; */
+"K6L-ur-cPF.text" = "0 (0 σχόλια)";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "KDO-uP-XGE"; */
+"KDO-uP-XGE.text" = "Ή";
+
+/* Class = "UITextField"; placeholder = "GPS Tracking"; ObjectID = "Kd3-hO-vcw"; */
+"Kd3-hO-vcw.placeholder" = "Καταγραφή με GPS";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "Kz8-HO-nIl"; */
+"Kz8-HO-nIl.title" = "Πίσω";
+
+/* Class = "UILabel"; text = "Lorem ipsum tenent lorem ipsum Lorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsum"; ObjectID = "LZk-iX-50Z"; */
+"LZk-iX-50Z.text" = "Lorem ipsum tenent lorem ipsum Lorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsumLorem ipsum tenent lorem ipsum";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "Lht-5S-9ap"; */
+"Lht-5S-9ap.title" = "Δεδομένα προφίλ";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "LmX-z9-kCg"; */
+"LmX-z9-kCg.text" = "Έχετε ήδη λογαριασμό;";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "M56-zz-DCw"; */
+"M56-zz-DCw.text" = "L";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "M7w-oA-dU7"; */
+"M7w-oA-dU7.normalTitle" = "OK";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "M8X-nS-oDh"; */
+"M8X-nS-oDh.title" = "Σύνδεση";
+
+/* Class = "UITextField"; placeholder = "Carpooler Age Range"; ObjectID = "MWn-gh-e79"; */
+"MWn-gh-e79.placeholder" = "Όριο ηλικίας οδηγού μετάβασης";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "MeH-kr-JM5"; */
+"MeH-kr-JM5.placeholder" = "Όνομα";
+
+/* Class = "UITextField"; placeholder = "Carpooler Gender"; ObjectID = "NEh-tF-5o0"; */
+"NEh-tF-5o0.placeholder" = "Φύλο οδηγού μετάβασης";
+
+/* Class = "UITextView"; text = "Leave feedback and then tap outside to hide keyboard."; ObjectID = "NP5-Sc-YXN"; */
+"NP5-Sc-YXN.text" = "Αφήστε σχόλια και πατήστε εκτός για έξοδο από το πληκτρολόγιο.";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "NVR-QA-tfR"; */
+"NVR-QA-tfR.text" = "Επιγραφή";
+
+/* Class = "UILabel"; text = "20-07-2017"; ObjectID = "NhS-Ve-d9F"; */
+"NhS-Ve-d9F.text" = "20-07-2017";
+
+/* Class = "UILabel"; text = "Car photo"; ObjectID = "Nk9-Lp-GT8"; */
+"Nk9-Lp-GT8.text" = "Φωτογραφία αυτοκίνήτου";
+
+/* Class = "UIButton"; normalTitle = "DECLINE"; ObjectID = "Nkk-TD-p9O"; */
+"Nkk-TD-p9O.normalTitle" = "ΑΠΟΡΡΙΨΗ";
+
+/* Class = "UIViewController"; title = "Rides"; ObjectID = "OBh-pX-W0S"; */
+"OBh-pX-W0S.title" = "Βόλτες";
+
+/* Class = "UILabel"; text = "Connect you social account with facebook and google plus one! You 'll unlock more features."; ObjectID = "ODM-Dn-155"; */
+"ODM-Dn-155.text" = "Συνδέσου με τον λογαριασμό κοινωνικής δικτύωσης του facebook και του google plus one!";
+
+/* Class = "UIViewController"; title = "Terms and conditions"; ObjectID = "OJu-CA-Mij"; */
+"OJu-CA-Mij.title" = "Όροι και προϋποθέσεις";
+
+/* Class = "UIViewController"; title = "Requested Trips"; ObjectID = "ORl-PN-EFH"; */
+"ORl-PN-EFH.title" = "Αιτούμενα ταξίδια";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "OkO-WA-8jL"; */
+"OkO-WA-8jL.normalTitle" = "ΣΥΝΔΕΣΗ";
+
+/* Class = "UILabel"; text = "Name Surname"; ObjectID = "OmC-lo-kAU"; */
+"OmC-lo-kAU.text" = "Όνομα Επίθετο";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "Osu-kz-6b2"; */
+"Osu-kz-6b2.title" = "Δεδομένα προφίλ";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "Otb-ks-qJa"; */
+"Otb-ks-qJa.title" = "Επόμενο";
+
+/* Class = "UINavigationItem"; title = "My Trips"; ObjectID = "PRw-3S-KdK"; */
+"PRw-3S-KdK.title" = "Τα ταξίδια μου";
+
+/* Class = "UINavigationItem"; title = "Select Address"; ObjectID = "PoU-RZ-wj2"; */
+"PoU-RZ-wj2.title" = "Επιλογή διεύθυνσης";
+
+/* Class = "UITextField"; placeholder = "Food allowed"; ObjectID = "Pth-ym-jIb"; */
+"Pth-ym-jIb.placeholder" = "Φαγητό";
+
+/* Class = "UILabel"; text = "11.58 €"; ObjectID = "Q7f-0J-g6N"; */
+"Q7f-0J-g6N.text" = "11.58 €";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "QMA-Xg-sdJ"; */
+"QMA-Xg-sdJ.title" = "Πίσω";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "Qec-mV-4cn"; */
+"Qec-mV-4cn.title" = "Προφίλ";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Qff-Yg-EWb"; */
+"Qff-Yg-EWb.placeholder" = "Κωδικός";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "QxO-f3-Lpg"; */
+"QxO-f3-Lpg.title" = "Προφίλ";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "R9e-L4-aWU"; */
+"R9e-L4-aWU.placeholder" = "Φύλο";
+
+/* Class = "UIButton"; normalTitle = "BECOME A DRIVER"; ObjectID = "RGf-FK-IKc"; */
+"RGf-FK-IKc.normalTitle" = "ΓΙΝΕ ΟΔΗΓΟΣ";
+
+/* Class = "UILabel"; text = "Seats:"; ObjectID = "RJb-NE-Drm"; */
+"RJb-NE-Drm.text" = "Θέσεις:";
+
+/* Class = "UILabel"; text = "Travel preferences (optional)"; ObjectID = "RO0-su-Ni6"; */
+"RO0-su-Ni6.text" = "Επιλογές ταξιδιού (προαιρετικό)";
+
+/* Class = "UILabel"; text = "to"; ObjectID = "Rc4-Sm-DsL"; */
+"Rc4-Sm-DsL.text" = "μέχρι";
+
+/* Class = "UIButton"; normalTitle = "Sign in "; ObjectID = "RdP-CD-AKA"; */
+"RdP-CD-AKA.normalTitle" = "Σύνδεση";
+
+/* Class = "UILabel"; text = "HIGH"; ObjectID = "RjL-Rx-hdI"; */
+"RjL-Rx-hdI.text" = "ΥΨΗΛΟ";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "RlJ-ga-X2Y"; */
+"RlJ-ga-X2Y.placeholder" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Rzg-ys-rlP"; */
+"Rzg-ys-rlP.text" = "Επιγραφή";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "SDL-gJ-NSA"; */
+"SDL-gJ-NSA.title" = "Προφίλ";
+
+/* Class = "UILabel"; text = "-"; ObjectID = "ScR-Hl-Rbv"; */
+"ScR-Hl-Rbv.text" = "-";
+
+/* Class = "UITextField"; placeholder = "Air conditioning"; ObjectID = "SiM-AX-C6M"; */
+"SiM-AX-C6M.placeholder" = "Κλιματισμός";
+
+/* Class = "UITextField"; placeholder = "Maximum cost"; ObjectID = "Spb-Tw-FYf"; */
+"Spb-Tw-FYf.placeholder" = "Μέγιστο κόστος";
+
+/* Class = "UITextField"; placeholder = "To (optional)"; ObjectID = "SwU-hB-h5a"; */
+"SwU-hB-h5a.placeholder" = "Μέχρι (προαιρετικό)";
+
+/* Class = "UILabel"; text = "on 05/09/2017"; ObjectID = "T3K-fa-pCi"; */
+"T3K-fa-pCi.text" = "σιτς 05/09/2017";
+
+/* Class = "UIButton"; normalTitle = "ACCEPT"; ObjectID = "T5O-g7-Lct"; */
+"T5O-g7-Lct.normalTitle" = "ΑΠΟΔΟΧΗ";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "TCV-2u-wph"; */
+"TCV-2u-wph.normalTitle" = "Εγγραφή";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "TH7-h6-ncO"; */
+"TH7-h6-ncO.normalTitle" = "Εγγραφή";
+
+/* Class = "UIViewController"; title = "Solutions"; ObjectID = "UJ9-GM-AuD"; */
+"UJ9-GM-AuD.title" = "Λύσεις";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "VD7-4e-z1L"; */
+"VD7-4e-z1L.normalTitle" = "Σύνδεση με Facebook";
+
+/* Class = "UILabel"; text = "Already have an account?"; ObjectID = "VFS-sP-Zj6"; */
+"VFS-sP-Zj6.text" = "Έχετε ήδη λογαριασμό;";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Google+"; ObjectID = "VIR-pe-auh"; */
+"VIR-pe-auh.normalTitle" = "Σύνδεση με Google+";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "VNg-Ld-iAf"; */
+"VNg-Ld-iAf.placeholder" = "Τηλέφωνο";
+
+/* Class = "UITextField"; placeholder = "Rating-Not editable"; ObjectID = "Va7-8J-Rf7"; */
+"Va7-8J-Rf7.placeholder" = "Βαθμολόγία-Μη επεξεργάσιμο";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VfG-rN-1QY"; */
+"VfG-rN-1QY.text" = "Επιγραφή";
+
+/* Class = "UITabBarController"; title = "SocialCar"; ObjectID = "Vq1-oO-8DX"; */
+"Vq1-oO-8DX.title" = "SocialCar";
+
+/* Class = "UITextField"; placeholder = "Seats"; ObjectID = "WE0-vU-aPO"; */
+"WE0-vU-aPO.placeholder" = "Θέσεις";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "WOc-Yh-Zsl"; */
+"WOc-Yh-Zsl.title" = "Τίτλος";
+
+/* Class = "UIViewController"; title = "New Trip (Ride)"; ObjectID = "X48-X1-HgU"; */
+"X48-X1-HgU.title" = "Νέο ταξίδι";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "XCX-TM-jpl"; */
+"XCX-TM-jpl.placeholder" = "Κωδικός";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "XKV-PO-4lp"; */
+"XKV-PO-4lp.text" = "Επιγραφή";
+
+/* Class = "UIViewController"; title = "Driver details"; ObjectID = "XP5-PC-VU1"; */
+"XP5-PC-VU1.title" = "Πληροφορίες οδηγούθ";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "XQb-aC-V41"; */
+"XQb-aC-V41.placeholder" = "Ημερομηνία γέννησης";
+
+/* Class = "UILabel"; text = "STATUS: PENDING"; ObjectID = "XTT-Kv-nOf"; */
+"XTT-Kv-nOf.text" = "ΚΑΤΑΣΤΑΣΗ: ΕΚΚΡΕΜΗΣ";
+
+/* Class = "UITextField"; placeholder = "Pets"; ObjectID = "XaL-qf-3Da"; */
+"XaL-qf-3Da.placeholder" = "Κατοικίδια";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "Xch-i0-jeD"; */
+"Xch-i0-jeD.placeholder" = "Όνομα";
+
+/* Class = "UILabel"; text = "Accident"; ObjectID = "Xnm-bs-S5p"; */
+"Xnm-bs-S5p.text" = "Ατύχημα";
+
+/* Class = "UILabel"; text = "on 05/09/2017"; ObjectID = "Y2g-hN-OVy"; */
+"Y2g-hN-OVy.text" = "στις 05/09/2017";
+
+/* Class = "UITabBarItem"; title = "My Trips"; ObjectID = "YIC-ZR-u3e"; */
+"YIC-ZR-u3e.title" = "Τα ταξίδια μου";
+
+/* Class = "UITextField"; placeholder = "Optimise Travel Solutions by"; ObjectID = "Z6T-6b-tWu"; */
+"Z6T-6b-tWu.placeholder" = "Βελτιστοποίηση ταξιδιωτικών προτιμήσεων";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "ZCo-Mc-c0p"; */
+"ZCo-Mc-c0p.placeholder" = "Φύλο";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "ZG8-mL-t3x"; */
+"ZG8-mL-t3x.title" = "Αρχική";
+
+/* Class = "UITextView"; text = "Please read carefully and accept our Terms and Conditions before using the RideMyRoute mobile application. By accessing or using the app you agree to be bound by these Term."; ObjectID = "ZGY-RU-TKo"; */
+"ZGY-RU-TKo.text" = "Παρακαλώ,διαβάστε με προσοχή τους όρους και τις προυποθέσεις πριν χρησιμοποιήσετε την εφαρμογή RideMyRoute.Με την αποδοχή σας,συμφωνείτε με τους όρους.";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ZOW-E6-WwY"; */
+"ZOW-E6-WwY.placeholder" = "Κωδικός";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZWb-Pz-qH5"; */
+"ZWb-Pz-qH5.text" = "Επιγραφή";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "ZWc-0i-z7l"; */
+"ZWc-0i-z7l.text" = "Αφετερία";
+
+/* Class = "UITextField"; placeholder = "Music"; ObjectID = "ZkA-gg-2NZ"; */
+"ZkA-gg-2NZ.placeholder" = "Μουσική";
+
+/* Class = "UILabel"; text = "Origin"; ObjectID = "Zml-Jw-uig"; */
+"Zml-Jw-uig.text" = "Αφετερία";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "Znf-98-sQn"; */
+"Znf-98-sQn.placeholder" = "Φύλο";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "ZoN-uX-gqm"; */
+"ZoN-uX-gqm.normalTitle" = "Εγγραφή";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "aLK-JV-Mt6"; */
+"aLK-JV-Mt6.placeholder" = "Κωδικός";
+
+/* Class = "UITextField"; placeholder = "Inserting starting address"; ObjectID = "aMX-Bc-y5d"; */
+"aMX-Bc-y5d.placeholder" = "Εισάγεται διεύθυνση αφετερίας";
+
+/* Class = "UITextField"; placeholder = "Car plate"; ObjectID = "aQG-Dd-QhO"; */
+"aQG-Dd-QhO.placeholder" = "Πινακίδα αυτοκινήτου";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "aRh-VM-4P4"; */
+"aRh-VM-4P4.text" = "Επιγραφή";
+
+/* Class = "UITextField"; text = "Password"; ObjectID = "aTF-46-qsP"; */
+"aTF-46-qsP.text" = "Κωδικός";
+
+/* Class = "UITextField"; placeholder = "GPS Tracking"; ObjectID = "b3z-Lc-pa1"; */
+"b3z-Lc-pa1.placeholder" = "Καταγραφή GPS";
+
+/* Class = "UIButton"; normalTitle = "I decline"; ObjectID = "b8L-V2-IyB"; */
+"b8L-V2-IyB.normalTitle" = "Δεν αποδέχομαι";
+
+/* Class = "UILabel"; text = "Name Surname"; ObjectID = "bJH-QC-3YN"; */
+"bJH-QC-3YN.text" = "Όνομα επίθετο";
+
+/* Class = "UITextField"; placeholder = "Optimise Travel Solutions by"; ObjectID = "bMe-cP-wJD"; */
+"bMe-cP-wJD.placeholder" = "Βελτιστοποίηση ταξιδιωτικών προτιμήσεων";
+
+/* Class = "UILabel"; text = "In order to help with other users, your feedback will be public"; ObjectID = "bT0-ca-LiZ"; */
+"bT0-ca-LiZ.text" = "Τα σχόλια σας θα είναι διαθέσιμα δημόσια και για τους άλλους χρήστες.";
+
+/* Class = "UITextField"; placeholder = "Rating-Not editable"; ObjectID = "c3g-vx-gbD"; */
+"c3g-vx-gbD.placeholder" = "Βαθμολόγία-Μη επεξεργάσιμο";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "cEn-vU-S7o"; */
+"cEn-vU-S7o.normalTitle" = "ΑΠΟΣΤΟΛΗ";
+
+/* Class = "UITabBarItem"; title = "FAQs"; ObjectID = "cQI-Q4-5h8"; */
+"cQI-Q4-5h8.title" = "Συνήθεις ερωτήσεις";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "d24-au-A2D"; */
+"d24-au-A2D.placeholder" = "Φύλο";
+
+/* Class = "UITextField"; placeholder = "Pets"; ObjectID = "dM9-nh-FE6"; */
+"dM9-nh-FE6.placeholder" = "Κατοικίδια";
+
+/* Class = "UILabel"; text = "Plate:"; ObjectID = "dMY-NY-qJw"; */
+"dMY-NY-qJw.text" = "Πινακίδα:";
+
+/* Class = "UIViewController"; title = "Sign In"; ObjectID = "dY1-Vp-IPh"; */
+"dY1-Vp-IPh.title" = "Σύνδεση";
+
+/* Class = "UILabel"; text = "It looks like you are not registered as a driver."; ObjectID = "dmz-a8-rOv"; */
+"dmz-a8-rOv.text" = "φαίνεται να μη έχετε εγγραφεί ως οδηγός.";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "dzK-nR-m7x"; */
+"dzK-nR-m7x.title" = "Τεμάχιο";
+
+/* Class = "UITabBarItem"; title = "Policy"; ObjectID = "e00-ZN-3YU"; */
+"e00-ZN-3YU.title" = "Πολιτική";
+
+/* Class = "UITextField"; text = "Email"; ObjectID = "efM-OY-1fi"; */
+"efM-OY-1fi.text" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "eiP-3Y-Y9r"; */
+"eiP-3Y-Y9r.placeholder" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UILabel"; text = "AAA 1234"; ObjectID = "epC-WP-S9R"; */
+"epC-WP-S9R.text" = "AAA 1234";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "eqA-4E-n8U"; */
+"eqA-4E-n8U.text" = "Επιγραφή";
+
+/* Class = "UITextField"; placeholder = "Travel Modes"; ObjectID = "fBT-LH-TZg"; */
+"fBT-LH-TZg.placeholder" = "Μέσα μεταφοράς";
+
+/* Class = "UIViewController"; title = "Starting point"; ObjectID = "fEX-UX-PJ3"; */
+"fEX-UX-PJ3.title" = "Αφετερία";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "fXx-Nd-2bD"; */
+"fXx-Nd-2bD.text" = "Προορισμός";
+
+/* Class = "UITextField"; placeholder = "Enter date and time"; ObjectID = "fdq-pu-9vt"; */
+"fdq-pu-9vt.placeholder" = "Ημερομηνία και ώρα";
+
+/* Class = "UIButton"; normalTitle = "SET STARTING POINT"; ObjectID = "fgm-EJ-X9d"; */
+"fgm-EJ-X9d.normalTitle" = "ΣΗΜΕΙΟ ΑΝΑΧΩΡΗΣΗΣ";
+
+/* Class = "UIButton"; normalTitle = "SEND REQUEST"; ObjectID = "fgo-oV-3de"; */
+"fgo-oV-3de.normalTitle" = "ΑΠΟΣΤΟΛΗ ΑΙΤΗΜΑΤΟΣ";
+
+/* Class = "UITextField"; placeholder = "Carpooler Age Range"; ObjectID = "foI-Ye-2n8"; */
+"foI-Ye-2n8.placeholder" = "Όριο ηλικίας οδηγού μετάβασης";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "g4D-li-3kA"; */
+"g4D-li-3kA.normalTitle" = "ΣΥΝΔΕΣΗ";
+
+/* Class = "UILabel"; text = "from"; ObjectID = "g5G-ra-IEC"; */
+"g5G-ra-IEC.text" = "μέχρι";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "gaU-ka-tNy"; */
+"gaU-ka-tNy.normalTitle" = "Ξεχάσετε τον κωδικό σας;";
+
+/* Class = "UIBarButtonItem"; title = "Next"; ObjectID = "gcW-an-pIA"; */
+"gcW-an-pIA.title" = "Next";
+
+/* Class = "UITextField"; placeholder = "Optimise Travel Solutions by"; ObjectID = "gjV-aM-N36"; */
+"gjV-aM-N36.placeholder" = "Βελτιστοποίηση ταξιδιωτικών προτιμήσεων";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "gu5-o4-KAt"; */
+"gu5-o4-KAt.text" = "Other info";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "h9e-nh-BmB"; */
+"h9e-nh-BmB.title" = "Profile data";
+
+/* Class = "UITextField"; text = "Email"; ObjectID = "hB7-5k-HLB"; */
+"hB7-5k-HLB.text" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "hND-AN-D8O"; */
+"hND-AN-D8O.text" = "Other info";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "hT3-cL-Kkf"; */
+"hT3-cL-Kkf.title" = "Προφίλ";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "haf-XD-lOU"; */
+"haf-XD-lOU.text" = "Επιγραφή";
+
+/* Class = "UIButton"; normalTitle = "Forgot your password?"; ObjectID = "hch-S4-7Ug"; */
+"hch-S4-7Ug.normalTitle" = "Ξεχάσατε τον κωδικό σας";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "hcm-Do-2eq"; */
+"hcm-Do-2eq.text" = "L";
+
+/* Class = "UITextField"; placeholder = "Special needs"; ObjectID = "hcv-kC-H38"; */
+"hcv-kC-H38.placeholder" = "Ειδικές ανάγκες";
+
+/* Class = "UIButton"; normalTitle = "CREATE"; ObjectID = "hhq-wF-FCL"; */
+"hhq-wF-FCL.normalTitle" = "ΔΗΜΙΟΥΡΓΙΑ";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "hmt-XO-QT5"; */
+"hmt-XO-QT5.placeholder" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UITextField"; placeholder = "Maximum cost"; ObjectID = "iAJ-lD-lEj"; */
+"iAJ-lD-lEj.placeholder" = "Μέγιστο κόστος";
+
+/* Class = "UITextField"; placeholder = "Music"; ObjectID = "iYU-Nb-Gyo"; */
+"iYU-Nb-Gyo.placeholder" = "Μουσική";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "imX-Gp-Nlb"; */
+"imX-Gp-Nlb.text" = "Επιγραφή";
+
+/* Class = "UIViewController"; title = "Driver profile"; ObjectID = "inI-09-3Sl"; */
+"inI-09-3Sl.title" = "Προφίλ οδηγού";
+
+/* Class = "UILabel"; text = "Unlock more features connecting your facebook or google account!"; ObjectID = "j3z-Kd-MZ5"; */
+"j3z-Kd-MZ5.text" = "Δείτε επιπλέον λειτουργίες αν συνδεθείτε με το λογαρισμό σας του facebook ή της google!";
+
+/* Class = "UIViewController"; title = "Leave Feedback"; ObjectID = "jNe-wt-6pQ"; */
+"jNe-wt-6pQ.title" = "Αφήστε σχόλια";
+
+/* Class = "UILabel"; text = "Other info"; ObjectID = "jWI-yd-18w"; */
+"jWI-yd-18w.text" = "Άλλες πληροφορίες";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "jZY-cj-r99"; */
+"jZY-cj-r99.text" = "L";
+
+/* Class = "UITextField"; placeholder = "Maximum number of transfers"; ObjectID = "jvL-Up-2v1"; */
+"jvL-Up-2v1.placeholder" = "Μέγιστος αριθμός μετεπιβιβάσεων";
+
+/* Class = "UITextField"; placeholder = "Colour"; ObjectID = "k2n-i4-zdW"; */
+"k2n-i4-zdW.placeholder" = "Χρώμα";
+
+/* Class = "UIButton"; normalTitle = "SIGN UP"; ObjectID = "k6O-VA-61h"; */
+"k6O-VA-61h.normalTitle" = "ΕΓΓΡΑΦΗ";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "kEI-jL-sOW"; */
+"kEI-jL-sOW.text" = "Πληροφορίες σύνδεσης";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "kJk-69-BLW"; */
+"kJk-69-BLW.text" = "Ή";
+
+/* Class = "UILabel"; text = "PASSENGER"; ObjectID = "kqM-wV-Y3c"; */
+"kqM-wV-Y3c.text" = "ΕΠΙΒΑΤΗΣ";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "kzK-oq-Fvj"; */
+"kzK-oq-Fvj.normalTitle" = "Εγγραφή";
+
+/* Class = "UILabel"; text = "to"; ObjectID = "lSW-gL-xFO"; */
+"lSW-gL-xFO.text" = "από";
+
+/* Class = "UILabel"; text = "from"; ObjectID = "leH-31-484"; */
+"leH-31-484.text" = "μέχρι";
+
+/* Class = "UIButton"; normalTitle = "Take photo"; ObjectID = "lnc-Ch-Ite"; */
+"lnc-Ch-Ite.normalTitle" = "Βγάλε φωτογραφία";
+
+/* Class = "UITextField"; placeholder = "Maximum walking distance (m)"; ObjectID = "m6t-Xb-xni"; */
+"m6t-Xb-xni.placeholder" = "Μέγιστη διαδρομή με πόδια (μ)";
+
+/* Class = "UITextField"; placeholder = "Enter trip name"; ObjectID = "mZW-qQ-Y0a"; */
+"mZW-qQ-Y0a.placeholder" = "Εισάγεται όνομα ταξιδιού";
+
+/* Class = "UITabBarItem"; title = "Contact us"; ObjectID = "mhc-7N-Zv3"; */
+"mhc-7N-Zv3.title" = "Επικοινωνία";
+
+/* Class = "UINavigationItem"; title = "Title"; ObjectID = "mm0-C2-TAr"; */
+"mm0-C2-TAr.title" = "Τίτλος";
+
+/* Class = "UILabel"; text = "OFFERED"; ObjectID = "n37-Mc-F3P"; */
+"n37-Mc-F3P.text" = "ΠΡΟΣΦΕΡΟΜΕΝΑ";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "nVM-SD-q6Q"; */
+"nVM-SD-q6Q.normalTitle" = "ΑΠΟΣΤΟΛΗ";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "nd3-Tx-v0c"; */
+"nd3-Tx-v0c.placeholder" = "Ημερομηνία γέννησης";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "nsA-wt-CRD"; */
+"nsA-wt-CRD.text" = "L";
+
+/* Class = "UILabel"; text = "SEAT IBIZA"; ObjectID = "oAX-q9-yAa"; */
+"oAX-q9-yAa.text" = "SEAT IBIZA";
+
+/* Class = "UITabBarItem"; title = "Terms and conditions"; ObjectID = "oCZ-ba-Ze0"; */
+"oCZ-ba-Ze0.title" = "Όροι και προϋποθέσεις";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "oMw-KM-bxW"; */
+"oMw-KM-bxW.text" = "L";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "oil-kM-cFR"; */
+"oil-kM-cFR.placeholder" = "Τηλέφωνο";
+
+/* Class = "UITextField"; placeholder = "Maximum walking distance (m)"; ObjectID = "opU-rR-3N1"; */
+"opU-rR-3N1.placeholder" = "Μέγιστη διαδρομή με πόδια (μ)";
+
+/* Class = "UITextField"; placeholder = "Carpooler Gender"; ObjectID = "osN-ZX-dec"; */
+"osN-ZX-dec.placeholder" = "Φύλο οδηγού μετάβασης";
+
+/* Class = "UILabel"; text = "Destination"; ObjectID = "pJt-cg-VEs"; */
+"pJt-cg-VEs.text" = "Προορισμός";
+
+/* Class = "UILabel"; text = "Car info"; ObjectID = "pS4-1o-eOY"; */
+"pS4-1o-eOY.text" = "Πληροφορίες αυτοκινήτου";
+
+/* Class = "UILabel"; text = "Colour:"; ObjectID = "pgT-4g-z0m"; */
+"pgT-4g-z0m.text" = "Χρώμα:";
+
+/* Class = "UITextField"; placeholder = "Model"; ObjectID = "pkG-EH-8wZ"; */
+"pkG-EH-8wZ.placeholder" = "Τύπος";
+
+/* Class = "UITextField"; placeholder = "Food"; ObjectID = "ptE-i6-lGF"; */
+"ptE-i6-lGF.placeholder" = "Φαγητό";
+
+/* Class = "UITextField"; placeholder = "Food"; ObjectID = "qDM-FB-96f"; */
+"qDM-FB-96f.placeholder" = "Φαγητό";
+
+/* Class = "UINavigationItem"; title = "Select address"; ObjectID = "qgG-b3-QvD"; */
+"qgG-b3-QvD.title" = "Επιλογή διεύθυνσης";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "rZQ-FI-zJM"; */
+"rZQ-FI-zJM.placeholder" = "Τηλέφωνο";
+
+/* Class = "UIViewController"; title = "Profile data"; ObjectID = "rZb-sd-Ib7"; */
+"rZb-sd-Ib7.title" = "Δεδομένα προφίλ";
+
+/* Class = "UILabel"; text = "Don't have account?"; ObjectID = "rfx-lO-kIo"; */
+"rfx-lO-kIo.text" = "Δεν έχετε λογαριασμό;";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "rkc-KC-Ztj"; */
+"rkc-KC-Ztj.normalTitle" = "ΑΚΥΡΩΣΗ";
+
+/* Class = "UIViewController"; title = "Privacy Policy"; ObjectID = "sI7-PF-kK6"; */
+"sI7-PF-kK6.title" = "Πολιτική απορρήτου";
+
+/* Class = "UIViewController"; title = "TrafficConditions"; ObjectID = "sMs-LS-BBk"; */
+"sMs-LS-BBk.title" = "Όροι κυκλοφορίας";
+
+/* Class = "UIButton"; normalTitle = "Sign in by email"; ObjectID = "sQ5-5f-UAd"; */
+"sQ5-5f-UAd.normalTitle" = "Σύνδεση με ηλ. διεύθυνση";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "snc-KJ-74C"; */
+"snc-KJ-74C.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Pets"; ObjectID = "t89-in-iSH"; */
+"t89-in-iSH.placeholder" = "Κατοικίδια";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "tF4-Ff-G6j"; */
+"tF4-Ff-G6j.normalTitle" = "Εγγραφή";
+
+/* Class = "UITextField"; placeholder = "Maximum walking distance (m)"; ObjectID = "tFH-45-Ab2"; */
+"tFH-45-Ab2.placeholder" = "Μέγιστη διαδρομή με πόδια (μ)";
+
+/* Class = "UILabel"; text = "192 min."; ObjectID = "tFa-Vd-BPu"; */
+"tFa-Vd-BPu.text" = "192 min.";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "til-UU-T9P"; */
+"til-UU-T9P.placeholder" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UITextField"; placeholder = "Preferences"; ObjectID = "uCr-vt-Kca"; */
+"uCr-vt-Kca.placeholder" = "Επιλογές";
+
+/* Class = "UITextField"; text = "Preferences"; ObjectID = "uCr-vt-Kca"; */
+"uCr-vt-Kca.text" = "Επιλογές";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "uuv-1N-owP"; */
+"uuv-1N-owP.placeholder" = "Όνομα";
+
+/* Class = "UILabel"; text = "How was your experience with "; ObjectID = "vOb-v7-Ij4"; */
+"vOb-v7-Ij4.text" = "Πως ήταν η εμπερία με ";
+
+/* Class = "UILabel"; text = "Don't have an account?"; ObjectID = "vi8-eI-mLi"; */
+"vi8-eI-mLi.text" = "Δεν έχετε λογαριασμό;";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "vl9-iT-szR"; */
+"vl9-iT-szR.placeholder" = "Τηλέφωνο";
+
+/* Class = "UITextField"; placeholder = "Travel Modes"; ObjectID = "vr0-i9-bzY"; */
+"vr0-i9-bzY.placeholder" = "Μέσα μεταφοράς";
+
+/* Class = "UILabel"; text = "No trips found"; ObjectID = "w0r-UG-sfh"; */
+"w0r-UG-sfh.text" = "Δεν βρέθηκαν δρομολόγια";
+
+/* Class = "UITextField"; placeholder = "Date of Birth"; ObjectID = "wBk-Yp-e39"; */
+"wBk-Yp-e39.placeholder" = "Ημερομηνία γέννησης";
+
+/* Class = "UIViewController"; title = "FAQs"; ObjectID = "wt8-oq-jui"; */
+"wt8-oq-jui.title" = "FAQs";
+
+/* Class = "UITextField"; placeholder = "Travel Modes"; ObjectID = "wtC-Yt-p0E"; */
+"wtC-Yt-p0E.placeholder" = "Μέσα μεταφοράς";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "x9G-1j-Mg8"; */
+"x9G-1j-Mg8.normalTitle" = "Σύνδεση με Facebook";
+
+/* Class = "UITextField"; placeholder = "From (insert Address)"; ObjectID = "xTe-f5-QLx"; */
+"xTe-f5-QLx.placeholder" = "Από (εισαγωγή διεύθυνσης)";
+
+/* Class = "UILabel"; text = "2 (7 feedback)"; ObjectID = "xUb-Qz-PHB"; */
+"xUb-Qz-PHB.text" = "2 (7 αξιολογήσεις)";
+
+/* Class = "UITextField"; placeholder = "Luggage allowed"; ObjectID = "xfK-Za-G7f"; */
+"xfK-Za-G7f.placeholder" = "Αποσκευή";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "xiV-tQ-MYR"; */
+"xiV-tQ-MYR.text" = "Επιγραφή";
+
+/* Class = "UILabel"; text = "User didn't answer yet."; ObjectID = "yEg-dH-oEQ"; */
+"yEg-dH-oEQ.text" = "Ο χρήστης δεν έχει απαντήσει.";
+
+/* Class = "UILabel"; text = "L"; ObjectID = "yTJ-vh-6lK"; */
+"yTJ-vh-6lK.text" = "L";
+
+/* Class = "UIButton"; normalTitle = "OFFER A TRIP"; ObjectID = "yno-Z7-kmd"; */
+"yno-Z7-kmd.normalTitle" = "ΠΡΟΣΦΟΡΑ ΔΡΟΜΟΛΟΓΙΟΥ";
+
+/* Class = "UILabel"; text = "Travel preferences (optional)"; ObjectID = "yuT-GG-DaP"; */
+"yuT-GG-DaP.text" = "Προτιμήσεις ταξιδιού (προαιρετικό)";
+
+/* Class = "UIButton"; normalTitle = "Forgot your pasword?"; ObjectID = "yz1-U9-uHg"; */
+"yz1-U9-uHg.normalTitle" = "Ξεχάσατε τον κωδικό σας;";
+
+/* Class = "UILabel"; text = "OR"; ObjectID = "z4l-zQ-Pw5"; */
+"z4l-zQ-Pw5.text" = "Ή";
+
+/* Class = "UINavigationItem"; title = "Privacy Policy"; ObjectID = "z8K-Vp-H1T"; */
+"z8K-Vp-H1T.title" = "Πολιτική απορρήτου";
+
+/* Class = "UILabel"; text = "Login info"; ObjectID = "zPw-Bi-Ldh"; */
+"zPw-Bi-Ldh.text" = "Πληροφορίες σύνδεσης";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "zQG-hI-q5T"; */
+"zQG-hI-q5T.normalTitle" = "Εγγραφή";
+
+/* Class = "UIViewController"; title = "Carpooler"; ObjectID = "zRy-Lh-AN8"; */
+"zRy-Lh-AN8.title" = "Οδηγός μετάβασης";
+
+/* Class = "UILabel"; text = "11.58 €"; ObjectID = "zWZ-sb-7Qg"; */
+"zWZ-sb-7Qg.text" = "11.58 €";
+
+/* Class = "UITextField"; placeholder = "Special needs"; ObjectID = "zYp-9a-HFb"; */
+"zYp-9a-HFb.placeholder" = "Ειδικές ανάγκες";
+
+/* Class = "UIBarButtonItem"; title = "Back"; ObjectID = "zfQ-bq-i0W"; */
+"zfQ-bq-i0W.title" = "Πίσω";
+
+/* Class = "UITabBarItem"; title = "Contact us"; ObjectID = "mhc-7N-Zv3"; */
+"mhc-7N-Zv3.title" = "Επικοινωνία";
+
+/* Class = "UILabel"; text ="Optional"; ObjectID = "pdE-wP-7Pz"; */
+"pdE-wP-7Pz.text" = "Προαιρετικό";
+
+
+////
+/* Class = "UILabel"; text ="Login info"; ObjectID = "hJe-dp-fEA"; */
+"hJe-dp-fEA.text" = "Πληροφορίες εισόδου";
+
+/* Class = "UILabel"; text ="Other info"; ObjectID = "Mfc-Yj-Tgz"; */
+"Mfc-Yj-Tgz.text" = "Άλλες πληροφορίες";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "DFn-5T-ZbF"; */
+"DFn-5T-ZbF.placeholder" = "Ηλεκτρονική διεύθυνση";
+
+/* Class = "UITextField"; placeholder = "Confirm password"; ObjectID = "B9z-bU-ycg"; */
+"B9z-bU-ycg.placeholder" = "Επιβεβαίωση κωδικού";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "C2s-FY-bII"; */
+"C2s-FY-bII.placeholder" = "Κωδικός";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "9Vq-0n-PC1"; */
+"9Vq-0n-PC1.placeholder" = "Όνομα";
+
+/* Class = "UITextField"; placeholder = "Phone"; ObjectID = "YHO-19-9dQ"; */
+"YHO-19-9dQ.placeholder" = "Τηλέφωνο";
+
+
